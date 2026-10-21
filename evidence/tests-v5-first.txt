@@ -1,0 +1,224 @@
+
+> brassbound-atm10@1.0.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: All workspace sections generate content from the pinned data
+ok 1 - All workspace sections generate content from the pinned data
+  ---
+  duration_ms: 473.793583
+  type: 'test'
+  ...
+# Subtest: Every recipe detail accepts its real data without throwing
+ok 2 - Every recipe detail accepts its real data without throwing
+  ---
+  duration_ms: 698.272
+  type: 'test'
+  ...
+# Subtest: All 12 addon descriptions and 12 complementary routes open
+ok 3 - All 12 addon descriptions and 12 complementary routes open
+  ---
+  duration_ms: 0.831667
+  type: 'test'
+  ...
+# Subtest: Star altar, full mod catalog and integrations views use complete sources
+ok 4 - Star altar, full mod catalog and integrations views use complete sources
+  ---
+  duration_ms: 7.521541
+  type: 'test'
+  ...
+# Subtest: Pack fluid inputs stay in millibuckets, not item units
+ok 5 - Pack fluid inputs stay in millibuckets, not item units
+  ---
+  duration_ms: 0.807125
+  type: 'test'
+  ...
+# Subtest: All manifest entries have browsable guide pages and all demonstrations render
+ok 6 - All manifest entries have browsable guide pages and all demonstrations render
+  ---
+  duration_ms: 117.176583
+  type: 'test'
+  ...
+# Subtest: Old local progress and deep links survive the companion navigation
+ok 7 - Old local progress and deep links survive the companion navigation
+  ---
+  duration_ms: 0.75625
+  type: 'test'
+  ...
+# Subtest: Every lesson has traceable steps, materials and valid diagram edges
+ok 8 - Every lesson has traceable steps, materials and valid diagram edges
+  ---
+  duration_ms: 3.118125
+  type: 'test'
+  ...
+# Subtest: Displayed processing examples agree with cold/hot mixing and the ATM infuser override
+ok 9 - Displayed processing examples agree with cold/hot mixing and the ATM infuser override
+  ---
+  duration_ms: 0.179167
+  type: 'test'
+  ...
+# Subtest: Atlas search supports accents, categories and favorites independently
+ok 10 - Atlas search supports accents, categories and favorites independently
+  ---
+  duration_ms: 0.762667
+  type: 'test'
+  ...
+# Subtest: Playback supports start, pause, seeking and teardown without background timers
+ok 11 - Playback supports start, pause, seeking and teardown without background timers
+  ---
+  duration_ms: 322.790333
+  type: 'test'
+  ...
+# Subtest: Exact 6.0.10 brass uses heated mixing and has yield 2
+ok 12 - Exact 6.0.10 brass uses heated mixing and has yield 2
+  ---
+  duration_ms: 10.16475
+  type: 'test'
+  ...
+# Subtest: Press expands basic resources without circular manufacture or Nether quartz
+ok 13 - Press expands basic resources without circular manufacture or Nether quartz
+  ---
+  duration_ms: 1.052625
+  type: 'test'
+  ...
+# Subtest: Inventory satisfies target before recipe expansion and is not mutated
+ok 14 - Inventory satisfies target before recipe expansion and is not mutated
+  ---
+  duration_ms: 0.083417
+  type: 'test'
+  ...
+# Subtest: Intermediate inventory is consumed once across branches
+ok 15 - Intermediate inventory is consumed once across branches
+  ---
+  duration_ms: 0.672416
+  type: 'test'
+  ...
+# Subtest: Batch surplus is reused across independent dependencies
+ok 16 - Batch surplus is reused across independent dependencies
+  ---
+  duration_ms: 0.194708
+  type: 'test'
+  ...
+# Subtest: Precision accounts for 5 cycles and 80 percent chance
+ok 17 - Precision accounts for 5 cycles and 80 percent chance
+  ---
+  duration_ms: 0.172125
+  type: 'test'
+  ...
+# Subtest: Current track output is one, old six-output recipe is not used
+ok 18 - Current track output is one, old six-output recipe is not used
+  ---
+  duration_ms: 0.128375
+  type: 'test'
+  ...
+# Subtest: Unknown tags are explicit unresolved inputs
+ok 19 - Unknown tags are explicit unresolved inputs
+  ---
+  duration_ms: 0.078208
+  type: 'test'
+  ...
+# Subtest: Cycles stop with a warning, not recursion overflow
+ok 20 - Cycles stop with a warning, not recursion overflow
+  ---
+  duration_ms: 0.455708
+  type: 'test'
+  ...
+# Subtest: Fluids are calculated as mB and use a distinct inventory key
+ok 21 - Fluids are calculated as mB and use a distinct inventory key
+  ---
+  duration_ms: 0.4105
+  type: 'test'
+  ...
+# Subtest: Backup validation rejects incompatible files and clamps counts
+ok 22 - Backup validation rejects incompatible files and clamps counts
+  ---
+  duration_ms: 0.368417
+  type: 'test'
+  ...
+# Subtest: Catalog ids are unique and ingredient counts are finite positive numbers
+ok 23 - Catalog ids are unique and ingredient counts are finite positive numbers
+  ---
+  duration_ms: 5.582958
+  type: 'test'
+  ...
+# Subtest: Informational recipes are never auto-selected for calculation
+ok 24 - Informational recipes are never auto-selected for calculation
+  ---
+  duration_ms: 0.330375
+  type: 'test'
+  ...
+# Subtest: A verified ATM override outranks a base jar recipe
+ok 25 - A verified ATM override outranks a base jar recipe
+  ---
+  duration_ms: 0.082708
+  type: 'test'
+  ...
+# Subtest: Old backups migrate and project progress, pins and chapters survive export/import
+ok 26 - Old backups migrate and project progress, pins and chapters survive export/import
+  ---
+  duration_ms: 1.394167
+  type: 'test'
+  ...
+# Subtest: Imported workspace sanitizes malicious structures, excessive lengths and nonfinite values
+ok 27 - Imported workspace sanitizes malicious structures, excessive lengths and nonfinite values
+  ---
+  duration_ms: 0.155459
+  type: 'test'
+  ...
+# Subtest: Every published rate agrees with all independently sourced tick examples
+ok 28 - Every published rate agrees with all independently sourced tick examples
+  ---
+  duration_ms: 1.118
+  type: 'test'
+  ...
+# Subtest: Brass minimum, SU capacity, TPS and uptime affect actual capacity
+ok 29 - Brass minimum, SU capacity, TPS and uptime affect actual capacity
+  ---
+  duration_ms: 0.188042
+  type: 'test'
+  ...
+# Subtest: Probabilistic repeated output is combined and FE-only processes require measured time
+ok 30 - Probabilistic repeated output is combined and FE-only processes require measured time
+  ---
+  duration_ms: 0.183625
+  type: 'test'
+  ...
+# Subtest: Unsupported crushing never substitutes an invented RPM formula
+ok 31 - Unsupported crushing never substitutes an invented RPM formula
+  ---
+  duration_ms: 0.070833
+  type: 'test'
+  ...
+# Subtest: Project procurement spends inventory once and preserves existing stock
+ok 32 - Project procurement spends inventory once and preserves existing stock
+  ---
+  duration_ms: 10.045333
+  type: 'test'
+  ...
+# Subtest: Blueprint blocks do not overlap and every asset path resolves
+ok 33 - Blueprint blocks do not overlap and every asset path resolves
+  ---
+  duration_ms: 5.931208
+  type: 'test'
+  ...
+# Subtest: Checklists and suggested prerequisites update from saved progress
+ok 34 - Checklists and suggested prerequisites update from saved progress
+  ---
+  duration_ms: 0.430709
+  type: 'test'
+  ...
+# Subtest: Formula parser cannot execute code and rejects unknown operators
+ok 35 - Formula parser cannot execute code and rejects unknown operators
+  ---
+  duration_ms: 0.414875
+  type: 'test'
+  ...
+1..35
+# tests 35
+# suites 0
+# pass 35
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1486.517542

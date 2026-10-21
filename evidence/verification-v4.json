@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-21",
+  "commit": "a730e01971c0d6c346e3db1dcdc453dfc4f4d221",
+  "deployment": {
+    "id": "appgdep_6ad90539679881919596f0256682cc32",
+    "status": "succeeded",
+    "url": "https://brassbound-atm10-jp.jp-orihuela.chatgpt.site"
+  },
+  "automatedTests": 35,
+  "browser": {
+    "widths": [
+      629,
+      1280
+    ],
+    "horizontalOverflow": false,
+    "consoleErrors": [],
+    "verified": [
+      "Catalogue search and item detail",
+      "Recipe ingredients and processing uses",
+      "WebGL original models rendered",
+      "Play/pause and advancing timeline",
+      "Rotate, layer cut and exploded checkbox",
+      "Project task persisted across reload, then restored",
+      "Recipe pin visible in play mode, then removed",
+      "Production minimum RPM error and restored 32 RPM calculation",
+      "Diagnostic yes/no path and solution",
+      "ATM Star link",
+      "YouTube chapter start=460 and player loaded; play action accepted",
+      "Local synthetic 6-second MP4 loaded via blob URL, readyState=4, no error"
+    ]
+  },
+  "limits": [
+    "No Minecraft runtime or in-game blueprint test",
+    "Web model motion is illustrative, not native Ponder",
+    "35 detailed guides among 491 indexed mods",
+    "Third-party video is not exact ATM10 8.1 footage",
+    "Local chapter creation tested structurally; no persistent test marker inserted",
+    "Fullscreen and clipboard not exercised in browser"
+  ],
+  "screenshots": [
+    "workshop-v4.png",
+    "companion-v4.png"
+  ]
+}

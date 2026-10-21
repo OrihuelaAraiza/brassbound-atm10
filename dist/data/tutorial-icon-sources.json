@@ -1,0 +1,89 @@
+{
+  "rendered": {
+    "create_enchantment_industry:grindstone_drain": {
+      "kind": "official-model-3d",
+      "source": [
+        "create-1.21.1-6.0.10.jar",
+        "create-enchantment-industry-2.5.3b.jar",
+        "minecraft-1.21.1.jar"
+      ],
+      "size": [
+        96,
+        96
+      ]
+    },
+    "functionalstorage:oak_1": {
+      "kind": "original-block-model-static",
+      "source": "functionalstorage:block/oak_1; custom camera, original geometry/UV",
+      "size": [
+        96,
+        96
+      ]
+    },
+    "ars_nouveau:arcane_core": {
+      "kind": "original-geckolib-static-pose",
+      "source": "assets/ars_nouveau/geo/arcane_core.geo.json + assets/ars_nouveau/textures/block/arcane_core.png; original bone/cube rotations, camera fitted",
+      "size": [
+        96,
+        96
+      ]
+    },
+    "ars_nouveau:enchanting_apparatus": {
+      "kind": "original-geckolib-static-pose",
+      "source": "assets/ars_nouveau/geo/enchanting_apparatus.geo.json + assets/ars_nouveau/textures/block/enchanting_apparatus.png; original bone/cube rotations, camera fitted",
+      "size": [
+        96,
+        96
+      ]
+    },
+    "ars_nouveau:imbuement_chamber": {
+      "kind": "original-geckolib-static-pose",
+      "source": "assets/ars_nouveau/geo/imbuement_chamber.geo.json + assets/ars_nouveau/textures/block/imbuement_chamber.png; original bone/cube rotations, camera fitted",
+      "size": [
+        96,
+        96
+      ]
+    },
+    "ars_nouveau:relay": {
+      "kind": "original-geckolib-static-pose",
+      "source": "assets/ars_nouveau/geo/source_relay.geo.json + assets/ars_nouveau/textures/block/source_relay.png; original bone/cube rotations, camera fitted",
+      "size": [
+        96,
+        96
+      ]
+    },
+    "ars_nouveau:scribes_table": {
+      "kind": "original-geckolib-static-pose",
+      "source": "assets/ars_nouveau/geo/scribes_table.geo.json + assets/ars_nouveau/textures/block/scribes_table.png; original bone/cube rotations, camera fitted",
+      "size": [
+        96,
+        96
+      ]
+    },
+    "mekanism:basic_universal_cable": {
+      "kind": "official-gui-icon",
+      "source": "assets/mekanism/gui/icons/basic_universal_cable.png",
+      "size": [
+        96,
+        96
+      ]
+    },
+    "mekanism:basic_energy_cube": {
+      "kind": "original-frame-and-ports-static",
+      "source": "mekanism:block/energy_cube/basic; excludes runtime LEDs/energy fill",
+      "size": [
+        96,
+        96
+      ]
+    }
+  },
+  "pending": {
+    "ae2:pattern_encoding_terminal": "Requires verified runtime tint/default renderer state; omitted rather than inventing appearance.",
+    "ae2:terminal": "Requires verified runtime tint/default renderer state; omitted rather than inventing appearance.",
+    "ars_nouveau:novice_spell_book": "Requires verified runtime tint/default renderer state; omitted rather than inventing appearance.",
+    "minecraft:chest": "Requires verified runtime tint/default renderer state; omitted rather than inventing appearance.",
+    "mysticalagriculture:inferium_farmland": "Requires verified runtime tint/default renderer state; omitted rather than inventing appearance.",
+    "productivebees:advanced_oak_beehive": "Requires verified runtime tint/default renderer state; omitted rather than inventing appearance.",
+    "productivebees:expansion_box_oak": "Requires verified runtime tint/default renderer state; omitted rather than inventing appearance."
+  }
+}
