@@ -1,0 +1,25 @@
+{
+  "url": "https://brassbound-atm10-jp.jp-orihuela.chatgpt.site",
+  "sourceCommit": "5f7f2dc70c9b7b21f81eb8c5cc1095cce73e7b02",
+  "deploymentId": "appgdep_6ad8eb536280819185406295e3b41f66",
+  "deploymentStatus": "succeeded",
+  "checks": [
+    "19 automated engine/catalog tests passed before packaging",
+    "All 9987 recipe detail templates rendered in integration tests",
+    "All mapped icon files exist",
+    "Published recipe archive visually reviewed at 629px",
+    "Mechanical press recipe and recursive material list verified in UI",
+    "Plan zoom 100 to 110 percent verified in UI",
+    "Mekanism filter and infusor search verified in UI",
+    "Special-condition chemical recipe excludes automatic calculation",
+    "Home technology card opens 2348 filtered recipes",
+    "Home has no horizontal overflow at 629px",
+    "No console errors in reviewed UI",
+    "Home images finished loading without missing files"
+  ],
+  "limitations": [
+    "No server registry execution; JEI verifies server-specific recipes",
+    "Special Java renderers and some cross-mod objects do not yet have icons; explicitly marked",
+    "Browser viewport check was at 629px; no claim of exhaustive breakpoint testing"
+  ]
+}

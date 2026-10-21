@@ -17,7 +17,11 @@ Abrir http://localhost:4173 . El servidor solo sirve `dist/`.
 - Manifiesto: 491 entradas (487 mods, 4 shaders); 485 versiones corroboradas.
 - 9,980 recetas normalizadas de JAR exactos y ajustes KubeJS, más 7 recetas de la guía: 9,987 registros.
 - 12 mods adicionales con recetas: AE2, Ars Nouveau, All the Ores, Functional Storage, Industrial Foregoing, Mekanism, Mekanism Generators, Mystical Agriculture, Powah, Productive Bees, Sophisticated Backpacks y Sophisticated Storage.
-- Interfaz de mesa de madera, hojas de plano, archivo por disciplinas y notas de taller; zoom de los planos y diseño adaptable.
+- Interfaz de mesa de trabajo centrada en acciones; sin eslóganes ni notas decorativas.
+- Biblioteca de las 491 entradas del manifiesto, con búsqueda, categorías, documentación y mods guardados: 29 guías detalladas, 315 fichas de referencia y 147 componentes de soporte. Todas las fichas están en español.
+- 30 demostraciones web de 13 mods: reproducción, pausa, pasos, velocidad, línea de tiempo, materiales y diagnóstico.
+- Recetas, fases y fichas de mods enlazan las demostraciones pertinentes.
+- Desglose de materiales con zoom y diseño adaptable.
 - 4,492 representaciones de objetos referenciadas por el catálogo, obtenidas de modelos y sprites originales. Las representaciones especiales no disponibles se indican explícitamente.
 - Recetario, patrones, probabilidades, secuencias, fuentes y JSON original.
 - Planos recursivos con selección de recetas y materiales, inventario, excedentes y resultados probabilísticos.
@@ -36,8 +40,16 @@ El almacenamiento es localStorage, separado por navegador y origen. No existe si
 
 ## Verificación
 
-`npm test` ejecuta 19 pruebas del motor y de integración de datos/renderizado en memoria, incluido el renderizado de todas las recetas. Estas últimas no sustituyen una revisión visual en navegador. La revisión visual se realiza en la página HTTPS publicada; no se utiliza el preview local bloqueado por la política del navegador.
+`npm test` ejecuta 25 pruebas del motor y de integración de datos/renderizado en memoria, incluido el renderizado de todas las recetas, todas las fichas de mods y las 30 demostraciones. También prueba reproducción, pausa, salto de paso, limpieza de temporizadores y conservación del progreso. Estas últimas no sustituyen una revisión visual en navegador. La revisión visual se realiza en la página HTTPS publicada; no se utiliza el preview local bloqueado por la política del navegador.
 
 ## Recursos
 
 Los iconos de Minecraft y los mods conservan los derechos de sus autores; se usan como referencia de los objetos documentados. Las licencias extraídas están en `dist/licenses/`; `dist/data/icon-attributions.json` documenta las fuentes y el método de representación. El taller isométrico de la cabecera es SVG original. No se distribuyen los JAR ni el ZIP del modpack.
+
+## Animaciones
+
+Ponder original se ejecuta dentro de Minecraft con estructuras NBT, storyboards Java o PonderJS y renderizadores del juego. Las demostraciones de esta web son esquemas ilustrativos originales; no ejecutan Ponder ni simulan producción. Cada lección enlaza su fuente y las compatibles indican cómo abrir el Ponder nativo. El movimiento está pausado inicialmente y respeta `prefers-reduced-motion`.
+
+El vídeo oficial de Create de 2022 se incrusta en el reproductor del autor al solicitarlo; queda identificado como showcase histórico, no como tutorial de ATM10 8.1. No se descargan ni distribuyen copias del vídeo.
+
+Los objetivos de fichas y lecciones reutilizan el almacenamiento local y el respaldo existente. No hay cambios de acceso al sitio ni sincronización con Minecraft.
