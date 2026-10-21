@@ -1,0 +1,49 @@
+
+> brassbound-atm10@0.1.0 build
+> node scripts/run-framework.mjs build
+
+
+  vinext build  (Vite 8.0.13)
+
+(node:27446) ExperimentalWarning: glob is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[1/5] analyze client references...
+[2Ktransforming...✓ 233 modules transformed.
+rendering chunks...
+✓ built in 892ms
+[2/5] analyze server references...
+[2Ktransforming...✓ 78 modules transformed.
+rendering chunks...
+✓ built in 151ms
+[3/5] build rsc environment...
+[2Ktransforming...✓ 230 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 896ms
+[4/5] build client environment...
+[2Ktransforming...✓ 124 modules transformed.
+rendering chunks...
+computing gzip size...
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - vite:prepare-out-dir (35%)
+  - alias (16%)
+  - vinext:og-inline-fetch-assets (11%)
+  - vinext:css-data-url (10%)
+  - vinext:jsx-in-js (5%)
+See https://rolldown.rs/options/checks#plugintimings for more details.
+
+✓ built in 16.96s
+[5/5] build ssr environment...
+[2Ktransforming...✓ 84 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 593ms
+[0m
+  Route (app)
+  ┌ λ /               
+  └ λ /api/crew/:path*
+
+  λ API
+
+  Build complete. Run `vinext start` to start the production server.
+

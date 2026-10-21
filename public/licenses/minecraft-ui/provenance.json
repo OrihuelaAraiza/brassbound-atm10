@@ -1,0 +1,44 @@
+{
+  "verifiedOn": "2026-10-21",
+  "assets": [
+    {
+      "path": "assets/fonts/Minecraft.otf",
+      "sourceUrl": "https://raw.githubusercontent.com/IdreesInc/Minecraft-Font/261ac77fbf28796ca09c22eb83ecdfe386c4b838/Minecraft.otf",
+      "sourceCommit": "261ac77fbf28796ca09c22eb83ecdfe386c4b838",
+      "sha256": "ebc7a7be9f69479f02875af1fe79a2b93cc868b83be4f6369ecceb45fabe5ee6",
+      "bytes": 11424,
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "path": "assets/fonts/Minecraft-Bold.otf",
+      "sourceUrl": "https://raw.githubusercontent.com/IdreesInc/Minecraft-Font/261ac77fbf28796ca09c22eb83ecdfe386c4b838/Minecraft-Bold.otf",
+      "sourceCommit": "261ac77fbf28796ca09c22eb83ecdfe386c4b838",
+      "sha256": "2a7216d047fd2991aa8a2fcbc002e0782a903d68de3cc248092ffa88aa941b4f",
+      "bytes": 11584,
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "path": "licenses/minecraft-ui/Minecraft-Font-LICENSE.txt",
+      "sourceUrl": "https://raw.githubusercontent.com/IdreesInc/Minecraft-Font/261ac77fbf28796ca09c22eb83ecdfe386c4b838/LICENSE",
+      "sourceCommit": "261ac77fbf28796ca09c22eb83ecdfe386c4b838",
+      "sha256": "5bf787b21c1a2cdee6050d5a676b5a4e5ebe9ca630a43e5ade8e8b05fe584a58",
+      "bytes": 4382,
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "path": "assets/ui/chest-normal.png",
+      "sourceJar": "research-create/jars/minecraft-1.21.1.jar",
+      "sourceJarSha256": "499f6897d1837516680f3114072d8106e11c9adcd933fe5cf051b551089b0c99",
+      "sourcePath": "assets/minecraft/textures/entity/chest/normal.png",
+      "sha256": "8603c2a1b21497835eda0b48c4d6271f5ae179e9407724b4c340053b8fd5e1e3",
+      "bytes": 840,
+      "dimensions": [
+        64,
+        64
+      ],
+      "copyright": "Minecraft / Mojang Studios / Microsoft",
+      "license": "Proprietary Minecraft asset; not covered by the font OFL license",
+      "usageGuidelines": "https://www.minecraft.net/en-us/usage-guidelines"
+    }
+  ]
+}

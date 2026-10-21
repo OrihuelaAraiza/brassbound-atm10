@@ -3295,6 +3295,342 @@
     "title": "Conduit Cage y procesamiento por aire",
     "group": "Guías completadas"
   },
+  "tutorial:use-chest": {
+    "title": "Guardar y mover objetos",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-brewing-stand": {
+    "title": "Preparar y modificar pociones",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-furnace": {
+    "title": "Fundir en un horno",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-blast-furnace": {
+    "title": "Fundir metales en el alto horno",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-smoker": {
+    "title": "Cocinar comida con ahumador",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-campfire": {
+    "title": "Cocinar sobre una fogata",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-hopper": {
+    "title": "Mover objetos con tolvas",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-redstone": {
+    "title": "Conectar un interruptor a una lámpara",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-lever": {
+    "title": "Controlar una máquina con palanca",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-enchanting-table": {
+    "title": "Encantar equipo y libros",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-anvil": {
+    "title": "Reparar, combinar y renombrar",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-smithing-table": {
+    "title": "Mejorar equipo en la mesa de herrería",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-grindstone": {
+    "title": "Quitar encantamientos o reparar sin conservarlos",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ae2-charger": {
+    "title": "Cargar cuarzo Certus",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ae2-inscriber": {
+    "title": "Imprimir circuitos y procesadores",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ae2-drive": {
+    "title": "Añadir almacenamiento a una red ME",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ae2-terminal": {
+    "title": "Acceder al inventario ME",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ae2-storage-bus": {
+    "title": "Exponer un inventario externo a ME",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ae2-pattern-terminal": {
+    "title": "Grabar una receta en un patrón",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ae2-pattern-provider": {
+    "title": "Ejecutar patrones de autocrafting",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-mekanism-infuser": {
+    "title": "Crear aleación infundida",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-mekanism-enrichment": {
+    "title": "Enriquecer materiales",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-mekanism-energy-cube": {
+    "title": "Almacenar y distribuir energía",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-powah-orb": {
+    "title": "Energizar ingredientes en el orbe",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-functional-drawer": {
+    "title": "Guardar un recurso a granel",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-functional-controller": {
+    "title": "Vincular un conjunto de cajones",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ars-imbuement": {
+    "title": "Crear Source Gems y esencias",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ars-apparatus": {
+    "title": "Fabricar con el Enchanting Apparatus",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ars-source-jar": {
+    "title": "Almacenar Source para tus máquinas",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ars-scribes-table": {
+    "title": "Aprender un glifo nuevo",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ma-infusion-altar": {
+    "title": "Activar una receta de infusión",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-ma-growth-accelerator": {
+    "title": "Acelerar un cultivo desde debajo",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-bees-advanced-hive": {
+    "title": "Producir recursos en una colmena avanzada",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-bees-centrifuge": {
+    "title": "Separar panales de recursos",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-bees-feeding-slab": {
+    "title": "Ofrecer varios bloques de polinización",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-water-wheel": {
+    "title": "Rueda de agua: obtener el primer giro",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-large-water-wheel": {
+    "title": "Rueda grande: más capacidad, menos velocidad",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-hand-crank": {
+    "title": "Manivela: probar una máquina a mano",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-cogwheels": {
+    "title": "Engranajes: transmitir y cambiar RPM",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-gearbox": {
+    "title": "Caja de engranajes: cambiar el eje de transmisión",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-clutch": {
+    "title": "Embrague: detener una sección de fábrica",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-gearshift": {
+    "title": "Inversor: cambiar el sentido con redstone",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-belt": {
+    "title": "Correas: conectar ejes y transportar objetos",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-fan": {
+    "title": "Ventilador: dirigir aire y procesar materiales",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-millstone": {
+    "title": "Molino: introducir, moler y recoger",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-crushing-wheels": {
+    "title": "Ruedas trituradoras: alimentar un par correctamente",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-mechanical-press": {
+    "title": "Prensa: láminas sobre Depot o cinta",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-press-compacting": {
+    "title": "Prensa y Basin: compactar materiales",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-mixer": {
+    "title": "Mezclador: preparar una mezcla en Basin",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-blaze-burner": {
+    "title": "Quemador: capturar un blaze y aportar calor",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-deployer": {
+    "title": "Deployer: imitar una acción del jugador",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-deployer-processing": {
+    "title": "Deployer sobre cinta: procesar ingredientes",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-andesite-funnel": {
+    "title": "Embudo de andesita: entrada y salida básica",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-brass-funnel": {
+    "title": "Embudo de latón: filtrar y dosificar",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-andesite-tunnel": {
+    "title": "Túnel de andesita: separar unidades de una pila",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-brass-tunnel": {
+    "title": "Túnel de latón: clasificar y repartir",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-pump": {
+    "title": "Bomba: decidir dirección y caudal",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-fluid-pipe": {
+    "title": "Tuberías: mover fluido entre recipientes",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-fluid-tank": {
+    "title": "Tanques: almacenar sin vaciar cubos directamente",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-spout": {
+    "title": "Spout: llenar o aplicar fluidos a objetos",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-item-drain": {
+    "title": "Item Drain: extraer fluido de recipientes",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-steam-engine": {
+    "title": "Vapor: obtener giro desde una caldera",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-windmill": {
+    "title": "Molino de viento: unir velas y arrancar",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-super-glue": {
+    "title": "Super Glue: definir qué bloques se mueven juntos",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-mechanical-bearing": {
+    "title": "Bearing mecánico: girar una construcción",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-piston": {
+    "title": "Pistón mecánico: desplazar una plataforma",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-rope-pulley": {
+    "title": "Polea: subir y bajar una plataforma",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-portable-storage": {
+    "title": "Interfaz portátil: descargar una contraption",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-tracks": {
+    "title": "Vías: enlazar rectas, curvas y pendientes",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-train-assembly": {
+    "title": "Estación: ensamblar el primer tren",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-train-controls": {
+    "title": "Controles de tren: conducir y detenerse",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-train-schedule": {
+    "title": "Horario: encargar una ruta a un conductor",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-train-signals": {
+    "title": "Señales: separar tramos y evitar bloqueos",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-electric-motor": {
+    "title": "Motor eléctrico: convertir FE en giro",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-alternator": {
+    "title": "Alternador: obtener FE a partir de giro",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-rolling-mill": {
+    "title": "Rolling Mill: formar varillas y alambres",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-electric-connectors": {
+    "title": "Conectores: tender cables y configurar la transferencia",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-modular-accumulator": {
+    "title": "Acumulador modular: guardar energía entre ciclos",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-tesla-coil": {
+    "title": "Bobina Tesla: cargar un objeto",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-burner-straw": {
+    "title": "Pajita del quemador: usar combustible líquido",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-portable-energy": {
+    "title": "Interfaz de energía: intercambiar FE con una contraption",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-source-motor": {
+    "title": "Source Motor: convertir Source en giro",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-conduit-cage": {
+    "title": "Conduit Cage: canalizar una corriente de aire",
+    "group": "Tutoriales de uso"
+  },
+  "tutorial:use-mechanical-grindstone": {
+    "title": "Grindstone: convertir experiencia de objetos en líquido",
+    "group": "Tutoriales de uso"
+  },
   "project:starter-workshop:prepare-parts": {
     "title": "Preparar piezas",
     "group": "Montajes"

@@ -5,5 +5,6 @@ for(const p of phases)for(const [id,title] of p.tasks)c[p.id+':'+id]={title,grou
 for(const r of read('pack-guide').routes)for(const s of r.steps)c['pack:'+s.id]={title:s.title,group:r.name};
 for(const m of read('mod-atlas'))if(m.id!=='mahoutsukai')for(const [i,s] of m.firstSteps.entries())c['guide:'+m.id+':'+i]={title:m.name+' · '+s.title,group:'Guías de mods'};
 for(const s of read('animation-scenes'))c['lesson:'+s.id]={title:s.title,group:'Guías completadas'};
+for(const t of read('workshop').tutorials)c['tutorial:'+t.id]={title:t.title,group:'Tutoriales de uso'};
 for(const p of read('workshop').projects)for(const s of p.steps)c['project:'+p.id+':'+s.id]={title:s.title,group:'Montajes'};
 fs.writeFileSync('public/data/progress-catalog.json',JSON.stringify(c,null,2)+'\n');

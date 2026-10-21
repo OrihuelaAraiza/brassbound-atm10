@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-21",
+  "reference": "https://www.cretania.net/wiki/#objeto=minecraft%3Achest",
+  "browser": "Codex in-app browser",
+  "desktopViewport": [
+    1280,
+    720
+  ],
+  "responsivePreview": {
+    "width": 390,
+    "height": 844,
+    "method": "same-origin local iframe, removed before publication",
+    "physicalDeviceTest": false
+  },
+  "passed": [
+    "Home renders with local Minecraft font and item art",
+    "Home search cofre returns 11 objects",
+    "Empty tutorial search presents clear feedback",
+    "Chest usage has four accessible chapters",
+    "Chest lid visibly opens at second step",
+    "Hopper and upper chest appear in later steps",
+    "Playback advances and pauses at current position",
+    "Restart returns to first step and pauses",
+    "Last chapter disables Next",
+    "Fabrication defaults to minecraft:chest with 9 cells",
+    "Learned persists after reload; local test value restored to false",
+    "Mobile drawer opens, closes, and offscreen navigation becomes inert",
+    "Mobile direct item navigation scrolls to detail",
+    "Fullscreen tutorial opens; Escape exits",
+    "Mahou view retains navigation and content",
+    "No browser warning/error logged in checked desktop flow"
+  ],
+  "screenshots": [
+    "minecraft-tutorial-desktop.png",
+    "minecraft-tutorial-mobile.png"
+  ],
+  "limitations": [
+    "Scenes illustrate mechanics; Minecraft/Ponder is not executed",
+    "Responsive iframe check does not replace physical-device testing",
+    "Existing missing models still use explicit icon/fallback representations"
+  ]
+}

@@ -104,3 +104,13 @@ Verificación de esta edición: 48 pruebas automatizadas aprobadas; navegador lo
 `npm test`: 54 pruebas, incluidas autorización, aislamiento entre cuentas, revisiones, idempotencia, actividad y migración de progreso anterior. La base de datos local de desarrollo es independiente de producción. `npm run db:generate` genera migraciones de esquema; Sites las aplica durante la publicación. Los nombres se crean al vincularse, sin perfiles de prueba en producción.
 
 Se conserva la identidad del sitio y su audiencia pública. El acceso de desarrollo simulado con Seedy solo existe en loopback; el acceso publicado lo gestiona ChatGPT. La revisión de navegador local cubrió vinculación, entrada en bitácora, objetivo y persistencia al recargar. El acceso real de los amigos requiere que cada uno inicie sesión y elija su propio nombre.
+
+## Interfaz Minecraft y tutoriales · octubre 2026
+
+Portada centrada en búsqueda, tutoriales y proyectos; navegación principal reducida y herramientas secundarias desplegables. Fuente Minecraft de Idrees Hassan servida localmente bajo SIL OFL 1.1, con atribución en `public/licenses/minecraft-ui/`. Los textos largos conservan una fuente de lectura.
+
+84 tutoriales de uso (103 objetos) y 3,910 objetos con fabricación animada. El nuevo tutorial del cofre incluye tapa articulada, montaje progresivo de tolva y recorrido ilustrativo de un objeto. La prensa y la tolva revelan los bloques por paso. Los controles incorporan cámara inicial, ampliación, anterior/siguiente, reproducción, pausa, reinicio, velocidad y navegación temporal. El crafteo del cofre abre por defecto la receta vanilla. La escena usa una reconstrucción web con textura de Minecraft 1.21.1; no ejecuta el juego ni Ponder.
+
+Las interacciones de la wiki de Cretania sirvieron de referencia; no se redistribuyen sus scripts, modelos ni textos. Los modelos y materiales del catálogo anterior se conservan. El catálogo de progreso reconoce los tutoriales de uso; sus identificadores previos no cambian.
+
+Verificación: 55 pruebas automatizadas y compilación aprobadas. Navegador local: búsqueda, receta de 3 × 3, cuatro pasos del cofre, reproducción/pausa/reinicio, persistencia de Aprendido y restauración del dato de prueba. Revisión responsive a 390 px mediante iframe local, sin afirmar una prueba en dispositivo físico.

@@ -1,0 +1,346 @@
+
+> brassbound-atm10@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: All workspace sections generate content from the pinned data
+ok 1 - All workspace sections generate content from the pinned data
+  ---
+  duration_ms: 3034.625333
+  type: 'test'
+  ...
+# Subtest: Every recipe detail accepts its real data without throwing
+ok 2 - Every recipe detail accepts its real data without throwing
+  ---
+  duration_ms: 5971.105333
+  type: 'test'
+  ...
+# Subtest: All addon descriptions and complementary routes open
+ok 3 - All addon descriptions and complementary routes open
+  ---
+  duration_ms: 117.063292
+  type: 'test'
+  ...
+# Subtest: Star altar, full mod catalog and integrations views use complete sources
+ok 4 - Star altar, full mod catalog and integrations views use complete sources
+  ---
+  duration_ms: 165.444458
+  type: 'test'
+  ...
+# Subtest: Pack fluid inputs stay in millibuckets, not item units
+ok 5 - Pack fluid inputs stay in millibuckets, not item units
+  ---
+  duration_ms: 8.554333
+  type: 'test'
+  ...
+# Subtest: All manifest entries have browsable guide pages and all demonstrations render
+ok 6 - All manifest entries have browsable guide pages and all demonstrations render
+  ---
+  duration_ms: 544.650584
+  type: 'test'
+  ...
+# Subtest: Old local progress and deep links survive the companion navigation
+ok 7 - Old local progress and deep links survive the companion navigation
+  ---
+  duration_ms: 26.999917
+  type: 'test'
+  ...
+# Subtest: Every lesson has traceable steps, materials and valid diagram edges
+ok 8 - Every lesson has traceable steps, materials and valid diagram edges
+  ---
+  duration_ms: 40.663292
+  type: 'test'
+  ...
+# Subtest: Displayed processing examples agree with cold/hot mixing and the ATM infuser override
+ok 9 - Displayed processing examples agree with cold/hot mixing and the ATM infuser override
+  ---
+  duration_ms: 0.429417
+  type: 'test'
+  ...
+# Subtest: Atlas search supports accents, categories and favorites independently
+ok 10 - Atlas search supports accents, categories and favorites independently
+  ---
+  duration_ms: 34.223833
+  type: 'test'
+  ...
+# Subtest: Playback supports start, pause, seeking and teardown without background timers
+ok 11 - Playback supports start, pause, seeking and teardown without background timers
+  ---
+  duration_ms: 325.399042
+  type: 'test'
+  ...
+# (node:27364) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Roster preserves all seven requested names; anonymous visitors cannot claim, save or read group
+ok 12 - Roster preserves all seven requested names; anonymous visitors cannot claim, save or read group
+  ---
+  duration_ms: 902.216709
+  type: 'test'
+  ...
+# Subtest: A player belongs to one account and each account can claim only one player
+ok 13 - A player belongs to one account and each account can claim only one player
+  ---
+  duration_ms: 180.759791
+  type: 'test'
+  ...
+# Subtest: Progress and private notes are isolated; group exposes only summaries and activities
+ok 14 - Progress and private notes are isolated; group exposes only summaries and activities
+  ---
+  duration_ms: 243.324791
+  type: 'test'
+  ...
+# Subtest: Stale revisions never overwrite data and repeated writes do not duplicate events
+ok 15 - Stale revisions never overwrite data and repeated writes do not duplicate events
+  ---
+  duration_ms: 186.985667
+  type: 'test'
+  ...
+# Subtest: Journal author is assigned by server, retries deduplicate, and only the author can remove entries
+ok 16 - Journal author is assigned by server, retries deduplicate, and only the author can remove entries
+  ---
+  duration_ms: 27.866583
+  type: 'test'
+  ...
+# Subtest: Migrating legacy progress preserves both notebooks, all objectives and the higher material count
+ok 17 - Migrating legacy progress preserves both notebooks, all objectives and the higher material count
+  ---
+  duration_ms: 4.28025
+  type: 'test'
+  ...
+# Subtest: Exact 6.0.10 brass uses heated mixing and has yield 2
+ok 18 - Exact 6.0.10 brass uses heated mixing and has yield 2
+  ---
+  duration_ms: 347.214208
+  type: 'test'
+  ...
+# Subtest: Press expands basic resources without circular manufacture or Nether quartz
+ok 19 - Press expands basic resources without circular manufacture or Nether quartz
+  ---
+  duration_ms: 19.097292
+  type: 'test'
+  ...
+# Subtest: Inventory satisfies target before recipe expansion and is not mutated
+ok 20 - Inventory satisfies target before recipe expansion and is not mutated
+  ---
+  duration_ms: 0.322042
+  type: 'test'
+  ...
+# Subtest: Intermediate inventory is consumed once across branches
+ok 21 - Intermediate inventory is consumed once across branches
+  ---
+  duration_ms: 4.77525
+  type: 'test'
+  ...
+# Subtest: Batch surplus is reused across independent dependencies
+ok 22 - Batch surplus is reused across independent dependencies
+  ---
+  duration_ms: 2.436375
+  type: 'test'
+  ...
+# Subtest: Precision accounts for 5 cycles and 80 percent chance
+ok 23 - Precision accounts for 5 cycles and 80 percent chance
+  ---
+  duration_ms: 2.490166
+  type: 'test'
+  ...
+# Subtest: Current track output is one, old six-output recipe is not used
+ok 24 - Current track output is one, old six-output recipe is not used
+  ---
+  duration_ms: 0.34375
+  type: 'test'
+  ...
+# Subtest: Unknown tags are explicit unresolved inputs
+ok 25 - Unknown tags are explicit unresolved inputs
+  ---
+  duration_ms: 0.130666
+  type: 'test'
+  ...
+# Subtest: Cycles stop with a warning, not recursion overflow
+ok 26 - Cycles stop with a warning, not recursion overflow
+  ---
+  duration_ms: 0.328208
+  type: 'test'
+  ...
+# Subtest: Fluids are calculated as mB and use a distinct inventory key
+ok 27 - Fluids are calculated as mB and use a distinct inventory key
+  ---
+  duration_ms: 0.4705
+  type: 'test'
+  ...
+# Subtest: Backup validation rejects incompatible files and clamps counts
+ok 28 - Backup validation rejects incompatible files and clamps counts
+  ---
+  duration_ms: 0.420333
+  type: 'test'
+  ...
+# Subtest: Catalog ids are unique and ingredient counts are finite positive numbers
+ok 29 - Catalog ids are unique and ingredient counts are finite positive numbers
+  ---
+  duration_ms: 143.154041
+  type: 'test'
+  ...
+# Subtest: Informational recipes are never auto-selected for calculation
+ok 30 - Informational recipes are never auto-selected for calculation
+  ---
+  duration_ms: 0.543
+  type: 'test'
+  ...
+# Subtest: A verified ATM override outranks a base jar recipe
+ok 31 - A verified ATM override outranks a base jar recipe
+  ---
+  duration_ms: 0.203708
+  type: 'test'
+  ...
+# Subtest: Every published spell matches exact JAR catalysts and preparation, with unique IDs and sources
+ok 32 - Every published spell matches exact JAR catalysts and preparation, with unique IDs and sources
+  ---
+  duration_ms: 14.142125
+  type: 'test'
+  ...
+# Subtest: Morgan estimates use ATM increments and reject unreachable or invalid goals
+ok 33 - Morgan estimates use ATM increments and reject unreachable or invalid goals
+  ---
+  duration_ms: 0.312416
+  type: 'test'
+  ...
+# Subtest: Catalyst batches aggregate duplicates, respect cloth, preserve surplus and never multiply tools
+ok 34 - Catalyst batches aggregate duplicates, respect cloth, preserve surplus and never multiply tools
+  ---
+  duration_ms: 0.187708
+  type: 'test'
+  ...
+# Subtest: Every guide, spell and section renders with stable shared progress and no missing values
+ok 35 - Every guide, spell and section renders with stable shared progress and no missing values
+  ---
+  duration_ms: 961.208167
+  type: 'test'
+  ...
+# Subtest: Spell search supports Spanish accents, English names, catalysts and independent filters
+ok 36 - Spell search supports Spanish accents, English names, catalysts and independent filters
+  ---
+  duration_ms: 2.392042
+  type: 'test'
+  ...
+# Subtest: Pinned settings and recipe counts do not substitute latest wiki defaults
+ok 37 - Pinned settings and recipe counts do not substitute latest wiki defaults
+  ---
+  duration_ms: 176.676916
+  type: 'test'
+  ...
+# Subtest: Every eligible recipe generates a complete walkthrough with exact amounts and probabilities
+ok 38 - Every eligible recipe generates a complete walkthrough with exact amounts and probabilities
+  ---
+  duration_ms: 1219.803458
+  type: 'test'
+  ...
+# Subtest: Brewing stand uses the exact shaped recipe and tag alternatives
+ok 39 - Brewing stand uses the exact shaped recipe and tag alternatives
+  ---
+  duration_ms: 1.150917
+  type: 'test'
+  ...
+# Subtest: Precision mechanism preserves sequence order, five loops and 80 percent output
+ok 40 - Precision mechanism preserves sequence order, five loops and 80 percent output
+  ---
+  duration_ms: 9.226375
+  type: 'test'
+  ...
+# Subtest: Incomplete recipes are not advertised as complete fabrication tutorials
+ok 41 - Incomplete recipes are not advertised as complete fabrication tutorials
+  ---
+  duration_ms: 23.798709
+  type: 'test'
+  ...
+# Subtest: All usage lessons, source links and model dependencies are connected
+ok 42 - All usage lessons, source links and model dependencies are connected
+  ---
+  duration_ms: 372.11625
+  type: 'test'
+  ...
+# Subtest: Every usage item and every recipe output renders without undefined fields
+ok 43 - Every usage item and every recipe output renders without undefined fields
+  ---
+  duration_ms: 682.948292
+  type: 'test'
+  ...
+# Subtest: Seeking the end keeps the final chapter and learned progress survives backups
+ok 44 - Seeking the end keeps the final chapter and learned progress survives backups
+  ---
+  duration_ms: 6.540125
+  type: 'test'
+  ...
+# Subtest: Chest scene has reversible assembly, a working lid timeline and transport path
+ok 45 - Chest scene has reversible assembly, a working lid timeline and transport path
+  ---
+  duration_ms: 63.739459
+  type: 'test'
+  ...
+# Subtest: Old backups migrate and project progress, pins and chapters survive export/import
+ok 46 - Old backups migrate and project progress, pins and chapters survive export/import
+  ---
+  duration_ms: 7.327583
+  type: 'test'
+  ...
+# Subtest: Imported workspace sanitizes malicious structures, excessive lengths and nonfinite values
+ok 47 - Imported workspace sanitizes malicious structures, excessive lengths and nonfinite values
+  ---
+  duration_ms: 0.461291
+  type: 'test'
+  ...
+# Subtest: Every published rate agrees with all independently sourced tick examples
+ok 48 - Every published rate agrees with all independently sourced tick examples
+  ---
+  duration_ms: 3.332542
+  type: 'test'
+  ...
+# Subtest: Brass minimum, SU capacity, TPS and uptime affect actual capacity
+ok 49 - Brass minimum, SU capacity, TPS and uptime affect actual capacity
+  ---
+  duration_ms: 0.223083
+  type: 'test'
+  ...
+# Subtest: Probabilistic repeated output is combined and FE-only processes require measured time
+ok 50 - Probabilistic repeated output is combined and FE-only processes require measured time
+  ---
+  duration_ms: 0.159917
+  type: 'test'
+  ...
+# Subtest: Unsupported crushing never substitutes an invented RPM formula
+ok 51 - Unsupported crushing never substitutes an invented RPM formula
+  ---
+  duration_ms: 0.081583
+  type: 'test'
+  ...
+# Subtest: Project procurement spends inventory once and preserves existing stock
+ok 52 - Project procurement spends inventory once and preserves existing stock
+  ---
+  duration_ms: 293.738792
+  type: 'test'
+  ...
+# Subtest: Blueprint blocks do not overlap and every asset path resolves
+ok 53 - Blueprint blocks do not overlap and every asset path resolves
+  ---
+  duration_ms: 78.785584
+  type: 'test'
+  ...
+# Subtest: Checklists and suggested prerequisites update from saved progress
+ok 54 - Checklists and suggested prerequisites update from saved progress
+  ---
+  duration_ms: 0.973667
+  type: 'test'
+  ...
+# Subtest: Formula parser cannot execute code and rejects unknown operators
+ok 55 - Formula parser cannot execute code and rejects unknown operators
+  ---
+  duration_ms: 14.8775
+  type: 'test'
+  ...
+1..55
+# tests 55
+# suites 0
+# pass 55
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12848.392791

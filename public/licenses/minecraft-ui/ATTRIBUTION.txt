@@ -1,0 +1,33 @@
+Minecraft UI font
+=================
+Minecraft.otf and Minecraft-Bold.otf
+Copyright (c) 2022, Idrees Hassan.
+Project: https://github.com/IdreesInc/Minecraft-Font
+Upstream commit: 261ac77fbf28796ca09c22eb83ecdfe386c4b838
+License: SIL Open Font License 1.1. Full, unmodified license in Minecraft-Font-LICENSE.txt.
+Both font files are unmodified upstream OpenType files, hosted locally for this website.
+This is a fan-made recreation of the Minecraft UI typeface. The author states it
+does not contain assets or font files from the original game and is not affiliated
+with Minecraft or Mojang.
+
+Minecraft chest texture
+=======================
+assets/ui/chest-normal.png
+Minecraft Java Edition 1.21.1, Mojang Studios / Microsoft.
+Extracted unmodified from the previously downloaded local Minecraft client:
+research-create/jars/minecraft-1.21.1.jar
+Internal path: assets/minecraft/textures/entity/chest/normal.png
+This original game texture is not covered by the font's SIL OFL license.
+Minecraft rights remain with their respective owners; this file records
+provenance and does not grant a separate license or imply official endorsement.
+Usage guidelines: https://www.minecraft.net/en-us/usage-guidelines
+
+Exact source URLs and SHA-256 hashes are recorded in provenance.json.
+
+Brassbound chest icon and scene
+===============================
+assets/ui/chest.svg is an original SVG illustration created for Brassbound.
+The articulated web chest geometry is a simplified reconstruction for tutorials;
+it uses the original texture cited above and does not execute Minecraft.
+Interface reference: https://www.cretania.net/wiki/#objeto=minecraft%3Achest
+No Cretania scripts, models, tutorial text or branding are redistributed.
