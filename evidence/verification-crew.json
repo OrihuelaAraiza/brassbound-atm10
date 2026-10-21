@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-21",
+  "tests": 54,
+  "result": "passed",
+  "browser": {
+    "environment": "local development",
+    "identity": "simulated ChatGPT account; not a production claim",
+    "verified": [
+      "signed out landing with seven names",
+      "sign in through portable mock",
+      "claim RedBone in local D1",
+      "publish local journal entry",
+      "journal survives page reload",
+      "complete Create objective",
+      "objective survives reload",
+      "objective appears in group summary and activity"
+    ],
+    "viewport": "629px in-app browser panel"
+  },
+  "scope": {
+    "minecraftConnection": false,
+    "hostedFriendsSignInTested": false,
+    "productionSeedData": false
+  }
+}

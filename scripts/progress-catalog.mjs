@@ -1,0 +1,9 @@
+import fs from 'node:fs';
+import {phases} from '../public/guide.js';
+const read=n=>JSON.parse(fs.readFileSync('public/data/'+n+'.json','utf8'));const c={};
+for(const p of phases)for(const [id,title] of p.tasks)c[p.id+':'+id]={title,group:'Create'};
+for(const r of read('pack-guide').routes)for(const s of r.steps)c['pack:'+s.id]={title:s.title,group:r.name};
+for(const m of read('mod-atlas'))if(m.id!=='mahoutsukai')for(const [i,s] of m.firstSteps.entries())c['guide:'+m.id+':'+i]={title:m.name+' · '+s.title,group:'Guías de mods'};
+for(const s of read('animation-scenes'))c['lesson:'+s.id]={title:s.title,group:'Guías completadas'};
+for(const p of read('workshop').projects)for(const s of p.steps)c['project:'+p.id+':'+s.id]={title:s.title,group:'Montajes'};
+fs.writeFileSync('public/data/progress-catalog.json',JSON.stringify(c,null,2)+'\n');

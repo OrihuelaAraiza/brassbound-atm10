@@ -1,6 +1,6 @@
 import json,pathlib,shutil,re
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-BASE=ROOT.parent/'research-create';EX=ROOT.parent/'research-expanded';IC=ROOT.parent/'research-icons';DIST=ROOT/'dist';D=DIST/'data'
+BASE=ROOT.parent/'research-create';EX=ROOT.parent/'research-expanded';IC=ROOT.parent/'research-icons';DIST=ROOT/'public';D=DIST/'data'
 def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
 def write(p,v):p.write_text(json.dumps(v,ensure_ascii=False,separators=(',',':')))
 base=read(BASE/'recipes.json');extra=read(EX/'recipes.json')

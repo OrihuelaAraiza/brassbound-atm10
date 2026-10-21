@@ -1,6 +1,6 @@
 import json,shutil
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1]; R=ROOT.parent/'research-tutorials-v5';D=ROOT/'dist'
+ROOT=Path(__file__).resolve().parents[1]; R=ROOT.parent/'research-tutorials-v5';D=ROOT/'public'
 model=R/'models'
 for p in (model/'data').rglob('*'):
  if p.is_file() and (p.name in ['model-index.json','model-attributions.json'] or 'model-chunks' in p.parts):

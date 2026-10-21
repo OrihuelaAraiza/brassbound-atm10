@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {createMahou,filterSpells,morganBudget,catalystBudget} from '../dist/mahou.js';
-import {cleanState,createEngine} from '../dist/engine.js';
-const read=n=>JSON.parse(fs.readFileSync(new URL('../dist/data/'+n+'.json',import.meta.url)));
+import {createMahou,filterSpells,morganBudget,catalystBudget} from '../public/mahou.js';
+import {cleanState,createEngine} from '../public/engine.js';
+const read=n=>JSON.parse(fs.readFileSync(new URL('../public/data/'+n+'.json',import.meta.url)));
 const data=read('mahou'),rituals=read('mahou-rituals'),recipes=read('recipes');
 test('Every published spell matches exact JAR catalysts and preparation, with unique IDs and sources',()=>{
  assert.equal(data.spells.length,53);assert.equal(new Set(data.spells.map(s=>s.id)).size,53);
@@ -48,5 +48,5 @@ test('Pinned settings and recipe counts do not substitute latest wiki defaults',
  const mahou=recipes.filter(r=>r.source.modId==='mahoutsukai');assert.equal(mahou.length,32);
  const engine=createEngine(recipes);assert.equal(engine.choose('mahoutsukai:powdered_iron'),undefined);
  assert.equal(mahou.find(r=>r.id==='mahoutsukai:mystic_code').type,'minecraft:crafting_shaped');
- const icons=read('icons');for(const [id,path]of Object.entries(icons).filter(([id])=>id.startsWith('mahoutsukai:')))assert.ok(fs.existsSync(new URL('../dist/'+path,import.meta.url)),id);
+ const icons=read('icons');for(const [id,path]of Object.entries(icons).filter(([id])=>id.startsWith('mahoutsukai:')))assert.ok(fs.existsSync(new URL('../public/'+path,import.meta.url)),id);
 });

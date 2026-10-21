@@ -1,0 +1,3382 @@
+{
+  "prepare:space": {
+    "title": "Reserva un taller cerca del agua",
+    "group": "Create"
+  },
+  "prepare:jei": {
+    "title": "Aprende a consultar recetas y usos",
+    "group": "Create"
+  },
+  "prepare:materials": {
+    "title": "Reúne madera, andesita, hierro y zinc",
+    "group": "Create"
+  },
+  "prepare:storage": {
+    "title": "Organiza materiales en cofres o barriles",
+    "group": "Create"
+  },
+  "prepare:ponder": {
+    "title": "Abre una escena de Ponder",
+    "group": "Create"
+  },
+  "kinetics:alloy": {
+    "title": "Fabrica aleación de andesita",
+    "group": "Create"
+  },
+  "kinetics:wheel": {
+    "title": "Coloca una rueda hidráulica en agua en movimiento",
+    "group": "Create"
+  },
+  "kinetics:shafts": {
+    "title": "Conecta ejes y engranajes",
+    "group": "Create"
+  },
+  "kinetics:casing": {
+    "title": "Construye una carcasa de andesita",
+    "group": "Create"
+  },
+  "kinetics:press": {
+    "title": "Monta una prensa sobre un depósito",
+    "group": "Create"
+  },
+  "workshop:mixer": {
+    "title": "Monta un mezclador sobre una cubeta",
+    "group": "Create"
+  },
+  "workshop:mill": {
+    "title": "Añade un molino",
+    "group": "Create"
+  },
+  "workshop:belts": {
+    "title": "Fabrica correas y conecta la línea",
+    "group": "Create"
+  },
+  "workshop:fan": {
+    "title": "Prueba lavado con ventilador y agua",
+    "group": "Create"
+  },
+  "workshop:flow": {
+    "title": "Añade embudos y una salida con espacio",
+    "group": "Create"
+  },
+  "brass:nether": {
+    "title": "Prepara una expedición al Nether",
+    "group": "Create"
+  },
+  "brass:burner": {
+    "title": "Coloca y alimenta el quemador bajo la cubeta",
+    "group": "Create"
+  },
+  "brass:brassmix": {
+    "title": "Mezcla cobre y zinc para obtener latón",
+    "group": "Create"
+  },
+  "brass:deploy": {
+    "title": "Construye desplegadores para ensamblaje",
+    "group": "Create"
+  },
+  "brass:precision": {
+    "title": "Produce mecanismos de precisión",
+    "group": "Create"
+  },
+  "factory:speed": {
+    "title": "Instala un controlador de velocidad",
+    "group": "Create"
+  },
+  "factory:crush": {
+    "title": "Construye ruedas de trituración",
+    "group": "Create"
+  },
+  "factory:farm": {
+    "title": "Diseña una granja mecánica pequeña",
+    "group": "Create"
+  },
+  "factory:fluids": {
+    "title": "Configura bombas, tuberías y depósitos",
+    "group": "Create"
+  },
+  "factory:overflow": {
+    "title": "Gestiona el exceso y las paradas",
+    "group": "Create"
+  },
+  "steam:tank": {
+    "title": "Construye una caldera con depósitos de fluidos",
+    "group": "Create"
+  },
+  "steam:water": {
+    "title": "Alimenta la caldera con agua suficiente",
+    "group": "Create"
+  },
+  "steam:heat": {
+    "title": "Añade calor acorde con el tamaño",
+    "group": "Create"
+  },
+  "steam:engine": {
+    "title": "Conecta motores y mide la red",
+    "group": "Create"
+  },
+  "steam:reserve": {
+    "title": "Deja margen de capacidad",
+    "group": "Create"
+  },
+  "logistics:train": {
+    "title": "Monta una vía de prueba y una estación",
+    "group": "Create"
+  },
+  "logistics:assemble": {
+    "title": "Ensambla un tren corto",
+    "group": "Create"
+  },
+  "logistics:schedule": {
+    "title": "Configura horarios y puntos de carga",
+    "group": "Create"
+  },
+  "logistics:packages": {
+    "title": "Prueba empaquetadores y enlaces de inventario",
+    "group": "Create"
+  },
+  "logistics:addons": {
+    "title": "Personaliza estaciones o usa Hypertubes",
+    "group": "Create"
+  },
+  "ecosystem:fe": {
+    "title": "Explora Crafts & Additions para conectar SU y FE",
+    "group": "Create"
+  },
+  "ecosystem:storage": {
+    "title": "Integra Sophisticated Storage o Backpacks",
+    "group": "Create"
+  },
+  "ecosystem:xp": {
+    "title": "Investiga Enchantment Industry",
+    "group": "Create"
+  },
+  "ecosystem:branches": {
+    "title": "Selecciona una ruta complementaria",
+    "group": "Create"
+  },
+  "ecosystem:star": {
+    "title": "Planifica la ATM Star con sus ramas reales",
+    "group": "Create"
+  },
+  "pack:storage-boxes": {
+    "title": "Separar recursos a granel",
+    "group": "Almacén que crece contigo"
+  },
+  "pack:storage-lock": {
+    "title": "Bloquear cada cajón",
+    "group": "Almacén que crece contigo"
+  },
+  "pack:storage-hub": {
+    "title": "Conectar un Storage Controller",
+    "group": "Almacén que crece contigo"
+  },
+  "pack:storage-overflow": {
+    "title": "Controlar excedentes",
+    "group": "Almacén que crece contigo"
+  },
+  "pack:storage-ae": {
+    "title": "Exponer el almacén a AE2",
+    "group": "Almacén que crece contigo"
+  },
+  "pack:power-source": {
+    "title": "Instalar generación inicial",
+    "group": "Electricidad para el taller"
+  },
+  "pack:power-buffer": {
+    "title": "Añadir cableado y batería",
+    "group": "Electricidad para el taller"
+  },
+  "pack:power-orb": {
+    "title": "Preparar Energizing Orb y rods",
+    "group": "Electricidad para el taller"
+  },
+  "pack:power-tier": {
+    "title": "Subir de tier según demanda",
+    "group": "Electricidad para el taller"
+  },
+  "pack:power-reactor": {
+    "title": "Construir un reactor Powah",
+    "group": "Electricidad para el taller"
+  },
+  "pack:power-nitro": {
+    "title": "Reservar Nitro para aleaciones ATM",
+    "group": "Electricidad para el taller"
+  },
+  "pack:ae2-materials": {
+    "title": "Reunir Certus y Fluix",
+    "group": "Un centro de control con AE2"
+  },
+  "pack:ae2-presses": {
+    "title": "Recuperar las prensas",
+    "group": "Un centro de control con AE2"
+  },
+  "pack:ae2-processors": {
+    "title": "Automatizar procesadores",
+    "group": "Un centro de control con AE2"
+  },
+  "pack:ae2-terminal": {
+    "title": "Abrir tu primer almacén ME",
+    "group": "Un centro de control con AE2"
+  },
+  "pack:ae2-crafting": {
+    "title": "Solicitar crafteos",
+    "group": "Un centro de control con AE2"
+  },
+  "pack:ae2-create": {
+    "title": "Pedir piezas a Create",
+    "group": "Un centro de control con AE2"
+  },
+  "pack:ae2-chemicals": {
+    "title": "Integrar química de Mekanism",
+    "group": "Un centro de control con AE2"
+  },
+  "pack:mek-infuser": {
+    "title": "Poner en marcha Metallurgic Infuser",
+    "group": "Mekanism como apoyo industrial"
+  },
+  "pack:mek-components": {
+    "title": "Producir acero, circuitos y aleaciones",
+    "group": "Mekanism como apoyo industrial"
+  },
+  "pack:mek-factories": {
+    "title": "Mejorar fábricas y tuberías",
+    "group": "Mekanism como apoyo industrial"
+  },
+  "pack:mek-hdpe": {
+    "title": "Montar la cadena de HDPE",
+    "group": "Mekanism como apoyo industrial"
+  },
+  "pack:mek-miner": {
+    "title": "Construir Digital Miner al llegar a Vibranium",
+    "group": "Mekanism como apoyo industrial"
+  },
+  "pack:mek-fission": {
+    "title": "Preparar combustible de fisión",
+    "group": "Mekanism como apoyo industrial"
+  },
+  "pack:ma-base": {
+    "title": "Conseguir Inferium y Prosperity",
+    "group": "Recursos renovables con cultivos"
+  },
+  "pack:ma-altar": {
+    "title": "Construir Infusion Altar",
+    "group": "Recursos renovables con cultivos"
+  },
+  "pack:ma-seeds": {
+    "title": "Elegir cultivos por tus cuellos de botella",
+    "group": "Recursos renovables con cultivos"
+  },
+  "pack:ma-harvest": {
+    "title": "Cerrar cosecha y almacenamiento",
+    "group": "Recursos renovables con cultivos"
+  },
+  "pack:ma-tier": {
+    "title": "Subir esencias y cristal",
+    "group": "Recursos renovables con cultivos"
+  },
+  "pack:ma-special": {
+    "title": "Preparar crux y suelo especial",
+    "group": "Recursos renovables con cultivos"
+  },
+  "pack:ma-creative": {
+    "title": "Preparar Creative Essence",
+    "group": "Recursos renovables con cultivos"
+  },
+  "pack:bees-starter": {
+    "title": "Conseguir miel, panales y Bee Cages",
+    "group": "Productive Bees a escala"
+  },
+  "pack:bees-hive": {
+    "title": "Montar Advanced Beehive",
+    "group": "Productive Bees a escala"
+  },
+  "pack:bees-food": {
+    "title": "Colocar la flor o bloque correcto",
+    "group": "Productive Bees a escala"
+  },
+  "pack:bees-process": {
+    "title": "Procesar panales",
+    "group": "Productive Bees a escala"
+  },
+  "pack:bees-sim": {
+    "title": "Instalar Simulation Upgrade",
+    "group": "Productive Bees a escala"
+  },
+  "pack:bees-star": {
+    "title": "Criar especies para el endgame",
+    "group": "Productive Bees a escala"
+  },
+  "pack:hnn-framework": {
+    "title": "Crear Model Framework y Deep Learner",
+    "group": "Drops sin una granja de mobs enorme"
+  },
+  "pack:hnn-basic": {
+    "title": "Entrenar el modelo hasta Basic",
+    "group": "Drops sin una granja de mobs enorme"
+  },
+  "pack:hnn-simulation": {
+    "title": "Alimentar Simulation Chamber",
+    "group": "Drops sin una granja de mobs enorme"
+  },
+  "pack:hnn-mode": {
+    "title": "Separar Training de Inference",
+    "group": "Drops sin una granja de mobs enorme"
+  },
+  "pack:hnn-loot": {
+    "title": "Elegir un drop en Loot Fabricator",
+    "group": "Drops sin una granja de mobs enorme"
+  },
+  "pack:hnn-star": {
+    "title": "Preparar modelos de Wither y Ender Dragon",
+    "group": "Drops sin una granja de mobs enorme"
+  },
+  "pack:atm-first": {
+    "title": "Minar Allthemodium",
+    "group": "La escalera de metales ATM"
+  },
+  "pack:atm-pad": {
+    "title": "Fabricar Teleport Pads",
+    "group": "La escalera de metales ATM"
+  },
+  "pack:atm-tool": {
+    "title": "Mejorar tu pico",
+    "group": "La escalera de metales ATM"
+  },
+  "pack:atm-vibranium": {
+    "title": "Conseguir Vibranium",
+    "group": "La escalera de metales ATM"
+  },
+  "pack:atm-unobtainium": {
+    "title": "Conseguir Unobtainium",
+    "group": "La escalera de metales ATM"
+  },
+  "pack:atm-piglich": {
+    "title": "Obtener Piglich Hearts y Soul Lava",
+    "group": "La escalera de metales ATM"
+  },
+  "pack:atm-alloys": {
+    "title": "Abrir las tres rutas de aleaciones",
+    "group": "La escalera de metales ATM"
+  },
+  "pack:magic-ars": {
+    "title": "Crear una fuente estable de Source",
+    "group": "Magia con objetivos concretos"
+  },
+  "pack:magic-apparatus": {
+    "title": "Montar Enchanting Apparatus",
+    "group": "Magia con objetivos concretos"
+  },
+  "pack:magic-occultism": {
+    "title": "Iniciar rituales de Occultism",
+    "group": "Magia con objetivos concretos"
+  },
+  "pack:magic-forge": {
+    "title": "Desarrollar Hephaestus Forge",
+    "group": "Magia con objetivos concretos"
+  },
+  "pack:magic-finish": {
+    "title": "Reservar objetos con componentes",
+    "group": "Magia con objetivos concretos"
+  },
+  "pack:if-plastic": {
+    "title": "Producir plástico",
+    "group": "Industrial Foregoing para aleaciones"
+  },
+  "pack:if-dissolution": {
+    "title": "Construir Dissolution Chamber",
+    "group": "Industrial Foregoing para aleaciones"
+  },
+  "pack:if-pink": {
+    "title": "Crear Pink Slime",
+    "group": "Industrial Foregoing para aleaciones"
+  },
+  "pack:if-alloy": {
+    "title": "Producir aleación Unobtainium–Vibranium",
+    "group": "Industrial Foregoing para aleaciones"
+  },
+  "pack:if-star": {
+    "title": "Preparar componentes de la Star",
+    "group": "Industrial Foregoing para aleaciones"
+  },
+  "pack:nuclear-build": {
+    "title": "Montar fisión con control",
+    "group": "Mekanism nuclear y antimateria"
+  },
+  "pack:nuclear-waste": {
+    "title": "Gestionar Nuclear Waste",
+    "group": "Mekanism nuclear y antimateria"
+  },
+  "pack:nuclear-polonium": {
+    "title": "Producir Polonium",
+    "group": "Mekanism nuclear y antimateria"
+  },
+  "pack:nuclear-pellets": {
+    "title": "Preparar pellets y SPS",
+    "group": "Mekanism nuclear y antimateria"
+  },
+  "pack:nuclear-fusion": {
+    "title": "Escalar energía",
+    "group": "Mekanism nuclear y antimateria"
+  },
+  "pack:nuclear-antimatter": {
+    "title": "Cristalizar antimateria",
+    "group": "Mekanism nuclear y antimateria"
+  },
+  "pack:star-bulk": {
+    "title": "Automatizar materiales masivos",
+    "group": "Proyecto final: ATM Star"
+  },
+  "pack:star-patrick": {
+    "title": "Fabricar Patrick Star",
+    "group": "Proyecto final: ATM Star"
+  },
+  "pack:star-components": {
+    "title": "Fabricar los nueve componentes",
+    "group": "Proyecto final: ATM Star"
+  },
+  "pack:star-altar": {
+    "title": "Construir Runic Star Altar",
+    "group": "Proyecto final: ATM Star"
+  },
+  "pack:star-power": {
+    "title": "Añadir hatches y upgrades",
+    "group": "Proyecto final: ATM Star"
+  },
+  "pack:star-awakened": {
+    "title": "Preparar 2 bloques de aleación despertada",
+    "group": "Proyecto final: ATM Star"
+  },
+  "pack:star-craft": {
+    "title": "Completar el ensamblado final",
+    "group": "Proyecto final: ATM Star"
+  },
+  "pack:mahou-inicio-0": {
+    "title": "Abrí el compendio y revisé las teclas",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-inicio-1": {
+    "title": "Dibujé un círculo y veo Mahou",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-inicio-2": {
+    "title": "Preparé los siete tipos de polvo",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-inicio-3": {
+    "title": "Creé y probé un pergamino",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-mana-0": {
+    "title": "Distingo capacidad personal de reserva",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-mana-1": {
+    "title": "Medí consumo y recuperación de un hechizo",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-mana-2": {
+    "title": "Cargué una gema y la probé fuera de la base",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-suministro-0": {
+    "title": "Probé una conversión de durabilidad",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-suministro-1": {
+    "title": "Comparé una segunda fuente de maná",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-suministro-2": {
+    "title": "Verifiqué el balance con mis círculos activos",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-suministro-3": {
+    "title": "Preparé un modo de detener el suministro",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-fae-0": {
+    "title": "Encontré un leypoint con Fay Sight",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-fae-1": {
+    "title": "Conseguí Fae Essence",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-fae-2": {
+    "title": "Probé un círculo Fae y comprobé quién paga",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-circuitos-0": {
+    "title": "Reclamé y cargué un circuito",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-circuitos-1": {
+    "title": "Probé su control con redstone",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-circuitos-2": {
+    "title": "Comprobé alcance y acceso compartido",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-circuitos-3": {
+    "title": "Ensayé Kodoku o William",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-caliburn-0": {
+    "title": "Completé el lago y reuní el maná",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-caliburn-1": {
+    "title": "Creé Caliburn y leí su límite innato",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-caliburn-2": {
+    "title": "Elegí y comprobé el escalón de mejora",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-caliburn-3": {
+    "title": "Probé la habilidad y la reparación",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-morgan-0": {
+    "title": "Preparé Caliburn con el límite deseado",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-morgan-1": {
+    "title": "Transformé Caliburn y comprobé los datos",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-morgan-2": {
+    "title": "Probé una mejora y su coste de maná",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-morgan-3": {
+    "title": "Sé cómo usar y reparar Morgan",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-equipo-0": {
+    "title": "Preparé un Mystic Code funcional",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-equipo-1": {
+    "title": "Comprobé límites de First Sorcery",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-equipo-2": {
+    "title": "Obtuve un arma alternativa",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-equipo-3": {
+    "title": "Ensayé los controles fuera de mi base",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-especialidades-0": {
+    "title": "Probé una utilidad de desplazamiento",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-especialidades-1": {
+    "title": "Invoqué y recuperé un familiar",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-especialidades-2": {
+    "title": "Probé una defensa con condiciones conocidas",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-especialidades-3": {
+    "title": "Documenté mi especialidad y sus costes",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-decoracion-0": {
+    "title": "Configuré un proyector",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-decoracion-1": {
+    "title": "Probé redstone y copiado de ajustes",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "pack:mahou-decoracion-2": {
+    "title": "Revisé legibilidad y rendimiento en mi equipo",
+    "group": "Mahou Tsukai · del círculo al arsenal"
+  },
+  "guide:create:0": {
+    "title": "Create · Prepara tu taller",
+    "group": "Guías de mods"
+  },
+  "guide:create:1": {
+    "title": "Create · El primer giro",
+    "group": "Guías de mods"
+  },
+  "guide:create:2": {
+    "title": "Create · Tu primera línea",
+    "group": "Guías de mods"
+  },
+  "guide:create:3": {
+    "title": "Create · La era del latón",
+    "group": "Guías de mods"
+  },
+  "guide:create:4": {
+    "title": "Create · Una fábrica que trabaja sola",
+    "group": "Guías de mods"
+  },
+  "guide:create:5": {
+    "title": "Create · Potencia a escala",
+    "group": "Guías de mods"
+  },
+  "guide:create:6": {
+    "title": "Create · Conecta tu mundo",
+    "group": "Guías de mods"
+  },
+  "guide:create:7": {
+    "title": "Create · Más allá de Create",
+    "group": "Guías de mods"
+  },
+  "guide:jei:0": {
+    "title": "Just Enough Items (JEI) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:jade:0": {
+    "title": "Jade 🔍 · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ftbquests:0": {
+    "title": "FTB Quests (NeoForge) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:functionalstorage:0": {
+    "title": "Functional Storage · Separar recursos a granel",
+    "group": "Guías de mods"
+  },
+  "guide:functionalstorage:1": {
+    "title": "Functional Storage · Bloquear cada cajón",
+    "group": "Guías de mods"
+  },
+  "guide:functionalstorage:2": {
+    "title": "Functional Storage · Conectar un Storage Controller",
+    "group": "Guías de mods"
+  },
+  "guide:functionalstorage:3": {
+    "title": "Functional Storage · Controlar excedentes",
+    "group": "Guías de mods"
+  },
+  "guide:functionalstorage:4": {
+    "title": "Functional Storage · Exponer el almacén a AE2",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedbackpacks:0": {
+    "title": "Sophisticated Backpacks · Preparar la mochila",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedbackpacks:1": {
+    "title": "Sophisticated Backpacks · Ampliar capacidad",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedbackpacks:2": {
+    "title": "Sophisticated Backpacks · Automatizar recogida",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedbackpacks:3": {
+    "title": "Sophisticated Backpacks · Asignar funciones",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedstorage:0": {
+    "title": "Sophisticated Storage · Elegir contenedor",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedstorage:1": {
+    "title": "Sophisticated Storage · Ampliar capacidad",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedstorage:2": {
+    "title": "Sophisticated Storage · Añadir funciones",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedstorage:3": {
+    "title": "Sophisticated Storage · Conectar almacenamiento",
+    "group": "Guías de mods"
+  },
+  "guide:ae2:0": {
+    "title": "Applied Energistics 2 · Reunir Certus y Fluix",
+    "group": "Guías de mods"
+  },
+  "guide:ae2:1": {
+    "title": "Applied Energistics 2 · Recuperar las prensas",
+    "group": "Guías de mods"
+  },
+  "guide:ae2:2": {
+    "title": "Applied Energistics 2 · Automatizar procesadores",
+    "group": "Guías de mods"
+  },
+  "guide:ae2:3": {
+    "title": "Applied Energistics 2 · Abrir tu primer almacén ME",
+    "group": "Guías de mods"
+  },
+  "guide:ae2:4": {
+    "title": "Applied Energistics 2 · Solicitar crafteos",
+    "group": "Guías de mods"
+  },
+  "guide:ae2:5": {
+    "title": "Applied Energistics 2 · Pedir piezas a Create",
+    "group": "Guías de mods"
+  },
+  "guide:ae2:6": {
+    "title": "Applied Energistics 2 · Integrar química de Mekanism",
+    "group": "Guías de mods"
+  },
+  "guide:mekanism:0": {
+    "title": "Mekanism · Poner en marcha Metallurgic Infuser",
+    "group": "Guías de mods"
+  },
+  "guide:mekanism:1": {
+    "title": "Mekanism · Producir acero, circuitos y aleaciones",
+    "group": "Guías de mods"
+  },
+  "guide:mekanism:2": {
+    "title": "Mekanism · Mejorar fábricas y tuberías",
+    "group": "Guías de mods"
+  },
+  "guide:mekanism:3": {
+    "title": "Mekanism · Montar la cadena de HDPE",
+    "group": "Guías de mods"
+  },
+  "guide:mekanism:4": {
+    "title": "Mekanism · Construir Digital Miner al llegar a Vibranium",
+    "group": "Guías de mods"
+  },
+  "guide:mekanism:5": {
+    "title": "Mekanism · Preparar combustible de fisión",
+    "group": "Guías de mods"
+  },
+  "guide:powah:0": {
+    "title": "Powah! (Rearchitected) · Instalar generación inicial",
+    "group": "Guías de mods"
+  },
+  "guide:powah:1": {
+    "title": "Powah! (Rearchitected) · Añadir cableado y batería",
+    "group": "Guías de mods"
+  },
+  "guide:powah:2": {
+    "title": "Powah! (Rearchitected) · Preparar Energizing Orb y rods",
+    "group": "Guías de mods"
+  },
+  "guide:powah:3": {
+    "title": "Powah! (Rearchitected) · Subir de tier según demanda",
+    "group": "Guías de mods"
+  },
+  "guide:powah:4": {
+    "title": "Powah! (Rearchitected) · Construir un reactor Powah",
+    "group": "Guías de mods"
+  },
+  "guide:powah:5": {
+    "title": "Powah! (Rearchitected) · Reservar Nitro para aleaciones ATM",
+    "group": "Guías de mods"
+  },
+  "guide:ars_nouveau:0": {
+    "title": "Ars Nouveau · De amatista a Source Gem · Coloca la cámara",
+    "group": "Guías de mods"
+  },
+  "guide:ars_nouveau:1": {
+    "title": "Ars Nouveau · De amatista a Source Gem · Introduce amatista",
+    "group": "Guías de mods"
+  },
+  "guide:ars_nouveau:2": {
+    "title": "Ars Nouveau · De amatista a Source Gem · Aporta Source",
+    "group": "Guías de mods"
+  },
+  "guide:ars_nouveau:3": {
+    "title": "Ars Nouveau · De amatista a Source Gem · Recoge la gema",
+    "group": "Guías de mods"
+  },
+  "guide:ars_nouveau:4": {
+    "title": "Ars Nouveau · Enchanting Apparatus y pedestales · Monta el núcleo",
+    "group": "Guías de mods"
+  },
+  "guide:ars_nouveau:5": {
+    "title": "Ars Nouveau · Enchanting Apparatus y pedestales · Distribuye pedestales",
+    "group": "Guías de mods"
+  },
+  "guide:ars_nouveau:6": {
+    "title": "Ars Nouveau · Enchanting Apparatus y pedestales · Prepara Source",
+    "group": "Guías de mods"
+  },
+  "guide:ars_nouveau:7": {
+    "title": "Ars Nouveau · Enchanting Apparatus y pedestales · Activa con el centro",
+    "group": "Guías de mods"
+  },
+  "guide:mysticalagriculture:0": {
+    "title": "Mystical Agriculture · Conseguir Inferium y Prosperity",
+    "group": "Guías de mods"
+  },
+  "guide:mysticalagriculture:1": {
+    "title": "Mystical Agriculture · Construir Infusion Altar",
+    "group": "Guías de mods"
+  },
+  "guide:mysticalagriculture:2": {
+    "title": "Mystical Agriculture · Elegir cultivos por tus cuellos de botella",
+    "group": "Guías de mods"
+  },
+  "guide:mysticalagriculture:3": {
+    "title": "Mystical Agriculture · Cerrar cosecha y almacenamiento",
+    "group": "Guías de mods"
+  },
+  "guide:mysticalagriculture:4": {
+    "title": "Mystical Agriculture · Subir esencias y cristal",
+    "group": "Guías de mods"
+  },
+  "guide:mysticalagriculture:5": {
+    "title": "Mystical Agriculture · Preparar crux y suelo especial",
+    "group": "Guías de mods"
+  },
+  "guide:mysticalagriculture:6": {
+    "title": "Mystical Agriculture · Preparar Creative Essence",
+    "group": "Guías de mods"
+  },
+  "guide:productivebees:0": {
+    "title": "Productive Bees · Conseguir miel, panales y Bee Cages",
+    "group": "Guías de mods"
+  },
+  "guide:productivebees:1": {
+    "title": "Productive Bees · Montar Advanced Beehive",
+    "group": "Guías de mods"
+  },
+  "guide:productivebees:2": {
+    "title": "Productive Bees · Colocar la flor o bloque correcto",
+    "group": "Guías de mods"
+  },
+  "guide:productivebees:3": {
+    "title": "Productive Bees · Procesar panales",
+    "group": "Guías de mods"
+  },
+  "guide:productivebees:4": {
+    "title": "Productive Bees · Instalar Simulation Upgrade",
+    "group": "Guías de mods"
+  },
+  "guide:productivebees:5": {
+    "title": "Productive Bees · Criar especies para el endgame",
+    "group": "Guías de mods"
+  },
+  "guide:actuallyadditions:0": {
+    "title": "Actually Additions · Generar FE",
+    "group": "Guías de mods"
+  },
+  "guide:actuallyadditions:1": {
+    "title": "Actually Additions · Transformar con el láser",
+    "group": "Guías de mods"
+  },
+  "guide:actuallyadditions:2": {
+    "title": "Actually Additions · Preparar cristales",
+    "group": "Guías de mods"
+  },
+  "guide:actuallyadditions:3": {
+    "title": "Actually Additions · Escalar con Empowerer",
+    "group": "Guías de mods"
+  },
+  "guide:actuallyadditions:4": {
+    "title": "Actually Additions · Elegir una utilidad",
+    "group": "Guías de mods"
+  },
+  "guide:ad_astra:0": {
+    "title": "Ad Astra · Establecer una base espacial",
+    "group": "Guías de mods"
+  },
+  "guide:ad_astra:1": {
+    "title": "Ad Astra · Preparar supervivencia",
+    "group": "Guías de mods"
+  },
+  "guide:ad_astra:2": {
+    "title": "Ad Astra · Montar el primer viaje",
+    "group": "Guías de mods"
+  },
+  "guide:ad_astra:3": {
+    "title": "Ad Astra · Explorar y regresar",
+    "group": "Guías de mods"
+  },
+  "guide:ad_astra:4": {
+    "title": "Ad Astra · Escalar la infraestructura",
+    "group": "Guías de mods"
+  },
+  "guide:allthemodium:0": {
+    "title": "Allthemodium · Minar Allthemodium",
+    "group": "Guías de mods"
+  },
+  "guide:allthemodium:1": {
+    "title": "Allthemodium · Fabricar Teleport Pads",
+    "group": "Guías de mods"
+  },
+  "guide:allthemodium:2": {
+    "title": "Allthemodium · Mejorar tu pico",
+    "group": "Guías de mods"
+  },
+  "guide:allthemodium:3": {
+    "title": "Allthemodium · Conseguir Vibranium",
+    "group": "Guías de mods"
+  },
+  "guide:allthemodium:4": {
+    "title": "Allthemodium · Conseguir Unobtainium",
+    "group": "Guías de mods"
+  },
+  "guide:allthemodium:5": {
+    "title": "Allthemodium · Obtener Piglich Hearts y Soul Lava",
+    "group": "Guías de mods"
+  },
+  "guide:allthemodium:6": {
+    "title": "Allthemodium · Abrir las tres rutas de aleaciones",
+    "group": "Guías de mods"
+  },
+  "guide:apotheosis:0": {
+    "title": "Apotheosis · Leer el módulo correcto",
+    "group": "Guías de mods"
+  },
+  "guide:apotheosis:1": {
+    "title": "Apotheosis · Clasificar el botín",
+    "group": "Guías de mods"
+  },
+  "guide:apotheosis:2": {
+    "title": "Apotheosis · Preparar gemas",
+    "group": "Guías de mods"
+  },
+  "guide:apotheosis:3": {
+    "title": "Apotheosis · Mejorar con un objetivo",
+    "group": "Guías de mods"
+  },
+  "guide:ars_technica:0": {
+    "title": "Ars Technica · Prepara Source",
+    "group": "Guías de mods"
+  },
+  "guide:ars_technica:1": {
+    "title": "Ars Technica · Conecta un eje",
+    "group": "Guías de mods"
+  },
+  "guide:ars_technica:2": {
+    "title": "Ars Technica · Ajusta la velocidad",
+    "group": "Guías de mods"
+  },
+  "guide:ars_technica:3": {
+    "title": "Ars Technica · Ajusta capacidad y consumo",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:0": {
+    "title": "Create Crafts & Additions · Motor eléctrico: FE a rotación · Monta la salida",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:1": {
+    "title": "Create Crafts & Additions · Motor eléctrico: FE a rotación · Aporta electricidad",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:2": {
+    "title": "Create Crafts & Additions · Motor eléctrico: FE a rotación · Ajusta las RPM",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:3": {
+    "title": "Create Crafts & Additions · Motor eléctrico: FE a rotación · Comprueba bajo carga",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:4": {
+    "title": "Create Crafts & Additions · Alternador: rotación a FE · Conecta la entrada",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:5": {
+    "title": "Create Crafts & Additions · Alternador: rotación a FE · Alcanza su mínimo",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:6": {
+    "title": "Create Crafts & Additions · Alternador: rotación a FE · Conecta un receptor",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:7": {
+    "title": "Create Crafts & Additions · Alternador: rotación a FE · Verifica el balance",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:8": {
+    "title": "Create Crafts & Additions · Rolling Mill: placas a cables · Alimenta la máquina",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:9": {
+    "title": "Create Crafts & Additions · Rolling Mill: placas a cables · Introduce una placa",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:10": {
+    "title": "Create Crafts & Additions · Rolling Mill: placas a cables · Recoge el alambre",
+    "group": "Guías de mods"
+  },
+  "guide:createaddition:11": {
+    "title": "Create Crafts & Additions · Rolling Mill: placas a cables · Añade logística",
+    "group": "Guías de mods"
+  },
+  "guide:create_aquatic_ambitions:0": {
+    "title": "Create: Aquatic Ambitions · Coloca la jaula",
+    "group": "Guías de mods"
+  },
+  "guide:create_aquatic_ambitions:1": {
+    "title": "Create: Aquatic Ambitions · Actívala con agua",
+    "group": "Guías de mods"
+  },
+  "guide:create_aquatic_ambitions:2": {
+    "title": "Create: Aquatic Ambitions · Dirige el aire",
+    "group": "Guías de mods"
+  },
+  "guide:create_aquatic_ambitions:3": {
+    "title": "Create: Aquatic Ambitions · Prueba una receta",
+    "group": "Guías de mods"
+  },
+  "guide:create_enchantment_industry:0": {
+    "title": "Create: Enchantment Industry · Convierte el drenaje",
+    "group": "Guías de mods"
+  },
+  "guide:create_enchantment_industry:1": {
+    "title": "Create: Enchantment Industry · Completa el conjunto",
+    "group": "Guías de mods"
+  },
+  "guide:create_enchantment_industry:2": {
+    "title": "Create: Enchantment Industry · Conecta y alimenta",
+    "group": "Guías de mods"
+  },
+  "guide:create_enchantment_industry:3": {
+    "title": "Create: Enchantment Industry · Recupera la experiencia",
+    "group": "Guías de mods"
+  },
+  "guide:dysoncubeproject:0": {
+    "title": "Dyson Cube Project · Preparar lanzamientos",
+    "group": "Guías de mods"
+  },
+  "guide:dysoncubeproject:1": {
+    "title": "Dyson Cube Project · Elegir condiciones de operación",
+    "group": "Guías de mods"
+  },
+  "guide:dysoncubeproject:2": {
+    "title": "Dyson Cube Project · Aumentar envío",
+    "group": "Guías de mods"
+  },
+  "guide:dysoncubeproject:3": {
+    "title": "Dyson Cube Project · Recibir energía",
+    "group": "Guías de mods"
+  },
+  "guide:evilcraft:0": {
+    "title": "EvilCraft · Conseguir Dark Gem",
+    "group": "Guías de mods"
+  },
+  "guide:evilcraft:1": {
+    "title": "EvilCraft · Obtener el manual",
+    "group": "Guías de mods"
+  },
+  "guide:evilcraft:2": {
+    "title": "EvilCraft · Recolectar sangre",
+    "group": "Guías de mods"
+  },
+  "guide:evilcraft:3": {
+    "title": "EvilCraft · Alimentar la infusión",
+    "group": "Guías de mods"
+  },
+  "guide:evilcraft:4": {
+    "title": "EvilCraft · Automatizar un objetivo",
+    "group": "Guías de mods"
+  },
+  "guide:forbidden_arcanus:0": {
+    "title": "Forbidden and Arcanus · Guardar materiales clave",
+    "group": "Guías de mods"
+  },
+  "guide:forbidden_arcanus:1": {
+    "title": "Forbidden and Arcanus · Preparar la forja",
+    "group": "Guías de mods"
+  },
+  "guide:forbidden_arcanus:2": {
+    "title": "Forbidden and Arcanus · Abastecer esencias",
+    "group": "Guías de mods"
+  },
+  "guide:forbidden_arcanus:3": {
+    "title": "Forbidden and Arcanus · Ampliar por necesidad",
+    "group": "Guías de mods"
+  },
+  "guide:hostilenetworks:0": {
+    "title": "Hostile Neural Networks · Crear Model Framework y Deep Learner",
+    "group": "Guías de mods"
+  },
+  "guide:hostilenetworks:1": {
+    "title": "Hostile Neural Networks · Entrenar el modelo hasta Basic",
+    "group": "Guías de mods"
+  },
+  "guide:hostilenetworks:2": {
+    "title": "Hostile Neural Networks · Alimentar Simulation Chamber",
+    "group": "Guías de mods"
+  },
+  "guide:hostilenetworks:3": {
+    "title": "Hostile Neural Networks · Separar Training de Inference",
+    "group": "Guías de mods"
+  },
+  "guide:hostilenetworks:4": {
+    "title": "Hostile Neural Networks · Elegir un drop en Loot Fabricator",
+    "group": "Guías de mods"
+  },
+  "guide:hostilenetworks:5": {
+    "title": "Hostile Neural Networks · Preparar modelos de Wither y Ender Dragon",
+    "group": "Guías de mods"
+  },
+  "guide:industrialforegoing:0": {
+    "title": "Industrial Foregoing · Producir plástico",
+    "group": "Guías de mods"
+  },
+  "guide:industrialforegoing:1": {
+    "title": "Industrial Foregoing · Construir Dissolution Chamber",
+    "group": "Guías de mods"
+  },
+  "guide:industrialforegoing:2": {
+    "title": "Industrial Foregoing · Crear Pink Slime",
+    "group": "Guías de mods"
+  },
+  "guide:industrialforegoing:3": {
+    "title": "Industrial Foregoing · Producir aleación Unobtainium–Vibranium",
+    "group": "Guías de mods"
+  },
+  "guide:industrialforegoing:4": {
+    "title": "Industrial Foregoing · Preparar componentes de la Star",
+    "group": "Guías de mods"
+  },
+  "guide:integrateddynamics:0": {
+    "title": "Integrated Dynamics · Recolectar Menril",
+    "group": "Guías de mods"
+  },
+  "guide:integrateddynamics:1": {
+    "title": "Integrated Dynamics · Crear la red",
+    "group": "Guías de mods"
+  },
+  "guide:integrateddynamics:2": {
+    "title": "Integrated Dynamics · Capturar una variable",
+    "group": "Guías de mods"
+  },
+  "guide:integrateddynamics:3": {
+    "title": "Integrated Dynamics · Construir una condición",
+    "group": "Guías de mods"
+  },
+  "guide:integrateddynamics:4": {
+    "title": "Integrated Dynamics · Accionar y comprobar",
+    "group": "Guías de mods"
+  },
+  "guide:integratedtunnels:0": {
+    "title": "Integrated Tunnels · Conectar origen y destino",
+    "group": "Guías de mods"
+  },
+  "guide:integratedtunnels:1": {
+    "title": "Integrated Tunnels · Definir qué mover",
+    "group": "Guías de mods"
+  },
+  "guide:integratedtunnels:2": {
+    "title": "Integrated Tunnels · Dar acceso a la red",
+    "group": "Guías de mods"
+  },
+  "guide:integratedtunnels:3": {
+    "title": "Integrated Tunnels · Ajustar velocidad y límites",
+    "group": "Guías de mods"
+  },
+  "guide:integratedtunnels:4": {
+    "title": "Integrated Tunnels · Añadir fluidos y energía",
+    "group": "Guías de mods"
+  },
+  "guide:mekanismgenerators:0": {
+    "title": "Mekanism Generators · Comenzar con una fuente simple",
+    "group": "Guías de mods"
+  },
+  "guide:mekanismgenerators:1": {
+    "title": "Mekanism Generators · Medir el balance",
+    "group": "Guías de mods"
+  },
+  "guide:mekanismgenerators:2": {
+    "title": "Mekanism Generators · Preparar biocombustible o gas",
+    "group": "Guías de mods"
+  },
+  "guide:mekanismgenerators:3": {
+    "title": "Mekanism Generators · Separar la etapa nuclear",
+    "group": "Guías de mods"
+  },
+  "guide:modern_industrialization:0": {
+    "title": "Modern Industrialization · Preparar materiales",
+    "group": "Guías de mods"
+  },
+  "guide:modern_industrialization:1": {
+    "title": "Modern Industrialization · Establecer vapor",
+    "group": "Guías de mods"
+  },
+  "guide:modern_industrialization:2": {
+    "title": "Modern Industrialization · Automatizar piezas",
+    "group": "Guías de mods"
+  },
+  "guide:modern_industrialization:3": {
+    "title": "Modern Industrialization · Obtener acero",
+    "group": "Guías de mods"
+  },
+  "guide:modern_industrialization:4": {
+    "title": "Modern Industrialization · Pasar a electricidad",
+    "group": "Guías de mods"
+  },
+  "guide:occultism:0": {
+    "title": "Occultism · Conseguir el diccionario",
+    "group": "Guías de mods"
+  },
+  "guide:occultism:1": {
+    "title": "Occultism · Preparar materiales del Otro Lado",
+    "group": "Guías de mods"
+  },
+  "guide:occultism:2": {
+    "title": "Occultism · Dibujar el pentáculo",
+    "group": "Guías de mods"
+  },
+  "guide:occultism:3": {
+    "title": "Occultism · Invocar un ayudante",
+    "group": "Guías de mods"
+  },
+  "guide:occultism:4": {
+    "title": "Occultism · Elegir almacenamiento o minería",
+    "group": "Guías de mods"
+  },
+  "guide:pneumaticcraft:0": {
+    "title": "PneumaticCraft: Repressurized · Preparar hierro comprimido",
+    "group": "Guías de mods"
+  },
+  "guide:pneumaticcraft:1": {
+    "title": "PneumaticCraft: Repressurized · Crear y medir presión",
+    "group": "Guías de mods"
+  },
+  "guide:pneumaticcraft:2": {
+    "title": "PneumaticCraft: Repressurized · Montar la cámara",
+    "group": "Guías de mods"
+  },
+  "guide:pneumaticcraft:3": {
+    "title": "PneumaticCraft: Repressurized · Preparar petróleo y circuitos",
+    "group": "Guías de mods"
+  },
+  "guide:pneumaticcraft:4": {
+    "title": "PneumaticCraft: Repressurized · Cargar herramientas",
+    "group": "Guías de mods"
+  },
+  "guide:accelerateddecay:0": {
+    "title": "Accelerated Decay · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:ad_astra_giselle_addon:0": {
+    "title": "Ad Astra: Giselle Addon · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:quarryplus:0": {
+    "title": "Additional Enchanted Miner · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:additional_lights:0": {
+    "title": "Additional Lights · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:advancedperipherals:0": {
+    "title": "Advanced Peripherals · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:advanced_ae:0": {
+    "title": "AdvancedAE · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ae2importexportcard:0": {
+    "title": "AE2 Import Export Card · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ae2jeiintegration:0": {
+    "title": "AE2 JEI Integration · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ae2netanalyser:0": {
+    "title": "AE2 Network Analyser · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ae2ct:0": {
+    "title": "AE2: Crafting Tree · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:aeinfinitybooster:0": {
+    "title": "AEInfinityBooster · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:aiimprovements:0": {
+    "title": "AI Improvements: Performance Tuning · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:akashictome:0": {
+    "title": "Akashic Tome · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:allthearcanistgear:0": {
+    "title": "All The Arcanist Gear · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:allthetweaks:0": {
+    "title": "All The Tweaks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:allthewizardgear:0": {
+    "title": "All the Wizard Gear · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:allthecompressed:0": {
+    "title": "AllTheCompressed · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:alltheleaks:0": {
+    "title": "AllTheLeaks (Memory Leak Fix) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:almostunified:0": {
+    "title": "Almost Unified · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:amendments:0": {
+    "title": "Amendments · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:apothic_attributes:0": {
+    "title": "Apothic Attributes · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:apothic_enchanting:0": {
+    "title": "Apothic Enchanting · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:apothic_spawners:0": {
+    "title": "Apothic Spawners · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:appleskin:0": {
+    "title": "AppleSkin · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ae2wtlib:0": {
+    "title": "Applied Energistics 2 Wireless Terminals · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:appflux:0": {
+    "title": "Applied Flux · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:appmek:0": {
+    "title": "Applied Mekanistics · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:aquaculture:0": {
+    "title": "Aquaculture 2 · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:architectury:0": {
+    "title": "Architectury API · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:ars_additions:0": {
+    "title": "Ars Additions · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ars_controle:0": {
+    "title": "Ars Controle · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ars_creo:0": {
+    "title": "Ars Creo · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ars_elemancy:0": {
+    "title": "Ars Elemancy · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ars_elemental:0": {
+    "title": "Ars Elemental · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ars_ocultas:0": {
+    "title": "Ars Ocultas · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ars_polymorphia:0": {
+    "title": "Ars Polymorphia · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ars_unification:0": {
+    "title": "Ars Unification · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:arseng:0": {
+    "title": "Ars Énergistique · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:artifacts:0": {
+    "title": "Artifacts · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:athena:0": {
+    "title": "Athena · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:atlas_api:0": {
+    "title": "Atlas API · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:alltheores:0": {
+    "title": "ATO - All the Ores · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:attributefix:0": {
+    "title": "AttributeFix · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:auroral:0": {
+    "title": "Auroral · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:auroras:0": {
+    "title": "Auroras · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:bwncr:0": {
+    "title": "Bad Wither No Cookie - Reloaded · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:balm:0": {
+    "title": "Balm · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:bhc:0": {
+    "title": "Baubley Heart Canisters · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:betteradvancedtooltips:0": {
+    "title": "Better Advanced Tooltips · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:betteradvancements:0": {
+    "title": "Better Advancements · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:bcc:0": {
+    "title": "Better Compatibility Checker · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:bibliobiomes:0": {
+    "title": "Bibliobiomes Legacy · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:bibliocraft:0": {
+    "title": "Bibliocraft Legacy · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:bibliowoods:0": {
+    "title": "Bibliowoods Legacy · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:blockui:0": {
+    "title": "BlockUI · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:blueflame:0": {
+    "title": "Blue Flame Burning · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:bookshelf:0": {
+    "title": "Bookshelf · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:borderlesswindow:0": {
+    "title": "Borderless Window · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:botanypots:0": {
+    "title": "Botany Pots · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:botanypotsmystical:0": {
+    "title": "Botany Pots - Mystical Agriculture Compat · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:botanytrees:0": {
+    "title": "Botany Trees · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:brandonscore:0": {
+    "title": "Brandon's Core · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:bridgingmod:0": {
+    "title": "Bridging Mod · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cf-322506:0": {
+    "title": "BSL Shaders · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:buildinggadgets2:0": {
+    "title": "Building Gadgets · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:byzantine:0": {
+    "title": "Byzantine Styles Pack for Minecolonies · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cabletiers:0": {
+    "title": "Cable Tiers · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:caelus:0": {
+    "title": "Caelus API · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:camol:0": {
+    "title": "Camol · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:catjammies:0": {
+    "title": "Cat Jammies · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:computercraft:0": {
+    "title": "CC: Tweaked · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:charginggadgets:0": {
+    "title": "Charging Gadgets · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:chipped:0": {
+    "title": "Chipped · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:chisel:0": {
+    "title": "Chisel Reborn [Forge/Fabric/NeoForge] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ctov:0": {
+    "title": "ChoiceTheorem's Overhauled Village · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:chromacarvings:0": {
+    "title": "Chroma Carvings · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cleanswing:0": {
+    "title": "Clean Swing Through Grass · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:cloth_config:0": {
+    "title": "Cloth Config API (Fabric/Forge/NeoForge) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:cloudglass:0": {
+    "title": "Cloud Glass · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:clumps:0": {
+    "title": "Clumps · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:cobblegengalore:0": {
+    "title": "Cobblegen Galore · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cobweb:0": {
+    "title": "Cobweb · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:codechickenlib:0": {
+    "title": "CodeChicken Lib 1.8.+ · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:colorfulhearts:0": {
+    "title": "Colorful Hearts · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:colorwheel:0": {
+    "title": "Colorwheel · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:colorwheel_patcher:0": {
+    "title": "Colorwheel Patcher · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:comforts:0": {
+    "title": "Comforts · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:commoncapabilities:0": {
+    "title": "Common Capabilities · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:common_storage_lib:0": {
+    "title": "Common Storage Lib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:compactmachines:0": {
+    "title": "Compact Machines · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cf-627557:0": {
+    "title": "Complementary Shaders - Reimagined · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:cf-385587:0": {
+    "title": "Complementary Shaders - Unbound · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:connectedglass:0": {
+    "title": "Connected Glass · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ctm:0": {
+    "title": "ConnectedTexturesMod · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:connectivity:0": {
+    "title": "Connectivity · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:constructionstick:0": {
+    "title": "Construction Sticks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:controlling:0": {
+    "title": "Controlling · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cookingforblockheads:0": {
+    "title": "Cooking for Blockheads · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:tombstone:0": {
+    "title": "Corail Tombstone · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:corgilib:0": {
+    "title": "CorgiLib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:cosmeticarmorreworked:0": {
+    "title": "Cosmetic Armor Reworked · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:crafting_on_a_stick:0": {
+    "title": "Crafting on a stick · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:craftingtweaks:0": {
+    "title": "Crafting Tweaks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:crash_assistant:0": {
+    "title": "Crash Assistant · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:crashutilities:0": {
+    "title": "Crash Utilities · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:bellsandwhistles:0": {
+    "title": "Create: Bells & Whistles · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:create_dragons_plus:0": {
+    "title": "Create: Dragons Plus · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:create_hypertube:0": {
+    "title": "Create: Hypertubes · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:creeperoverhaul:0": {
+    "title": "Creeper Overhaul · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:stevescarts:0": {
+    "title": "CreeperHost Presents Steve's Carts · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cristellib:0": {
+    "title": "Cristel Lib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:cryonicconfig:0": {
+    "title": "Cryonic Config · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:crystalix:0": {
+    "title": "Crystalix · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cucumber:0": {
+    "title": "Cucumber Library · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:cupboard:0": {
+    "title": "Cupboard · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:curios:0": {
+    "title": "Curios API · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cyclopscore:0": {
+    "title": "Cyclops Core · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:darkmodeeverywhere:0": {
+    "title": "Dark Mode Everywhere · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:deeperdarker:0": {
+    "title": "Deeper and Darker · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:deimos:0": {
+    "title": "Deimos Lib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:dimstorage:0": {
+    "title": "DimStorage · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:disenchanting_table:0": {
+    "title": "Dis-Enchanting Table · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:domum_ornamentum:0": {
+    "title": "Domum Ornamentum · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:draconicevolution:0": {
+    "title": "Draconic Evolution · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:drippyloadingscreen:0": {
+    "title": "Drippy Loading Screen · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:dungeoncrawl:0": {
+    "title": "Dungeon Crawl · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:dyenamics:0": {
+    "title": "Dyenamics · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:dyenamicsandfriends:0": {
+    "title": "Dyenamics and Friends · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:easy_villagers:0": {
+    "title": "Easy Villagers · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:edivadlib:0": {
+    "title": "EdivadLib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:enchdesc:0": {
+    "title": "Enchantment Descriptions · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:enderio:0": {
+    "title": "Ender IO · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:enderstorage:0": {
+    "title": "Ender Storage 1.8.+ · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:enderdrives:0": {
+    "title": "EnderDrives · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:endermanoverhaul:0": {
+    "title": "Enderman Overhaul · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:energymeter:0": {
+    "title": "Energy Meter · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:entangled:0": {
+    "title": "Entangled · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:eternal_starlight:0": {
+    "title": "Eternal Starlight · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:euphoria_patcher:0": {
+    "title": "Euphoria Patches · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:everythingcopper:0": {
+    "title": "Everything is Copper · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:expandedae:0": {
+    "title": "Expanded AE · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:experiencelib:0": {
+    "title": "ExperienceLib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:explorerscompass:0": {
+    "title": "Explorer's Compass · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:explorify:0": {
+    "title": "Explorify – Dungeons & Structures · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:extended_industrialization:0": {
+    "title": "Extended Industrialization · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:extendedae:0": {
+    "title": "ExtendedAE · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:extradisks:0": {
+    "title": "Extra Disks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:extrastorage:0": {
+    "title": "ExtraStorage · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:bigreactors:0": {
+    "title": "Extreme Reactors · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:extremesoundmuffler:0": {
+    "title": "Extreme sound muffler - (Neo)Forge · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:factory_blocks:0": {
+    "title": "Factory Blocks [Forge/Fabric/NeoForge] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:fancymenu:0": {
+    "title": "FancyMenu · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:farmersdelight:0": {
+    "title": "Farmer's Delight · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:farmingforblockheads:0": {
+    "title": "Farming for Blockheads · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:fastfurnace:0": {
+    "title": "FastFurnace · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:fastsuite:0": {
+    "title": "FastSuite · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:fastbench:0": {
+    "title": "FastWorkbench · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:ferritecore:0": {
+    "title": "FerriteCore ((Neo)Forge) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:fireproofboats:0": {
+    "title": "Fireproof Boats · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:flickerfix:0": {
+    "title": "FlickerFix · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:fluxnetworks:0": {
+    "title": "Flux Networks · Preparar una red",
+    "group": "Guías de mods"
+  },
+  "guide:fluxnetworks:1": {
+    "title": "Flux Networks · Introducir energía",
+    "group": "Guías de mods"
+  },
+  "guide:fluxnetworks:2": {
+    "title": "Flux Networks · Entregar energía",
+    "group": "Guías de mods"
+  },
+  "guide:fluxnetworks:3": {
+    "title": "Flux Networks · Verificar consumo",
+    "group": "Guías de mods"
+  },
+  "guide:fluxnetworks:4": {
+    "title": "Flux Networks · Administrar crecimiento",
+    "group": "Guías de mods"
+  },
+  "guide:formations:0": {
+    "title": "Formations (Structure Library) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:formationsnether:0": {
+    "title": "Formations Nether · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:formationsoverworld:0": {
+    "title": "Formations Overworld · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:framedblocks:0": {
+    "title": "FramedBlocks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:framework:0": {
+    "title": "Framework · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:ftbchunks:0": {
+    "title": "FTB Chunks (NeoForge) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ftbessentials:0": {
+    "title": "FTB Essentials (Forge & Fabric) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ftbfiltersystem:0": {
+    "title": "FTB Filter System · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:ftbjeiextras:0": {
+    "title": "FTB JEI Extras · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ftblibrary:0": {
+    "title": "FTB Library (NeoForge) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:ftbranks:0": {
+    "title": "FTB Ranks (NeoForge) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:ftbteams:0": {
+    "title": "FTB Teams (NeoForge) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ftbultimine:0": {
+    "title": "FTB Ultimine (NeoForge) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ftbxmodcompat:0": {
+    "title": "FTB XMod Compat · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:fuelgoeshere:0": {
+    "title": "Fuel Goes Here · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:fusion:0": {
+    "title": "Fusion (Connected Textures) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:fzzy_config:0": {
+    "title": "Fzzy Config · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:gateways:0": {
+    "title": "Gateways to Eternity · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:geckolib:0": {
+    "title": "GeckoLib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:generatorgalore:0": {
+    "title": "Generator Galore · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:getittogetherdrops:0": {
+    "title": "Get It Together, Drops! · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:glassential:0": {
+    "title": "Glassential Renewed · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:glodium:0": {
+    "title": "Glodium · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:gmut:0": {
+    "title": "Gravitational Modulating Additional Unit · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:guideme:0": {
+    "title": "GuideME · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:handcrafted:0": {
+    "title": "Handcrafted · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:hardenedarmadillos:0": {
+    "title": "Hardened Armadillos · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:heyberryshutup:0": {
+    "title": "Hey Berry! SHUT UP · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:imfast:0": {
+    "title": "I'm Fast · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:iceandfire:0": {
+    "title": "IceAndFire Community Edition · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:iceberg:0": {
+    "title": "Iceberg [Neo/Forge] · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:illagerwarship:0": {
+    "title": "Illager Warship · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:immediatelyfast:0": {
+    "title": "ImmediatelyFast · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:immeng:0": {
+    "title": "Immersive Energistics · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:immersiveengineering:0": {
+    "title": "Immersive Engineering · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:incontrol:0": {
+    "title": "In Control! · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:industrialforegoingsouls:0": {
+    "title": "Industrial Foregoing Souls · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:industrialization_overdrive:0": {
+    "title": "Industrialization Overdrive · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:integratedcrafting:0": {
+    "title": "Integrated Crafting · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:integratedscripting:0": {
+    "title": "Integrated Scripting · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:integratedterminals:0": {
+    "title": "Integrated Terminals · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:interdimensionalwirelesstransmitter:0": {
+    "title": "Interdimensional Wireless Transmitter · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:invasiveopts:0": {
+    "title": "Invasive Optimizations · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:invtweaks:0": {
+    "title": "Inventory Tweaks - ReFoxed · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:iris_search:0": {
+    "title": "Iris & Oculus Search · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:iris:0": {
+    "title": "Iris Shaders · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:ironfurnaces:0": {
+    "title": "Iron Furnaces · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ironjetpacks:0": {
+    "title": "Iron Jetpacks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:irons_jewelry:0": {
+    "title": "Iron's Gems 'n Jewelry · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:irons_lib:0": {
+    "title": "Iron's Lib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:irons_spellbooks:0": {
+    "title": "Iron's Spells 'n Spellbooks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:itemcollectors:0": {
+    "title": "Item Collectors · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:trophymanager:0": {
+    "title": "Jonn's Trophies · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:journeymap:0": {
+    "title": "JourneyMap · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:jumpboat:0": {
+    "title": "Jumpy Boats · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:jupiter:0": {
+    "title": "Jupiter · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:justdirethings:0": {
+    "title": "Just Dire Things · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:jearchaeology:0": {
+    "title": "Just Enough Archaeology · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:justenoughbreeding:0": {
+    "title": "Just Enough Breeding (JEBr) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:jei_mekanism_multiblocks:0": {
+    "title": "Just Enough Mekanism Multiblocks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:justenoughprofessions:0": {
+    "title": "Just Enough Professions (JEP) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:justzoom:0": {
+    "title": "Just Zoom · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:keybindbundles:0": {
+    "title": "KeyBind Bundles · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:keybindspurger:0": {
+    "title": "KeybindsPurger · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:konkrete:0": {
+    "title": "Konkrete · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:cf-351264:0": {
+    "title": "Kotlin for Forge · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:kubejs:0": {
+    "title": "KubeJS · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:kubejstweaks:0": {
+    "title": "KubeJS Tweaks · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:cataclysm:0": {
+    "title": "L_Ender 's Cataclysm · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:laserbridges:0": {
+    "title": "Laser Bridges & Doors [Fabric/Forge/NeoForge] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:laserio:0": {
+    "title": "LaserIO · Abrir el manual",
+    "group": "Guías de mods"
+  },
+  "guide:laserio:1": {
+    "title": "LaserIO · Enlazar dos nodos",
+    "group": "Guías de mods"
+  },
+  "guide:laserio:2": {
+    "title": "LaserIO · Configurar las caras",
+    "group": "Guías de mods"
+  },
+  "guide:laserio:3": {
+    "title": "LaserIO · Probar con objetos",
+    "group": "Guías de mods"
+  },
+  "guide:laserio:4": {
+    "title": "LaserIO · Combinar servicios",
+    "group": "Guías de mods"
+  },
+  "guide:lionfishapi:0": {
+    "title": "Lionfish API · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:lithostitched:0": {
+    "title": "Lithostitched · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:little_big_redstone:0": {
+    "title": "Little Big Redstone · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:livingthings:0": {
+    "title": "LivingThings · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:lmft:0": {
+    "title": "Load My F***ing Tags · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:logisticsnetworks:0": {
+    "title": "Logistics Network · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:lootr:0": {
+    "title": "Lootr (Forge & NeoForge) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:luminax:0": {
+    "title": "Luminax · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwbridges:0": {
+    "title": "Macaw's Bridges · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwdoors:0": {
+    "title": "Macaw's Doors · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwfences:0": {
+    "title": "Macaw's Fences and Walls · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwfurnitures:0": {
+    "title": "Macaw's Furniture · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwholidays:0": {
+    "title": "Macaw's Holidays · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwlights:0": {
+    "title": "Macaw's Lights and Lamps · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwpaths:0": {
+    "title": "Macaw's Paths and Pavings · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwroofs:0": {
+    "title": "Macaw's Roofs · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwstairs:0": {
+    "title": "Macaw's Stairs · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwtrpdoors:0": {
+    "title": "Macaw's Trapdoors · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcwwindows:0": {
+    "title": "Macaw's Windows · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cf-431203:0": {
+    "title": "MakeUp - Ultra Fast | Shaders · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:herbsandharvest:0": {
+    "title": "Mama's Herbs and Harvest · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:merrymaking:0": {
+    "title": "Mama's Merrymaking - A Minecraft Christmas and Winter Holiday Mod · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mcjtylib:0": {
+    "title": "McJtyLib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:merequester:0": {
+    "title": "ME Requester · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:measurements:0": {
+    "title": "Measurements · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:megacells:0": {
+    "title": "MEGA Cells · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mekanismcovers:0": {
+    "title": "Mekanism Covers · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mekanismtools:0": {
+    "title": "Mekanism Tools · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mekmm:0": {
+    "title": "Mekanism:More Machine · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mekanisticrouters:0": {
+    "title": "Mekanistic Routers · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:melody:0": {
+    "title": "Melody · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:memorysettings:0": {
+    "title": "Memory Settings · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:mes:0": {
+    "title": "MES - Moog's End Structures · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:minecolonies:0": {
+    "title": "MineColonies · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mininggadgets:0": {
+    "title": "Mining Gadgets · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:dummmmmmy:0": {
+    "title": "MmmMmmMmmMmm (Target Dummy) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mns:0": {
+    "title": "MNS - Moog's Nether Structures · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mostructures:0": {
+    "title": "Mo' Structures (NeoForge/Fabric) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mob_grinding_utils:0": {
+    "title": "Mob Grinding Utils · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:modelfix:0": {
+    "title": "Model Gap Fix · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:moderndynamics:0": {
+    "title": "Modern Dynamics · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:modernfix:0": {
+    "title": "ModernFix · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:modonomicon:0": {
+    "title": "Modonomicon · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:modularbees:0": {
+    "title": "Modular Bees · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mffs:0": {
+    "title": "Modular Force Field Systems (MFFS) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:modularrouters:0": {
+    "title": "Modular Routers · Preparar un router",
+    "group": "Guías de mods"
+  },
+  "guide:modularrouters:1": {
+    "title": "Modular Routers · Elegir origen",
+    "group": "Guías de mods"
+  },
+  "guide:modularrouters:2": {
+    "title": "Modular Routers · Elegir destino",
+    "group": "Guías de mods"
+  },
+  "guide:modularrouters:3": {
+    "title": "Modular Routers · Probar y filtrar",
+    "group": "Guías de mods"
+  },
+  "guide:modularrouters:4": {
+    "title": "Modular Routers · Añadir una función concreta",
+    "group": "Guías de mods"
+  },
+  "guide:monolib:0": {
+    "title": "MonoLib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:moogs_structures:0": {
+    "title": "Moog's Structure Lib (moogs_structures) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:moonlight:0": {
+    "title": "Moonlight Lib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:moredragoneggs:0": {
+    "title": "More Dragon Eggs · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mifa:0": {
+    "title": "More Industrial Foregoing Addons (MIFA) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:moreoverlays:0": {
+    "title": "More Overlays Updated · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:morered:0": {
+    "title": "More Red · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:moreredxcctcompat:0": {
+    "title": "More Red x CC:Tweaked Compat · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mousetweaks:0": {
+    "title": "Mouse Tweaks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:refurbished_furniture:0": {
+    "title": "MrCrayfish's Furniture Mod: Refurbished · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mss:0": {
+    "title": "MSS - Moog's Soaring Structures · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:multipiston:0": {
+    "title": "Multi-Piston · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mvs:0": {
+    "title": "MVS - Moog's Voyager Structures · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mysticalagradditions:0": {
+    "title": "Mystical Agradditions · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:mysticalcustomization:0": {
+    "title": "Mystical Customization · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:naturesaura:0": {
+    "title": "Nature's Aura · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:naturescompass:0": {
+    "title": "Nature's Compass · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:neovitae:0": {
+    "title": "Neo Vitae · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:neo_auth:0": {
+    "title": "NeoAuth · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:hellish_trials:0": {
+    "title": "Nether Trials & Chambers · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:netherportalfix:0": {
+    "title": "NetherPortalFix · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:nochatreports:0": {
+    "title": "No Chat Reports · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:novillagerdm:0": {
+    "title": "No Villager Death Messages · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:notenoughanimations:0": {
+    "title": "Not Enough Animations · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:not_enough_glyphs:0": {
+    "title": "Not Enough Glyphs · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:nullscape:0": {
+    "title": "Nullscape · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:observable:0": {
+    "title": "Observable · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:occultism_kubejs:0": {
+    "title": "Occultism KubeJS · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:biomeswevegone:0": {
+    "title": "Oh The Biomes We've Gone · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ohthetreesyoullgrow:0": {
+    "title": "Oh The Trees You'll Grow · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:omegaconfig:0": {
+    "title": "Omega Config · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:openloader:0": {
+    "title": "Open Loader · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:elevatorid:0": {
+    "title": "OpenBlocks Elevator · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:oracle_index:0": {
+    "title": "Oracle Index · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:oritech:0": {
+    "title": "Oritech · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:overloadedarmorbar:0": {
+    "title": "Overloaded Armor Bar · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:owo:0": {
+    "title": "oωo (owo-lib) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:pamhc2crops:0": {
+    "title": "Pam's HarvestCraft 2 - Crops · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:pamhc2foodcore:0": {
+    "title": "Pam's HarvestCraft 2 - Food Core · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:pamhc2foodextended:0": {
+    "title": "Pam's HarvestCraft 2 - Food Extended · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:pamhc2trees:0": {
+    "title": "Pam's HarvestCraft 2 - Trees · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:patchouli:0": {
+    "title": "Patchouli · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:pipez:0": {
+    "title": "Pipez · Elegir el recurso",
+    "group": "Guías de mods"
+  },
+  "guide:pipez:1": {
+    "title": "Pipez · Activar extracción",
+    "group": "Guías de mods"
+  },
+  "guide:pipez:2": {
+    "title": "Pipez · Comprobar transferencia",
+    "group": "Guías de mods"
+  },
+  "guide:pipez:3": {
+    "title": "Pipez · Instalar la mejora adecuada",
+    "group": "Guías de mods"
+  },
+  "guide:pipez:4": {
+    "title": "Pipez · Filtrar y ampliar",
+    "group": "Guías de mods"
+  },
+  "guide:placebo:0": {
+    "title": "Placebo · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:playeranimator:0": {
+    "title": "playerAnimator · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:pocketstorage:0": {
+    "title": "Pocket Storage · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:polylib:0": {
+    "title": "PolyLib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:polymorph:0": {
+    "title": "Polymorph · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:polyeng:0": {
+    "title": "Polymorphic Energistics · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ponderjs:0": {
+    "title": "Ponder for KubeJS · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:potionsmaster:0": {
+    "title": "Potions Master · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:prickle:0": {
+    "title": "Prickle · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:prism:0": {
+    "title": "Prism [Neo/Forge] · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:productivemetalworks:0": {
+    "title": "Productive Metalworks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:productivetrees:0": {
+    "title": "Productive Trees · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:pylons:0": {
+    "title": "Pylons · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:ftbquestslangsplitter:0": {
+    "title": "Quests Lang Splitter · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:railcraft:0": {
+    "title": "Railcraft Reborn · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rainbows:0": {
+    "title": "Rainbows! · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rangedpumps:0": {
+    "title": "Ranged Pumps · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rebind_narrator:0": {
+    "title": "Rebind Narrator · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:rechiseled:0": {
+    "title": "Rechiseled · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rechiseled_chipped:0": {
+    "title": "Rechiseled: Chipped · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rechiseledcreate:0": {
+    "title": "Rechiseled: Create · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:redstonepen:0": {
+    "title": "Redstone Pen · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:refinedstorage:0": {
+    "title": "Refined Storage · Establecer una red con energía",
+    "group": "Guías de mods"
+  },
+  "guide:refinedstorage:1": {
+    "title": "Refined Storage · Probar almacenamiento",
+    "group": "Guías de mods"
+  },
+  "guide:refinedstorage:2": {
+    "title": "Refined Storage · Conectar inventarios existentes",
+    "group": "Guías de mods"
+  },
+  "guide:refinedstorage:3": {
+    "title": "Refined Storage · Automatizar entradas y salidas",
+    "group": "Guías de mods"
+  },
+  "guide:refinedstorage:4": {
+    "title": "Refined Storage · Añadir autocrafteo",
+    "group": "Guías de mods"
+  },
+  "guide:refinedstorage_curios_integration:0": {
+    "title": "Refined Storage - Curios Integration · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:refinedstorage_jei_integration:0": {
+    "title": "Refined Storage - JEI Integration · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:refinedstorage_mekanism_integration:0": {
+    "title": "Refined Storage - Mekanism Integration · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:refinedstorage_quartz_arsenal:0": {
+    "title": "Refined Storage - Quartz Arsenal · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:refinedtypes:0": {
+    "title": "Refined Types · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:regions_unexplored:0": {
+    "title": "Regions Unexplored · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:relics:0": {
+    "title": "Relics · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:reliquary:0": {
+    "title": "Reliquary Reincarnations · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:reliquified_artifacts:0": {
+    "title": "Reliquified Artifacts · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:repeatable_trial_vaults:0": {
+    "title": "Repeatable Trial Vaults · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:repurposed_structures:0": {
+    "title": "Repurposed Structures (Neoforge/Forge) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:resourcefulconfig:0": {
+    "title": "Resourceful Config · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:resourcefullib:0": {
+    "title": "Resourceful Lib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:restrictions:0": {
+    "title": "Restrictions · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rftoolsbase:0": {
+    "title": "RFTools Base · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rftoolsbuilder:0": {
+    "title": "RFTools Builder · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rftoolspower:0": {
+    "title": "RFTools Power · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rftoolsstorage:0": {
+    "title": "RFTools Storage · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rftoolsutility:0": {
+    "title": "RFTools Utility · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:rhino:0": {
+    "title": "Rhino · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:rootsclassic:0": {
+    "title": "Roots Classic · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:sawmill:0": {
+    "title": "Sawmill · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:cf-320926:0": {
+    "title": "Scalable Cat's Force · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:searchables:0": {
+    "title": "Searchables · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:securitycraft:0": {
+    "title": "Security Craft · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:octolib:0": {
+    "title": "ShatterLib | OctoLib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:shiny:0": {
+    "title": "Shiny! Mobs · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:shrink:0": {
+    "title": "Shrink. · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:silentgear:0": {
+    "title": "Silent Gear · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:sgearmetalworks:0": {
+    "title": "Silent Gear Metalworks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:silentlib:0": {
+    "title": "Silent Lib (silentlib) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:silentgems:0": {
+    "title": "Silent's Gems · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:simplebackups:0": {
+    "title": "Simple Backups · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:simplemagnets:0": {
+    "title": "Simple Magnets · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:simple_weather:0": {
+    "title": "Simple Weather · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:simplylight:0": {
+    "title": "Simply Light · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:smartbrainlib:0": {
+    "title": "SmartBrainLib (Forge/Fabric/Quilt) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:smithingtemplateviewer:0": {
+    "title": "Smithing Template Viewer for JEI/EMI · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:sodium:0": {
+    "title": "Sodium · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:sodium_extra:0": {
+    "title": "Sodium Extra · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedbackpackscreateintegration:0": {
+    "title": "Sophisticated Backpacks Create Integration · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedcore:0": {
+    "title": "Sophisticated Core · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedstoragecreateintegration:0": {
+    "title": "Sophisticated Storage Create Integration · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:sophisticatedstorageinmotion:0": {
+    "title": "Sophisticated Storage in Motion · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:soulplied_energistics:0": {
+    "title": "Soulplied Energistics · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:spark:0": {
+    "title": "spark · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:solcarrot:0": {
+    "title": "Spice of Life: Carrot Edition · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:starbunclemania:0": {
+    "title": "StarbuncleMania · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:stepcrafter:0": {
+    "title": "Step Crafter · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:storagedelight:0": {
+    "title": "Storage Delight (Forge & Neoforge) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:structory:0": {
+    "title": "Structory · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:structory_towers:0": {
+    "title": "Structory: Towers · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:overlapless:0": {
+    "title": "StructureOverlapless · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:structurize:0": {
+    "title": "Structurize · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:stylecolonies:0": {
+    "title": "Stylecolonies · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:sfm:0": {
+    "title": "Super Factory Manager ( SFM ) · Preparar el sistema",
+    "group": "Guías de mods"
+  },
+  "guide:sfm:1": {
+    "title": "Super Factory Manager ( SFM ) · Cargar un programa pequeño",
+    "group": "Guías de mods"
+  },
+  "guide:sfm:2": {
+    "title": "Super Factory Manager ( SFM ) · Asignar etiquetas",
+    "group": "Guías de mods"
+  },
+  "guide:sfm:3": {
+    "title": "Super Factory Manager ( SFM ) · Guardar el etiquetado",
+    "group": "Guías de mods"
+  },
+  "guide:sfm:4": {
+    "title": "Super Factory Manager ( SFM ) · Verificar una sola transferencia",
+    "group": "Guías de mods"
+  },
+  "guide:supermartijn642configlib:0": {
+    "title": "SuperMartijn642's Config Lib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:supermartijn642corelib:0": {
+    "title": "SuperMartijn642's Core Lib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:supplementaries:0": {
+    "title": "Supplementaries · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:sushigocrafting:0": {
+    "title": "Sushi Go Crafting · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:sussysniffers:0": {
+    "title": "Sussy Sniffers · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:tempad:0": {
+    "title": "Tempad · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:terrablender:0": {
+    "title": "TerraBlender (NeoForge) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:tesseract_api:0": {
+    "title": "Tesseract API (NeoForge) · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:aether:0": {
+    "title": "The Aether · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:the_bumblezone:0": {
+    "title": "The Bumblezone (NeoForge/Forge) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:twilightforest:0": {
+    "title": "The Twilight Forest · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:undergarden:0": {
+    "title": "The Undergarden · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:theurgy:0": {
+    "title": "Theurgy · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:theurgy_kubejs:0": {
+    "title": "Theurgy KubeJS · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:tiab:0": {
+    "title": "Time in a Bottle · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:titanium:0": {
+    "title": "Titanium · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:toastcontrol:0": {
+    "title": "Toast Control · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:toolbelt:0": {
+    "title": "Tool Belt · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:torchmaster:0": {
+    "title": "Torchmaster · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:t_and_t:0": {
+    "title": "Towns and Towers · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:towntalk:0": {
+    "title": "TownTalk · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:transfer_labels:0": {
+    "title": "Transfer Labels · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:trashcans:0": {
+    "title": "Trash Cans · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:trashslot:0": {
+    "title": "TrashSlot · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:treetap:0": {
+    "title": "Tree Tap · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:underground_villages:0": {
+    "title": "Underground Villages · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:universalgrid:0": {
+    "title": "Universal Grid · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:uranus:0": {
+    "title": "Uranus · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:utilitarian:0": {
+    "title": "Utilitarian · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:utilityvest:0": {
+    "title": "Utility Vest · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:valhelsia_core:0": {
+    "title": "Valhelsia Core · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:variantsandventures:0": {
+    "title": "Variants&Ventures · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:villagesandpillages:0": {
+    "title": "Villages&Pillages · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:waystones:0": {
+    "title": "Waystones · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:dungeons_arise:0": {
+    "title": "When Dungeons Arise - Forge! · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:wirelesschargers:0": {
+    "title": "Wireless Chargers · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:wstweaks:0": {
+    "title": "Wither Skeleton Tweaks · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:wits:0": {
+    "title": "WITS (What Is This Structure?) · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:xnet:0": {
+    "title": "XNet · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:xtonesreworked:0": {
+    "title": "Xtones Reworked · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:xycraft_core:0": {
+    "title": "XyCraft · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:xycraft_machines:0": {
+    "title": "XyCraft: Machines · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:xycraft_override:0": {
+    "title": "XyCraft: Override · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:xycraft_world:0": {
+    "title": "XyCraft: World · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:yeetusexperimentus:0": {
+    "title": "Yeetus Experimentus · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:yet_another_config_lib_v3:0": {
+    "title": "YetAnotherConfigLib · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:yungsapi:0": {
+    "title": "YUNG's API (NeoForge) [1.20.4-1.21.1 ONLY] · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "guide:betterdeserttemples:0": {
+    "title": "YUNG's Better Desert Temples (NeoForge) [1.20.4 - 1.21.1 ONLY] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:betterdungeons:0": {
+    "title": "YUNG's Better Dungeons (NeoForge) [1.20.4 - 1.21.1 ONLY] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:betterendisland:0": {
+    "title": "YUNG's Better End Island (NeoForge) [1.20.4 - 1.21.1 ONLY] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:betterjungletemples:0": {
+    "title": "YUNG's Better Jungle Temples (NeoForge) [1.20.4 - 1.21.1 ONLY] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:bettermineshafts:0": {
+    "title": "YUNG's Better Mineshafts (NeoForge) [1.20.4 - 1.21.1 ONLY] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:betterfortresses:0": {
+    "title": "YUNG's Better Nether Fortresses (NeoForge) [1.20.4 - 1.21.1 ONLY] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:betteroceanmonuments:0": {
+    "title": "YUNG's Better Ocean Monuments (NeoForge) [1.20.4 - 1.21.1 ONLY] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:betterstrongholds:0": {
+    "title": "YUNG's Better Strongholds (NeoForge) [1.20.4 - 1.21.1 ONLY] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:betterwitchhuts:0": {
+    "title": "YUNG's Better Witch Huts (NeoForge) [1.20.4 - 1.21.1 ONLY] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:yungsextras:0": {
+    "title": "YUNG's Extras (NeoForge) [1.20.4 - 1.21.1 ONLY] · Cómo se usa",
+    "group": "Guías de mods"
+  },
+  "guide:zerocore:0": {
+    "title": "ZeroCore 2 · Dónde interviene",
+    "group": "Guías de mods"
+  },
+  "lesson:create-waterwheel": {
+    "title": "Rueda hidráulica",
+    "group": "Guías completadas"
+  },
+  "lesson:create-gears": {
+    "title": "Engranajes: dirección y velocidad",
+    "group": "Guías completadas"
+  },
+  "lesson:create-stress": {
+    "title": "RPM y capacidad de la red",
+    "group": "Guías completadas"
+  },
+  "lesson:create-press": {
+    "title": "Prensa mecánica",
+    "group": "Guías completadas"
+  },
+  "lesson:create-mixer": {
+    "title": "Mezclar sin calor",
+    "group": "Guías completadas"
+  },
+  "lesson:create-brass": {
+    "title": "Latón con un Blaze Burner",
+    "group": "Guías completadas"
+  },
+  "lesson:create-belt": {
+    "title": "Correas y transporte",
+    "group": "Guías completadas"
+  },
+  "lesson:create-fan": {
+    "title": "Lavar con una corriente de aire",
+    "group": "Guías completadas"
+  },
+  "lesson:create-crushing": {
+    "title": "Ruedas de trituración",
+    "group": "Guías completadas"
+  },
+  "lesson:create-assembly": {
+    "title": "Mecanismo de precisión",
+    "group": "Guías completadas"
+  },
+  "lesson:create-steam": {
+    "title": "Vapor: agua, calor y tamaño",
+    "group": "Guías completadas"
+  },
+  "lesson:create-train": {
+    "title": "Montar y conducir tu primer tren",
+    "group": "Guías completadas"
+  },
+  "lesson:mekanism-infuser": {
+    "title": "Infusión: primera aleación",
+    "group": "Guías completadas"
+  },
+  "lesson:mekanism-matrix": {
+    "title": "Matriz de inducción",
+    "group": "Guías completadas"
+  },
+  "lesson:ae2-network": {
+    "title": "Tu primera red ME",
+    "group": "Guías completadas"
+  },
+  "lesson:ae2-autocrafting": {
+    "title": "Autocrafteo de AE2",
+    "group": "Guías completadas"
+  },
+  "lesson:ars-imbuement": {
+    "title": "De amatista a Source Gem",
+    "group": "Guías completadas"
+  },
+  "lesson:ars-apparatus": {
+    "title": "Enchanting Apparatus y pedestales",
+    "group": "Guías completadas"
+  },
+  "lesson:powah-energizing": {
+    "title": "Energizar hierro y oro",
+    "group": "Guías completadas"
+  },
+  "lesson:ma-infusion": {
+    "title": "Semillas en el Infusion Altar",
+    "group": "Guías completadas"
+  },
+  "lesson:bees-production": {
+    "title": "Colmenas y centrífuga",
+    "group": "Guías completadas"
+  },
+  "lesson:bees-simulation": {
+    "title": "Producción con Simulation Upgrade",
+    "group": "Guías completadas"
+  },
+  "lesson:storage-controller": {
+    "title": "Controlador de cajones",
+    "group": "Guías completadas"
+  },
+  "lesson:if-latex": {
+    "title": "De troncos a plástico",
+    "group": "Guías completadas"
+  },
+  "lesson:createaddition-motor": {
+    "title": "Motor eléctrico: FE a rotación",
+    "group": "Guías completadas"
+  },
+  "lesson:createaddition-alternator": {
+    "title": "Alternador: rotación a FE",
+    "group": "Guías completadas"
+  },
+  "lesson:createaddition-rolling": {
+    "title": "Rolling Mill: placas a cables",
+    "group": "Guías completadas"
+  },
+  "lesson:cei-grindstone": {
+    "title": "Moler experiencia hasta convertirla en fluido",
+    "group": "Guías completadas"
+  },
+  "lesson:ars-technica-source-motor": {
+    "title": "Source Motor: magia a movimiento",
+    "group": "Guías completadas"
+  },
+  "lesson:aquatic-channeling": {
+    "title": "Conduit Cage y procesamiento por aire",
+    "group": "Guías completadas"
+  },
+  "project:starter-workshop:prepare-parts": {
+    "title": "Preparar piezas",
+    "group": "Montajes"
+  },
+  "project:starter-workshop:place-press": {
+    "title": "Montar la estación",
+    "group": "Montajes"
+  },
+  "project:starter-workshop:first-sheet": {
+    "title": "Procesar una muestra",
+    "group": "Montajes"
+  },
+  "project:starter-workshop:repeat-batch": {
+    "title": "Repetir el lote",
+    "group": "Montajes"
+  },
+  "project:starter-workshop:organize-workshop": {
+    "title": "Organizar entrada y producto",
+    "group": "Montajes"
+  },
+  "project:starter-workshop:continuous-power": {
+    "title": "Elegir la ampliación",
+    "group": "Montajes"
+  },
+  "project:brass-line:prepare-mixer": {
+    "title": "Preparar el mezclador",
+    "group": "Montajes"
+  },
+  "project:brass-line:capture-blaze": {
+    "title": "Activar el quemador",
+    "group": "Montajes"
+  },
+  "project:brass-line:heat-and-speed": {
+    "title": "Comprobar calor y giro",
+    "group": "Montajes"
+  },
+  "project:brass-line:first-brass": {
+    "title": "Mezclar una pareja de metales",
+    "group": "Montajes"
+  },
+  "project:brass-line:complete-sixteen": {
+    "title": "Completar 16 lingotes",
+    "group": "Montajes"
+  },
+  "project:brass-line:filter-output": {
+    "title": "Preparar extracción selectiva",
+    "group": "Montajes"
+  },
+  "project:brass-line:sustain-production": {
+    "title": "Pasar a producción continua",
+    "group": "Montajes"
+  },
+  "project:storage-network:assign-drawers": {
+    "title": "Asignar materiales",
+    "group": "Montajes"
+  },
+  "project:storage-network:lock-drawers": {
+    "title": "Bloquear los tipos",
+    "group": "Montajes"
+  },
+  "project:storage-network:link-controller": {
+    "title": "Vincular al controlador",
+    "group": "Montajes"
+  },
+  "project:storage-network:test-physical": {
+    "title": "Probar el almacén físico",
+    "group": "Montajes"
+  },
+  "project:storage-network:prepare-ae2": {
+    "title": "Elegir acceso digital",
+    "group": "Montajes"
+  },
+  "project:storage-network:connect-ae2": {
+    "title": "Exponer el controlador a AE2",
+    "group": "Montajes"
+  },
+  "project:storage-network:roundtrip-ae2": {
+    "title": "Comprobar ida y vuelta",
+    "group": "Montajes"
+  },
+  "project:storage-network:grow-storage": {
+    "title": "Añadir almacenamiento mixto",
+    "group": "Montajes"
+  }
+}

@@ -1,9 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {filterAtlas,sceneFigure,mountScenePlayer} from '../dist/companion.js';
-const scenes=JSON.parse(fs.readFileSync(new URL('../dist/data/animation-scenes.json',import.meta.url)));
-const icons=JSON.parse(fs.readFileSync(new URL('../dist/data/icons.json',import.meta.url)));
+import {filterAtlas,sceneFigure,mountScenePlayer} from '../public/companion.js';
+const scenes=JSON.parse(fs.readFileSync(new URL('../public/data/animation-scenes.json',import.meta.url)));
+const icons=JSON.parse(fs.readFileSync(new URL('../public/data/icons.json',import.meta.url)));
 test('Every lesson has traceable steps, materials and valid diagram edges',()=>{
  assert.equal(new Set(scenes.map(s=>s.id)).size,scenes.length);
  for(const s of scenes){assert.ok(s.steps.length>=3);assert.ok(s.items.length);assert.ok(s.sourceUrl.startsWith('https://'));assert.ok(s.checklist.length);assert.ok(s.pitfalls.length);for(const e of s.diagram.connections){assert.ok(s.diagram.nodes[e.from]);assert.ok(s.diagram.nodes[e.to]);}const markup=sceneFigure(s,icons);assert.ok(markup.includes('role="img"'));assert.ok(!markup.includes('undefined'));assert.ok(markup.includes(`id="flow-${s.id}"`));}

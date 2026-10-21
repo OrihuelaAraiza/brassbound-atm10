@@ -1,5 +1,5 @@
 from pathlib import Path
-p=Path('dist/app.js');s=p.read_text()
+p=Path('public/app.js');s=p.read_text()
 def replace_fn(name,code):
  global s
  start=s.index('function '+name+'(')
@@ -56,7 +56,7 @@ p.write_text(s)
 # Line drawing from the original vector: actual machinery structure, no invented raster artwork.
 import xml.etree.ElementTree as ET
 ET.register_namespace('', 'http://www.w3.org/2000/svg')
-tree=ET.parse('dist/assets/workshop.svg');root=tree.getroot()
+tree=ET.parse('public/assets/workshop.svg');root=tree.getroot()
 for el in root.iter():
  tag=el.tag.split('}')[-1]
  if tag in ['path','circle','ellipse','rect']:
@@ -67,6 +67,6 @@ for el in root.iter():
  if tag=='text':el.set('fill','#d8e7df')
  if el.get('stroke'):el.set('stroke','#a3cbd1')
 root.set('style','overflow:visible')
-tree.write('dist/assets/workshop-blueprint.svg',encoding='unicode')
+tree.write('public/assets/workshop-blueprint.svg',encoding='unicode')
 # Physical desk framing, no content changes.
-p=Path('dist/index.html');h=p.read_text().replace('LA BITÁCORA DEL INGENIERO','ATLAS DE CONSTRUCCIÓN').replace('TU ESPACIO DE TRABAJO','HERRAMIENTAS DEL TALLER').replace('Hecho para disfrutar el proceso.','Del plano a tu mundo.').replace('class="workspace"','class="workspace workbench-surface"').replace('</head>','<link rel="stylesheet" href="workbench.css"></head>');p.write_text(h)
+p=Path('web/index.html');h=p.read_text().replace('LA BITÁCORA DEL INGENIERO','ATLAS DE CONSTRUCCIÓN').replace('TU ESPACIO DE TRABAJO','HERRAMIENTAS DEL TALLER').replace('Hecho para disfrutar el proceso.','Del plano a tu mundo.').replace('class="workspace"','class="workspace workbench-surface"').replace('</head>','<link rel="stylesheet" href="workbench.css"></head>');p.write_text(h)
