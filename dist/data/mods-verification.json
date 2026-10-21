@@ -1,0 +1,117 @@
+{
+  "manifestEntries": 491,
+  "resolvedFileIds": 491,
+  "unverifiedVersions": 6,
+  "kinds": {
+    "Mods": 487,
+    "Shaders": 4
+  },
+  "unverified": [
+    {
+      "id": "cf-322506",
+      "name": "BSL Shaders",
+      "version": null,
+      "url": "https://www.curseforge.com/minecraft/shaders/bsl-shaders/files/7588844",
+      "projectUrl": "https://www.curseforge.com/minecraft/shaders/bsl-shaders",
+      "projectId": 322506,
+      "fileId": 7588844,
+      "filename": "BSL_v10.1.1.zip",
+      "kind": "Shaders",
+      "categories": [
+        "Fantasy"
+      ],
+      "membershipEvidence": "manifest oficial ATM10 8.1",
+      "versionEvidence": "Versión de mod no verificada; fileID está fijado por manifest",
+      "metadataSource": "https://api.cfwidget.com/322506"
+    },
+    {
+      "id": "cf-627557",
+      "name": "Complementary Shaders - Reimagined",
+      "version": null,
+      "url": "https://www.curseforge.com/minecraft/shaders/complementary-reimagined/files/8123287",
+      "projectUrl": "https://www.curseforge.com/minecraft/shaders/complementary-reimagined",
+      "projectId": 627557,
+      "fileId": 8123287,
+      "filename": "ComplementaryReimagined_r5.8.1.zip",
+      "kind": "Shaders",
+      "categories": [
+        "Vanilla"
+      ],
+      "membershipEvidence": "manifest oficial ATM10 8.1",
+      "versionEvidence": "Versión de mod no verificada; fileID está fijado por manifest",
+      "metadataSource": "https://api.cfwidget.com/627557"
+    },
+    {
+      "id": "cf-385587",
+      "name": "Complementary Shaders - Unbound",
+      "version": null,
+      "url": "https://www.curseforge.com/minecraft/shaders/complementary-unbound/files/8123288",
+      "projectUrl": "https://www.curseforge.com/minecraft/shaders/complementary-unbound",
+      "projectId": 385587,
+      "fileId": 8123288,
+      "filename": "ComplementaryUnbound_r5.8.1.zip",
+      "kind": "Shaders",
+      "categories": [
+        "Fantasy"
+      ],
+      "membershipEvidence": "manifest oficial ATM10 8.1",
+      "versionEvidence": "Versión de mod no verificada; fileID está fijado por manifest",
+      "metadataSource": "https://api.cfwidget.com/385587"
+    },
+    {
+      "id": "cf-351264",
+      "name": "Kotlin for Forge",
+      "version": null,
+      "url": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge/files/8335665",
+      "projectUrl": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge",
+      "projectId": 351264,
+      "fileId": 8335665,
+      "filename": "kotlinforforge-5.12.0-all.jar",
+      "kind": "Mods",
+      "categories": [
+        "API and Library"
+      ],
+      "membershipEvidence": "manifest oficial ATM10 8.1",
+      "versionEvidence": "No existe versión en el registro oficial",
+      "metadataSource": "https://api.cfwidget.com/351264"
+    },
+    {
+      "id": "cf-431203",
+      "name": "MakeUp - Ultra Fast | Shaders",
+      "version": null,
+      "url": "https://www.curseforge.com/minecraft/shaders/makeup-ultra-fast-shader/files/8643996",
+      "projectUrl": "https://www.curseforge.com/minecraft/shaders/makeup-ultra-fast-shader",
+      "projectId": 431203,
+      "fileId": 8643996,
+      "filename": "MakeUp-UltraFast-9.5d.zip",
+      "kind": "Shaders",
+      "categories": [
+        "Realistic",
+        "Fantasy"
+      ],
+      "membershipEvidence": "manifest oficial ATM10 8.1",
+      "versionEvidence": "Versión de mod no verificada; fileID está fijado por manifest",
+      "metadataSource": "https://api.cfwidget.com/431203"
+    },
+    {
+      "id": "cf-320926",
+      "name": "Scalable Cat's Force",
+      "version": null,
+      "url": "https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force/files/6737240",
+      "projectUrl": "https://www.curseforge.com/minecraft/mc-mods/scalable-cats-force",
+      "projectId": 320926,
+      "fileId": 6737240,
+      "filename": "ScalableCatsForce-NeoForge-3.7.1-build-11-with-library.jar",
+      "kind": "Mods",
+      "categories": [
+        "API and Library"
+      ],
+      "membershipEvidence": "manifest oficial ATM10 8.1",
+      "versionEvidence": "No existe versión en el registro oficial",
+      "metadataSource": "https://api.cfwidget.com/320926"
+    }
+  ],
+  "note": "491 entradas del manifest no equivale a 491 mods de gameplay: incluye librerías y recursos. Nombres/URLs y correlación fileId→filename resueltos con metadata pública cfwidget; pertenencia exacta deriva del manifest oficial. Versión se asigna únicamente por filename exacto en modlist oficial, nunca a partir del campo gameVersion de CurseForge.",
+  "exactFilenamesMatchedToOfficialModlist": 487,
+  "verifiedNonNullVersions": 485
+}

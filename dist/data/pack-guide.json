@@ -1,0 +1,1613 @@
+{
+  "pack": {
+    "name": "All the Mods 10",
+    "version": "8.1",
+    "minecraft": "1.21.1",
+    "loader": "NeoForge 21.1.249",
+    "releaseDate": "2026-08-29",
+    "curseforgeFileId": 8764211,
+    "releaseSource": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10/files/8764211",
+    "verifiedAgainst": "ZIP oficial All the Mods 10-8.1.zip, manifest.json y overrides; quests comparadas contra commit ab6f65e07b88423cdae1724864ba42a573ba758a.",
+    "scope": "Guía editorial priorizada, no sincronizada con el servidor ni sustituto del JEI de tu instancia."
+  },
+  "routes": [
+    {
+      "id": "storage",
+      "name": "Almacén que crece contigo",
+      "order": 1,
+      "mods": [
+        "functionalstorage",
+        "sophisticatedstorage",
+        "sophisticatedbackpacks"
+      ],
+      "purpose": "Dar una salida estable a las fábricas y evitar cofres mezclados.",
+      "steps": [
+        {
+          "id": "storage-boxes",
+          "title": "Separar recursos a granel",
+          "detail": "Destina cajones a piedra, andesita, madera y metales; cofres mejorados a objetos variados.",
+          "requires": []
+        },
+        {
+          "id": "storage-lock",
+          "title": "Bloquear cada cajón",
+          "detail": "Usa Configuration Tool para que un cajón vacío siga reservado al mismo recurso.",
+          "requires": [
+            "storage-boxes"
+          ]
+        },
+        {
+          "id": "storage-hub",
+          "title": "Conectar un Storage Controller",
+          "detail": "Enlaza los cajones con Linking Tool y concentra la entrada de tus fábricas.",
+          "requires": [
+            "storage-lock"
+          ]
+        },
+        {
+          "id": "storage-overflow",
+          "title": "Controlar excedentes",
+          "detail": "Define una reserva antes de usar Void Upgrade; lo que se descarta no se recupera.",
+          "requires": [
+            "storage-hub"
+          ]
+        },
+        {
+          "id": "storage-ae",
+          "title": "Exponer el almacén a AE2",
+          "detail": "Conecta un Storage Bus al controlador; conserva los recursos masivos en cajones.",
+          "requires": [
+            "storage-hub"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/storage.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/applied_energistics_2.snbt"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "functionalstorage": "1.21.1-1.5.8",
+        "sophisticatedstorage": "1.5.91",
+        "sophisticatedbackpacks": "3.25.78"
+      }
+    },
+    {
+      "id": "power",
+      "name": "Electricidad para el taller",
+      "order": 2,
+      "mods": [
+        "powah",
+        "mekanismgenerators",
+        "createaddition"
+      ],
+      "purpose": "Mantener FE para almacenamiento y máquinas mientras Create usa su propia rotación.",
+      "steps": [
+        {
+          "id": "power-source",
+          "title": "Instalar generación inicial",
+          "detail": "Elige una fuente mantenible para tu base: combustible, lava o viento; mide producción y consumo.",
+          "requires": []
+        },
+        {
+          "id": "power-buffer",
+          "title": "Añadir cableado y batería",
+          "detail": "Usa cables compatibles con FE y reserva energía para picos de consumo.",
+          "requires": [
+            "power-source"
+          ]
+        },
+        {
+          "id": "power-orb",
+          "title": "Preparar Energizing Orb y rods",
+          "detail": "Fabrican materiales de Powah; no basta colocar el orb sin energía y rods.",
+          "requires": [
+            "power-buffer"
+          ]
+        },
+        {
+          "id": "power-tier",
+          "title": "Subir de tier según demanda",
+          "detail": "Progresa por Basic, Hardened, Blazing, Niotic, Spirited y Nitro; registra el recurso que limita cada salto.",
+          "requires": [
+            "power-orb"
+          ]
+        },
+        {
+          "id": "power-reactor",
+          "title": "Construir un reactor Powah",
+          "detail": "Se monta con 36 Reactor Blocks en 3×4×3; prepara Uraninite, refrigerante, carbón y redstone.",
+          "requires": [
+            "power-tier"
+          ]
+        },
+        {
+          "id": "power-nitro",
+          "title": "Reservar Nitro para aleaciones ATM",
+          "detail": "La aleación Vibranium–Allthemodium consume cristales Nitro comprimidos y mucha FE.",
+          "requires": [
+            "power-reactor"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/powah.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/mainquestline_part_1.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "powah": "6.2.10",
+        "mekanismgenerators": "10.7.19",
+        "createaddition": "1.7.0"
+      }
+    },
+    {
+      "id": "ae2",
+      "name": "Un centro de control con AE2",
+      "order": 3,
+      "mods": [
+        "ae2",
+        "extendedae",
+        "advanced_ae",
+        "appmek"
+      ],
+      "purpose": "Buscar materiales y solicitar componentes de Create desde una terminal.",
+      "steps": [
+        {
+          "id": "ae2-materials",
+          "title": "Reunir Certus y Fluix",
+          "detail": "Prepara Charger y suministro FE para los primeros cristales.",
+          "requires": []
+        },
+        {
+          "id": "ae2-presses",
+          "title": "Recuperar las prensas",
+          "detail": "Localiza meteoritos: el Mysterious Cube contiene las Inscriber Presses.",
+          "requires": [
+            "ae2-materials"
+          ]
+        },
+        {
+          "id": "ae2-processors",
+          "title": "Automatizar procesadores",
+          "detail": "Instala Inscribers y reserva silicio, oro, diamante, Certus y redstone.",
+          "requires": [
+            "ae2-presses"
+          ]
+        },
+        {
+          "id": "ae2-terminal",
+          "title": "Abrir tu primer almacén ME",
+          "detail": "Conecta energía, cableado, terminal y almacenamiento; comprueba capacidad y canales.",
+          "requires": [
+            "ae2-processors"
+          ]
+        },
+        {
+          "id": "ae2-crafting",
+          "title": "Solicitar crafteos",
+          "detail": "Añade Pattern Encoding Terminal, Pattern Provider, Molecular Assembler y Crafting CPU.",
+          "requires": [
+            "ae2-terminal"
+          ]
+        },
+        {
+          "id": "ae2-create",
+          "title": "Pedir piezas a Create",
+          "detail": "Define patrones de procesamiento que entreguen ingredientes a una entrada controlada y devuelvan solo productos terminados.",
+          "requires": [
+            "ae2-crafting"
+          ]
+        },
+        {
+          "id": "ae2-chemicals",
+          "title": "Integrar química de Mekanism",
+          "detail": "Applied Mekanistics está incluido; abre esta rama cuando necesites gestionar químicos.",
+          "requires": [
+            "ae2-crafting"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/applied_energistics_2.snbt"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "ae2": "19.2.17",
+        "extendedae": "1.21-2.2.35-neoforge",
+        "advanced_ae": "1.6.12-1.21.1",
+        "appmek": "1.6.3"
+      }
+    },
+    {
+      "id": "mekanism",
+      "name": "Mekanism como apoyo industrial",
+      "order": 4,
+      "mods": [
+        "mekanism",
+        "mekanismgenerators"
+      ],
+      "purpose": "Procesar materiales y preparar la tecnología exigida por el endgame.",
+      "steps": [
+        {
+          "id": "mek-infuser",
+          "title": "Poner en marcha Metallurgic Infuser",
+          "detail": "Necesita FE; separa líneas para distintos tipos de infusión.",
+          "requires": []
+        },
+        {
+          "id": "mek-components",
+          "title": "Producir acero, circuitos y aleaciones",
+          "detail": "Acero: hierro → Enriched Iron → Steel Dust → fundición; usa Enrichment Chamber para ahorrar insumos.",
+          "requires": [
+            "mek-infuser"
+          ]
+        },
+        {
+          "id": "mek-factories",
+          "title": "Mejorar fábricas y tuberías",
+          "detail": "Configura entradas, salidas y Auto-Eject antes de añadir upgrades de velocidad.",
+          "requires": [
+            "mek-components"
+          ]
+        },
+        {
+          "id": "mek-hdpe",
+          "title": "Montar la cadena de HDPE",
+          "detail": "Prepara Bio Fuel, agua, hidrógeno, ethene, substrate y oxígeno; utiliza PRC y Rotary Condensentrator.",
+          "requires": [
+            "mek-factories"
+          ]
+        },
+        {
+          "id": "mek-miner",
+          "title": "Construir Digital Miner al llegar a Vibranium",
+          "detail": "La receta del pack exige 2 lingotes de Vibranium, Robit y Teleportation Cores: es una meta posterior.",
+          "requires": [
+            "mek-factories",
+            "atm-vibranium"
+          ]
+        },
+        {
+          "id": "mek-fission",
+          "title": "Preparar combustible de fisión",
+          "detail": "Desarrolla la cadena química de Fissile Fuel y luego refrigeración y gestión de residuos.",
+          "requires": [
+            "mek-hdpe"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/mekanism.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/mekanism_reactors.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/mods/Mekanism/Recipes.js"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "mekanism": "10.7.19",
+        "mekanismgenerators": "10.7.19"
+      }
+    },
+    {
+      "id": "resources",
+      "name": "Recursos renovables con cultivos",
+      "order": 4,
+      "mods": [
+        "mysticalagriculture",
+        "mysticalagradditions",
+        "pylons"
+      ],
+      "purpose": "Producir los ingredientes que tus fábricas consumen continuamente.",
+      "steps": [
+        {
+          "id": "ma-base",
+          "title": "Conseguir Inferium y Prosperity",
+          "detail": "Empieza por semillas de Inferium y Prosperity Seed Bases.",
+          "requires": []
+        },
+        {
+          "id": "ma-altar",
+          "title": "Construir Infusion Altar",
+          "detail": "Coloca los pedestales siguiendo la guía del altar y actívalo con redstone o la varita.",
+          "requires": [
+            "ma-base"
+          ]
+        },
+        {
+          "id": "ma-seeds",
+          "title": "Elegir cultivos por tus cuellos de botella",
+          "detail": "Prioriza hierro, cobre, redstone y otros recursos usados a diario; confirma cada semilla en JEI.",
+          "requires": [
+            "ma-altar"
+          ]
+        },
+        {
+          "id": "ma-harvest",
+          "title": "Cerrar cosecha y almacenamiento",
+          "detail": "Prueba una cosecha automática y dirige su salida a cajones; valida qué sistema admite la semilla.",
+          "requires": [
+            "ma-seeds"
+          ]
+        },
+        {
+          "id": "ma-tier",
+          "title": "Subir esencias y cristal",
+          "detail": "Cada tier combina 4 esencias del tier anterior; el Master Infusion Crystal evita desgaste.",
+          "requires": [
+            "ma-harvest"
+          ]
+        },
+        {
+          "id": "ma-special",
+          "title": "Preparar crux y suelo especial",
+          "detail": "Las semillas especiales requieren su bloque bajo la farmland; las de metales ATM necesitan Magical Soil.",
+          "requires": [
+            "ma-tier"
+          ]
+        },
+        {
+          "id": "ma-creative",
+          "title": "Preparar Creative Essence",
+          "detail": "Necesita 4 Insanium Essence Blocks, 4 Insanium Gemstone Blocks y 1 Master Infusion Crystal.",
+          "requires": [
+            "ma-special"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/elmystical_agriculturerr.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "mysticalagriculture": "8.0.27",
+        "mysticalagradditions": "8.0.14",
+        "pylons": "5.4.2"
+      }
+    },
+    {
+      "id": "bees",
+      "name": "Productive Bees a escala",
+      "order": 4,
+      "mods": [
+        "productivebees",
+        "productivetrees"
+      ],
+      "purpose": "Cubrir recursos raros y materiales concretos de la ATM Star.",
+      "steps": [
+        {
+          "id": "bees-starter",
+          "title": "Conseguir miel, panales y Bee Cages",
+          "detail": "Investiga en JEI el nido y el alimento de cada especie antes de criarla.",
+          "requires": []
+        },
+        {
+          "id": "bees-hive",
+          "title": "Montar Advanced Beehive",
+          "detail": "Añade Expansion Box para 5 abejas y soporte de upgrades.",
+          "requires": [
+            "bees-starter"
+          ]
+        },
+        {
+          "id": "bees-food",
+          "title": "Colocar la flor o bloque correcto",
+          "detail": "Cada especie puede requerir materiales diferentes; verifica su información en JEI.",
+          "requires": [
+            "bees-hive"
+          ]
+        },
+        {
+          "id": "bees-process",
+          "title": "Procesar panales",
+          "detail": "Empieza con Centrifuge y pasa a Powered Centrifuge cuando la producción lo necesite.",
+          "requires": [
+            "bees-food"
+          ]
+        },
+        {
+          "id": "bees-sim",
+          "title": "Instalar Simulation Upgrade",
+          "detail": "La abeja permanece en la colmena; respeta la posición de Feeding Slab y su alimento.",
+          "requires": [
+            "bees-process"
+          ]
+        },
+        {
+          "id": "bees-star",
+          "title": "Criar especies para el endgame",
+          "detail": "Withered comb y Soul Lava Bee se usan en componentes de la ATM Star.",
+          "requires": [
+            "bees-sim"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/productive_bees.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "productivebees": "1.21.1-13.13.5",
+        "productivetrees": "1.21.1-1.1.0"
+      }
+    },
+    {
+      "id": "hnn",
+      "name": "Drops sin una granja de mobs enorme",
+      "order": 4,
+      "mods": [
+        "hostilenetworks"
+      ],
+      "purpose": "Automatizar Nether Stars y otros drops después de desbloquear cada modelo.",
+      "steps": [
+        {
+          "id": "hnn-framework",
+          "title": "Crear Model Framework y Deep Learner",
+          "detail": "Usa el framework sobre el mob y coloca el Data Model en el Deep Learner.",
+          "requires": []
+        },
+        {
+          "id": "hnn-basic",
+          "title": "Entrenar el modelo hasta Basic",
+          "detail": "Lleva el Deep Learner al conseguir bajas; consulta en su tooltip el número exigido.",
+          "requires": [
+            "hnn-framework"
+          ]
+        },
+        {
+          "id": "hnn-simulation",
+          "title": "Alimentar Simulation Chamber",
+          "detail": "Necesita Prediction Matrix y FE; el consumo depende del modelo.",
+          "requires": [
+            "hnn-basic"
+          ]
+        },
+        {
+          "id": "hnn-mode",
+          "title": "Separar Training de Inference",
+          "detail": "En esta versión Training aumenta datos sin producir predicciones; Inference produce predicciones sin entrenar.",
+          "requires": [
+            "hnn-simulation"
+          ]
+        },
+        {
+          "id": "hnn-loot",
+          "title": "Elegir un drop en Loot Fabricator",
+          "detail": "Alimenta Mob Predictions exitosas y selecciona el producto; añade energía y extracción.",
+          "requires": [
+            "hnn-mode"
+          ]
+        },
+        {
+          "id": "hnn-star",
+          "title": "Preparar modelos de Wither y Ender Dragon",
+          "detail": "Wither produce Nether Stars; el componente Dragon Soul pide un modelo de Ender Dragon con datos específicos.",
+          "requires": [
+            "hnn-loot"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/hostile_neural_networks.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "hostilenetworks": "6.5.1"
+      }
+    },
+    {
+      "id": "allthemodium",
+      "name": "La escalera de metales ATM",
+      "order": 5,
+      "mods": [
+        "allthemodium"
+      ],
+      "purpose": "Acceder a dimensiones, equipos y aleaciones que bloquean recetas avanzadas.",
+      "steps": [
+        {
+          "id": "atm-first",
+          "title": "Minar Allthemodium",
+          "detail": "Busca Deep Dark/Ancient Cities y usa pico de tier Netherite o superior.",
+          "requires": []
+        },
+        {
+          "id": "atm-pad",
+          "title": "Fabricar Teleport Pads",
+          "detail": "En Overworld llevan a Mining Dimension; en Nether, a The Other.",
+          "requires": [
+            "atm-first"
+          ]
+        },
+        {
+          "id": "atm-tool",
+          "title": "Mejorar tu pico",
+          "detail": "La plantilla Allthemodium se encuentra cepillando Suspicious Clay en Ancient Cities.",
+          "requires": [
+            "atm-first"
+          ]
+        },
+        {
+          "id": "atm-vibranium",
+          "title": "Conseguir Vibranium",
+          "detail": "Se encuentra en Nether y The Other; necesita tier Allthemodium. La plantilla está en Suspicious Soul Sand de bastiones.",
+          "requires": [
+            "atm-tool"
+          ]
+        },
+        {
+          "id": "atm-unobtainium",
+          "title": "Conseguir Unobtainium",
+          "detail": "Busca End Highlands con tier Vibranium; la plantilla requiere Trial Spawners en bibliotecas de dungeons de The Other.",
+          "requires": [
+            "atm-vibranium"
+          ]
+        },
+        {
+          "id": "atm-piglich",
+          "title": "Obtener Piglich Hearts y Soul Lava",
+          "detail": "Explora Ancient Pyramids y Piglin Villages de The Other.",
+          "requires": [
+            "atm-pad"
+          ]
+        },
+        {
+          "id": "atm-alloys",
+          "title": "Abrir las tres rutas de aleaciones",
+          "detail": "Powah, Ars Nouveau e Industrial Foregoing aportan procesos distintos; crea reservas de corazones Piglich.",
+          "requires": [
+            "atm-unobtainium",
+            "atm-piglich"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/allthemodium.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "allthemodium": "3.0.1"
+      }
+    },
+    {
+      "id": "magic",
+      "name": "Magia con objetivos concretos",
+      "order": 6,
+      "mods": [
+        "ars_nouveau",
+        "occultism",
+        "forbidden_arcanus"
+      ],
+      "purpose": "Desbloquear aleaciones y piezas de la Star sin intentar completar todos los hechizos.",
+      "steps": [
+        {
+          "id": "magic-ars",
+          "title": "Crear una fuente estable de Source",
+          "detail": "Prepara Ars Nouveau, Source Jars e Imbuement Chamber para gemas y esencias.",
+          "requires": []
+        },
+        {
+          "id": "magic-apparatus",
+          "title": "Montar Enchanting Apparatus",
+          "detail": "Arcane Core debajo y pedestales alrededor; la aleación Unobtainium–ATM requiere 8 ingredientes y un reactivo.",
+          "requires": [
+            "magic-ars"
+          ]
+        },
+        {
+          "id": "magic-occultism",
+          "title": "Iniciar rituales de Occultism",
+          "detail": "Progresa con su libro hasta Soul Gem, Dragon Familiar y Stable Wormhole, usados por la Star.",
+          "requires": []
+        },
+        {
+          "id": "magic-forge",
+          "title": "Desarrollar Hephaestus Forge",
+          "detail": "Forbidden & Arcanus aporta Eternal Stella, prismas y materiales del Runic Star Altar.",
+          "requires": []
+        },
+        {
+          "id": "magic-finish",
+          "title": "Reservar objetos con componentes",
+          "detail": "Los familiares capturados y objetos cargados pueden exigir datos específicos, no solo el nombre del ítem.",
+          "requires": [
+            "magic-apparatus",
+            "magic-occultism",
+            "magic-forge"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/ars_nouveau.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/occultism.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/chapter_2_the_star.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "ars_nouveau": "5.13.1",
+        "occultism": "1.224.4",
+        "forbidden_arcanus": "2.6.1"
+      }
+    },
+    {
+      "id": "industrial-foregoing",
+      "name": "Industrial Foregoing para aleaciones",
+      "order": 6,
+      "mods": [
+        "industrialforegoing"
+      ],
+      "purpose": "Obtener materiales de máquinas, Pink Slime y una Dissolution Chamber operativa.",
+      "steps": [
+        {
+          "id": "if-plastic",
+          "title": "Producir plástico",
+          "detail": "Inicia Fluid Extractor y Latex Processing Unit y prepara suministro de agua y FE.",
+          "requires": []
+        },
+        {
+          "id": "if-dissolution",
+          "title": "Construir Dissolution Chamber",
+          "detail": "Usa la máquina para componentes y recetas avanzadas; registra consumos de fluidos.",
+          "requires": [
+            "if-plastic"
+          ]
+        },
+        {
+          "id": "if-pink",
+          "title": "Crear Pink Slime",
+          "detail": "Mob Slaughter Factory es la rama necesaria para obtenerlo.",
+          "requires": [
+            "if-dissolution"
+          ]
+        },
+        {
+          "id": "if-alloy",
+          "title": "Producir aleación Unobtainium–Vibranium",
+          "detail": "Combina metales, Pink Slime, Piglich Hearts y Soul Lava en Dissolution Chamber.",
+          "requires": [
+            "if-pink",
+            "atm-piglich",
+            "atm-unobtainium"
+          ]
+        },
+        {
+          "id": "if-star",
+          "title": "Preparar componentes de la Star",
+          "detail": "Wither Builder y Mycelial Explosive son dos objetivos concretos de esta rama.",
+          "requires": [
+            "if-alloy"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/industrial_foregoing.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "industrialforegoing": "1.21-3.6.39"
+      }
+    },
+    {
+      "id": "antimatter",
+      "name": "Mekanism nuclear y antimateria",
+      "order": 7,
+      "mods": [
+        "mekanism",
+        "mekanismgenerators"
+      ],
+      "purpose": "Llegar a Antimatter Pellets y a la infraestructura eléctrica del endgame.",
+      "steps": [
+        {
+          "id": "nuclear-build",
+          "title": "Montar fisión con control",
+          "detail": "Verifica combustible, agua/refrigerante, salida de vapor y residuos antes de activar el reactor.",
+          "requires": [
+            "mek-fission"
+          ]
+        },
+        {
+          "id": "nuclear-waste",
+          "title": "Gestionar Nuclear Waste",
+          "detail": "Usa tuberías y Radioactive Waste Barrels; romperlos con contenido provoca radiación en el mundo.",
+          "requires": [
+            "nuclear-build"
+          ]
+        },
+        {
+          "id": "nuclear-polonium",
+          "title": "Producir Polonium",
+          "detail": "Solar Neutron Activator exige luz solar; contempla noche y almacenamiento de residuos.",
+          "requires": [
+            "nuclear-waste"
+          ]
+        },
+        {
+          "id": "nuclear-pellets",
+          "title": "Preparar pellets y SPS",
+          "detail": "PRC transforma Polonium/Plutonium con agua y Fluorite Dust; construye Supercritical Phase Shifter.",
+          "requires": [
+            "nuclear-polonium"
+          ]
+        },
+        {
+          "id": "nuclear-fusion",
+          "title": "Escalar energía",
+          "detail": "Desarrolla combustible de fusión, arranque y generación suficientes para alimentar el SPS.",
+          "requires": [
+            "nuclear-pellets"
+          ]
+        },
+        {
+          "id": "nuclear-antimatter",
+          "title": "Cristalizar antimateria",
+          "detail": "El SPS consume Polonium y energía; Chemical Crystallizer produce el pellet. La Star necesita esta rama.",
+          "requires": [
+            "nuclear-fusion"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/mekanism_reactors.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "mekanism": "10.7.19",
+        "mekanismgenerators": "10.7.19"
+      }
+    },
+    {
+      "id": "atm-star",
+      "name": "Proyecto final: ATM Star",
+      "order": 8,
+      "mods": [
+        "allthetweaks",
+        "modern_industrialization",
+        "create"
+      ],
+      "purpose": "Convertir varias ramas del pack en un único proyecto con tareas y reservas visibles.",
+      "steps": [
+        {
+          "id": "star-bulk",
+          "title": "Automatizar materiales masivos",
+          "detail": "Planifica Nether Stars, esencias, metales ATM, gemas y bloques comprimidos.",
+          "requires": [
+            "hnn-star",
+            "ma-creative",
+            "atm-alloys"
+          ]
+        },
+        {
+          "id": "star-patrick",
+          "title": "Fabricar Patrick Star",
+          "detail": "Create permite Mechanical Crafting; también existe receta alternativa en Star Altar.",
+          "requires": []
+        },
+        {
+          "id": "star-components",
+          "title": "Fabricar los nueve componentes",
+          "detail": "Oblivion Shard, Creative Essence, Nexium Emitter, Wither’s Compass, Improbable Probability Device, Dragon Soul, Philosopher’s Fuel, Pulsating Black Hole y Dimensional Seed.",
+          "requires": [
+            "star-bulk"
+          ]
+        },
+        {
+          "id": "star-altar",
+          "title": "Construir Runic Star Altar",
+          "detail": "La estructura oficial ocupa 15×8×15; usa una Wrench de Modern Industrialization para la vista guía.",
+          "requires": []
+        },
+        {
+          "id": "star-power",
+          "title": "Añadir hatches y upgrades",
+          "detail": "Necesita entrada/salida de ítems y energía. La capacidad mínima se satisface con upgrades; Runic Attuned Crystal añade 512 EU/t.",
+          "requires": [
+            "star-altar"
+          ]
+        },
+        {
+          "id": "star-awakened",
+          "title": "Preparar 2 bloques de aleación despertada",
+          "detail": "Usa Unobtainium–Vibranium Alloy Block, Awakened Supremium y libros Unbreaking I.",
+          "requires": [
+            "star-power",
+            "if-alloy"
+          ]
+        },
+        {
+          "id": "star-craft",
+          "title": "Completar el ensamblado final",
+          "detail": "Registra cantidades y confirma en JEI los componentes/NBT antes de iniciar la receta del altar.",
+          "requires": [
+            "star-patrick",
+            "star-components",
+            "star-awakened"
+          ]
+        }
+      ],
+      "sources": [
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/chapter_2_the_star.snbt",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/startup_scripts/Modern-Industrialization/multiblocks/runic_star_altar.js"
+      ],
+      "ordering": "Ruta editorial recomendada; las dependencias no son bloqueos de quests importados.",
+      "modVersions": {
+        "allthetweaks": "2.9.4",
+        "modern_industrialization": "2.5.6",
+        "create": "6.0.10"
+      }
+    }
+  ],
+  "integrations": [
+    {
+      "from": "Create",
+      "to": "Functional Storage",
+      "use": "Enviar producción a cajones bloqueados y exponer el controlador a AE2.",
+      "status": "Arquitectura recomendada; comprobar entrada/salida con una pila de prueba.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/storage.snbt"
+    },
+    {
+      "from": "Create",
+      "to": "AE2",
+      "use": "Pattern Provider → inventario de entrada → línea Create → inventario de salida → red ME; usa patrones de procesamiento.",
+      "status": "Arquitectura recomendada; no es una receta única ni un addon obligatorio.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/ftbquests/quests/lang/en_us/chapters/applied_energistics_2.snbt"
+    },
+    {
+      "from": "Powah",
+      "to": "AE2",
+      "use": "1 Certus Quartz → 1 Charged Certus Quartz por 20,000 FE en Energizing Orb; alternativa al Charger.",
+      "status": "Receta KubeJS de 8.1.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/mods/Powah/Energizing.js"
+    },
+    {
+      "from": "Create",
+      "to": "ATM Star",
+      "use": "Mechanical Arm es alternativa a Large Advanced Motor para Nexium Emitter; Blaze Burner es alternativa a Uranium Fuel Rod Quad en Philosopher’s Fuel.",
+      "status": "Recetas KubeJS de 8.1.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+    },
+    {
+      "from": "Ars Nouveau",
+      "to": "Allthemodium",
+      "use": "Enchanting Apparatus produce aleación Unobtainium–Allthemodium con Source, esencias y Piglich Hearts.",
+      "status": "Receta KubeJS de 8.1.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js"
+    },
+    {
+      "from": "Powah",
+      "to": "Allthemodium",
+      "use": "Energizing produce aleación Vibranium–Allthemodium con Nitro comprimido y Piglich Hearts.",
+      "status": "Receta KubeJS de 8.1.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js"
+    },
+    {
+      "from": "Industrial Foregoing",
+      "to": "Allthemodium",
+      "use": "Dissolution Chamber produce aleación Unobtainium–Vibranium con Pink Slime, Soul Lava y Piglich Hearts.",
+      "status": "Receta KubeJS de 8.1.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js"
+    }
+  ],
+  "starComponents": [
+    {
+      "id": "allthetweaks:oblivion_shard",
+      "name": "Oblivion Shard",
+      "mods": [
+        "Forbidden & Arcanus",
+        "EvilCraft",
+        "Steve’s Carts",
+        "Cataclysm",
+        "Twilight Forest"
+      ],
+      "goal": "Eternal Stella, Mace of Destruction cargada, 2 Piercing Vengeance Focus, 2 Galgadorian Drill, Meat Shredder, Snow Queen Trophy, Void Forge.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+    },
+    {
+      "id": "mysticalagradditions:creative_essence",
+      "name": "Creative Essence",
+      "mods": [
+        "Mystical Agriculture",
+        "Mystical Agradditions"
+      ],
+      "goal": "4 Insanium Essence Blocks + 4 Insanium Gemstone Blocks + Master Infusion Crystal.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+    },
+    {
+      "id": "allthetweaks:nexium_emitter",
+      "name": "Nexium Emitter",
+      "mods": [
+        "Powah",
+        "AE2",
+        "Advanced AE",
+        "Mekanism",
+        "Create",
+        "Immersive Engineering"
+      ],
+      "goal": "Player Transmitter Nitro, terminal universal con componentes y carga requeridos, Gravitational Modulating Unit, Mechanical Arm o Large Advanced Motor, Tesla Coil, Quantum Multi Threader e Infinity Card.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+    },
+    {
+      "id": "allthetweaks:withers_compass",
+      "name": "Wither’s Compass",
+      "mods": [
+        "Productive Bees",
+        "Industrial Foregoing",
+        "Deeper and Darker",
+        "Generators Galore",
+        "Iron’s Spells",
+        "Mystical Agriculture",
+        "Ars Nouveau"
+      ],
+      "goal": "Withered comb, Wither Builder, Heart of the Deep, Netherstar Generator 64x, scroll Wither Skull nivel 10, Witherproof Bricks, flecha long_wither, glyph Wither y Nether Star Crux.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+    },
+    {
+      "id": "allthetweaks:improbable_probability_device",
+      "name": "Improbable Probability Device",
+      "mods": [
+        "Mekanism",
+        "AE2",
+        "MEGA Cells",
+        "Modern Industrialization",
+        "PneumaticCraft",
+        "Iron Furnaces",
+        "Iron’s Spells"
+      ],
+      "goal": "2 Antimatter Pellets, Singularity, 2 Portable Item Cells 256M o Blastproof Casings, Aerial Interface, 2 Million Furnaces y Lightning Upgrade Orb.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+    },
+    {
+      "id": "allthetweaks:dragon_soul",
+      "name": "Dragon Soul",
+      "mods": [
+        "Apothic Enchanting",
+        "Occultism",
+        "Productive Trees",
+        "HNN",
+        "Allthemodium",
+        "Productive Bees",
+        "Cataclysm",
+        "Eternal Starlight"
+      ],
+      "goal": "Infused Breath, Soul Gem, Dragon Familiar capturado/huevo, Socotra Dragon Sapling, modelo Ender Dragon con 1254/1255 datos, Piglich Heart Block, Soul Lava Bee, Abyssal Sacrifice y Chain of Souls.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+    },
+    {
+      "id": "allthetweaks:philosophers_fuel",
+      "name": "Philosopher’s Fuel",
+      "mods": [
+        "Generators Galore",
+        "Iron Furnaces",
+        "Extreme Reactors",
+        "Create",
+        "Mystical Agriculture",
+        "Forbidden & Arcanus",
+        "EvilCraft",
+        "Just Dire Things"
+      ],
+      "goal": "Ender Generator, Rainbow Coal, Insanite Block, Blaze Burner o Uranium Fuel Rod Quad, Insanium Coal Block, Smelter Prism, Awakened Supremium Ingot Block, Magmatic Generator 64x y Dark Tank con 16,000 mB de fluido refinado tier 4.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+    },
+    {
+      "id": "allthetweaks:pulsating_black_hole",
+      "name": "Pulsating Black Hole",
+      "mods": [
+        "Oritech",
+        "AE2",
+        "PneumaticCraft",
+        "Just Dire Things",
+        "Pocket Storage",
+        "Occultism",
+        "Roots Classic",
+        "Industrial Foregoing",
+        "EvilCraft"
+      ],
+      "goal": "Nuke, Quantum Ring, Micromissiles, Paradox Machine, PSU tier 4, Stable Wormhole, Crystal Staff, Mycelial Explosive y Lightning Bomb.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+    },
+    {
+      "id": "allthetweaks:dimensional_seed",
+      "name": "Dimensional Seed",
+      "mods": [
+        "AllTheCompressed",
+        "Neo Vitae",
+        "AllTheTweaks"
+      ],
+      "goal": "Netherrack 6x, Teleposer, Obsidian 5x, Mini Exit/Nether/End, End Stone 5x, Emerald Block 4x y Diamond Block 4x.",
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js"
+    }
+  ],
+  "starRecipe": {
+    "item": "allthetweaks:atm_star",
+    "machine": "Runic Star Altar",
+    "recipeType": "modern_industrialization:star_altar",
+    "euPerTick": 2048,
+    "ticks": 200,
+    "inputs": [
+      {
+        "item": "allthemodium:unobtainium_allthemodium_alloy_block",
+        "count": 28,
+        "name": "Unobtainium–Allthemodium Alloy Block"
+      },
+      {
+        "item": "allthecompressed:nether_star_block_3x",
+        "count": 15,
+        "name": "Nether Star Block 3x"
+      },
+      {
+        "item": "allthemodium:unobtainium_vibranium_alloy_block",
+        "count": 2,
+        "name": "Awakened Unobtainium–Vibranium Alloy Block",
+        "components": "enchantments unbreaking:1 y nombre Awakened Unobtainium-Vibranium Alloy Block"
+      },
+      {
+        "item": "allthetweaks:oblivion_shard",
+        "count": 1,
+        "name": "Oblivion Shard"
+      },
+      {
+        "item": "mysticalagradditions:creative_essence",
+        "count": 1,
+        "name": "Creative Essence"
+      },
+      {
+        "item": "allthetweaks:nexium_emitter",
+        "count": 1,
+        "name": "Nexium Emitter"
+      },
+      {
+        "item": "allthetweaks:withers_compass",
+        "count": 1,
+        "name": "Wither’s Compass"
+      },
+      {
+        "item": "allthetweaks:improbable_probability_device",
+        "count": 1,
+        "name": "Improbable Probability Device"
+      },
+      {
+        "item": "allthetweaks:dragon_soul",
+        "count": 1,
+        "name": "Dragon Soul"
+      },
+      {
+        "item": "allthetweaks:philosophers_fuel",
+        "count": 1,
+        "name": "Philosopher’s Fuel"
+      },
+      {
+        "item": "allthetweaks:pulsating_black_hole",
+        "count": 1,
+        "name": "Pulsating Black Hole"
+      },
+      {
+        "item": "allthetweaks:dimensional_seed",
+        "count": 1,
+        "name": "Dimensional Seed"
+      },
+      {
+        "item": "allthetweaks:patrick_star",
+        "count": 1,
+        "name": "Patrick Star"
+      }
+    ],
+    "note": "2048 y 200 son los parámetros registrados por KubeJS (EU/t y ticks de MI); no traducir a FE totales usando textos de quest antiguos. Hay además una ruta alternativa con fragmentos y Patrick Star infusionada.",
+    "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/runic_multis/recipes/star_altar.js"
+  },
+  "warnings": [
+    "ATM10 es kitchen sink: este orden reduce cambios de contexto, no es una progresión obligatoria del pack.",
+    "Los nombres, recetas y cantidades corresponden al ZIP oficial 8.1. Un servidor puede modificar datapacks, configs y recetas; el JEI conectado al servidor es la referencia final.",
+    "La receta final de la ATM Star está en Runic Star Altar; no extrapolar guías antiguas de Mechanical Crafting.",
+    "Digital Miner está detrás de Vibranium en la receta de este pack.",
+    "HNN 6.5.1 separa Training e Inference: no asumir que cada simulación entrena y genera loot al mismo tiempo.",
+    "Ad Astra fue añadido en 8.1 sin quests: se conserva como exploración opcional, no se inventa un capítulo oficial.",
+    "El modlist cacheado de crash_assistant omite tres altas de última hora presentes en el release; no usar su conteo como inventario definitivo.",
+    "No se han probado estas líneas en un mundo de juego ni se han auditado overrides privados del servidor."
+  ],
+  "recipes": [
+    {
+      "id": "mekanism:digital_miner",
+      "name": "Digital Miner",
+      "outputItem": "mekanism:digital_miner",
+      "outputCount": 1,
+      "machine": "Mesa de crafteo",
+      "ingredients": [
+        {
+          "id": "#c:ingots/vibranium",
+          "name": "Lingote de Vibranium",
+          "quantity": 2,
+          "kind": "tag"
+        },
+        {
+          "id": "#c:circuits/basic",
+          "name": "Circuito básico",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "mekanism:robit",
+          "name": "Robit",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "mekanism:logistical_sorter",
+          "name": "Logistical Sorter",
+          "quantity": 2,
+          "kind": "item"
+        },
+        {
+          "id": "mekanism:teleportation_core",
+          "name": "Teleportation Core",
+          "quantity": 2,
+          "kind": "item"
+        },
+        {
+          "id": "mekanism:steel_casing",
+          "name": "Steel Casing",
+          "quantity": 1,
+          "kind": "item"
+        }
+      ],
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/mods/Mekanism/Recipes.js",
+      "notes": "Patrón ACA / SRS / TXT. Es una receta modificada del pack.",
+      "verification": "KubeJS del ZIP oficial 8.1; entrada directa, sin expandir subrecetas."
+    },
+    {
+      "id": "allthemodium:vibranium_allthemodium_alloy_ingot",
+      "name": "Aleación Vibranium–Allthemodium",
+      "outputItem": "allthemodium:vibranium_allthemodium_alloy_ingot",
+      "outputCount": 1,
+      "machine": "Powah · Energizing Orb",
+      "ingredients": [
+        {
+          "id": "#c:ingots/allthemodium",
+          "name": "Lingote de Allthemodium",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "allthemodium:piglich_heart",
+          "name": "Piglich Heart",
+          "quantity": 2,
+          "kind": "item"
+        },
+        {
+          "id": "allthecompressed:nitro_crystal_block_1x",
+          "name": "Nitro Crystal Block 1x",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "#c:ingots/vibranium",
+          "name": "Lingote de Vibranium",
+          "quantity": 1,
+          "kind": "tag"
+        }
+      ],
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js",
+      "notes": "",
+      "verification": "KubeJS del ZIP oficial 8.1; entrada directa, sin expandir subrecetas.",
+      "energy": {
+        "amount": 1000000000,
+        "unit": "FE"
+      }
+    },
+    {
+      "id": "allthemodium:vibranium_allthemodium_alloy_block",
+      "name": "Bloque aleación Vibranium–Allthemodium",
+      "outputItem": "allthemodium:vibranium_allthemodium_alloy_block",
+      "outputCount": 1,
+      "machine": "Powah · Energizing Orb",
+      "ingredients": [
+        {
+          "id": "#c:storage_blocks/allthemodium",
+          "name": "Bloque de Allthemodium",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "allthemodium:piglich_heart_block",
+          "name": "Piglich Heart Block",
+          "quantity": 2,
+          "kind": "item"
+        },
+        {
+          "id": "allthecompressed:nitro_crystal_block_2x",
+          "name": "Nitro Crystal Block 2x",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "#c:storage_blocks/vibranium",
+          "name": "Bloque de Vibranium",
+          "quantity": 1,
+          "kind": "tag"
+        }
+      ],
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js",
+      "notes": "",
+      "verification": "KubeJS del ZIP oficial 8.1; entrada directa, sin expandir subrecetas.",
+      "energy": {
+        "amount": 9000000000,
+        "unit": "FE"
+      }
+    },
+    {
+      "id": "allthemodium:unobtainium_allthemodium_alloy_ingot",
+      "name": "Aleación Unobtainium–Allthemodium",
+      "outputItem": "allthemodium:unobtainium_allthemodium_alloy_ingot",
+      "outputCount": 1,
+      "machine": "Ars Nouveau · Enchanting Apparatus",
+      "ingredients": [
+        {
+          "id": "#c:ingots/allthemodium",
+          "name": "Lingote de Allthemodium",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "#c:ingots/unobtainium",
+          "name": "Lingote de Unobtainium",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "allthemodium:piglich_heart",
+          "name": "Piglich Heart",
+          "quantity": 2,
+          "kind": "item"
+        },
+        {
+          "id": "ars_nouveau:air_essence",
+          "name": "Esencia de aire",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "ars_nouveau:earth_essence",
+          "name": "Esencia de tierra",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "ars_nouveau:fire_essence",
+          "name": "Esencia de fuego",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "ars_nouveau:water_essence",
+          "name": "Esencia de agua",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "ars_nouveau:source_gem",
+          "name": "Source Gem (reactivo)",
+          "quantity": 1,
+          "kind": "item"
+        }
+      ],
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js",
+      "notes": "Los otros 8 ingredientes van en pedestales; Source Gem es el reactivo.",
+      "verification": "KubeJS del ZIP oficial 8.1; entrada directa, sin expandir subrecetas.",
+      "energy": {
+        "amount": 10000,
+        "unit": "Source"
+      }
+    },
+    {
+      "id": "allthemodium:unobtainium_allthemodium_alloy_block",
+      "name": "Bloque aleación Unobtainium–Allthemodium",
+      "outputItem": "allthemodium:unobtainium_allthemodium_alloy_block",
+      "outputCount": 1,
+      "machine": "Ars Nouveau · Enchanting Apparatus",
+      "ingredients": [
+        {
+          "id": "#c:storage_blocks/allthemodium",
+          "name": "Bloque de Allthemodium",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "#c:storage_blocks/unobtainium",
+          "name": "Bloque de Unobtainium",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "allthemodium:piglich_heart_block",
+          "name": "Piglich Heart Block",
+          "quantity": 2,
+          "kind": "item"
+        },
+        {
+          "id": "kubejs:air_essence_block",
+          "name": "Bloque de esencia de aire",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "kubejs:earth_essence_block",
+          "name": "Bloque de esencia de tierra",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "kubejs:fire_essence_block",
+          "name": "Bloque de esencia de fuego",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "kubejs:water_essence_block",
+          "name": "Bloque de esencia de agua",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "ars_nouveau:source_gem_block",
+          "name": "Source Gem Block (reactivo)",
+          "quantity": 1,
+          "kind": "item"
+        }
+      ],
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js",
+      "notes": "Receta por bloques.",
+      "verification": "KubeJS del ZIP oficial 8.1; entrada directa, sin expandir subrecetas.",
+      "energy": {
+        "amount": 90000,
+        "unit": "Source"
+      }
+    },
+    {
+      "id": "allthemodium:unobtainium_vibranium_alloy_ingot",
+      "name": "Aleación Unobtainium–Vibranium",
+      "outputItem": "allthemodium:unobtainium_vibranium_alloy_ingot",
+      "outputCount": 1,
+      "machine": "Industrial Foregoing · Dissolution Chamber",
+      "ingredients": [
+        {
+          "id": "#c:ingots/vibranium",
+          "name": "Lingote de Vibranium",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "#c:ingots/unobtainium",
+          "name": "Lingote de Unobtainium",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "allthemodium:piglich_heart",
+          "name": "Piglich Heart",
+          "quantity": 2,
+          "kind": "item"
+        },
+        {
+          "id": "industrialforegoing:pink_slime",
+          "name": "Pink Slime",
+          "quantity": 4,
+          "kind": "item"
+        },
+        {
+          "id": "allthemodium:soul_lava",
+          "name": "Soul Lava",
+          "quantity": 100,
+          "kind": "mB"
+        }
+      ],
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js",
+      "notes": "Tiempo de procesamiento registrado: 200 ticks. Respetar disposición de ingredientes de JEI.",
+      "verification": "KubeJS del ZIP oficial 8.1; entrada directa, sin expandir subrecetas."
+    },
+    {
+      "id": "allthemodium:unobtainium_vibranium_alloy_block",
+      "name": "Bloque aleación Unobtainium–Vibranium",
+      "outputItem": "allthemodium:unobtainium_vibranium_alloy_block",
+      "outputCount": 1,
+      "machine": "Industrial Foregoing · Dissolution Chamber",
+      "ingredients": [
+        {
+          "id": "#c:storage_blocks/vibranium",
+          "name": "Bloque de Vibranium",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "#c:storage_blocks/unobtainium",
+          "name": "Bloque de Unobtainium",
+          "quantity": 1,
+          "kind": "tag"
+        },
+        {
+          "id": "allthemodium:piglich_heart_block",
+          "name": "Piglich Heart Block",
+          "quantity": 2,
+          "kind": "item"
+        },
+        {
+          "id": "industrialforegoing:pink_slime_block",
+          "name": "Pink Slime Block",
+          "quantity": 4,
+          "kind": "item"
+        },
+        {
+          "id": "allthemodium:soul_lava",
+          "name": "Soul Lava",
+          "quantity": 900,
+          "kind": "mB"
+        }
+      ],
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/atm_alloys.js",
+      "notes": "Tiempo de procesamiento registrado: 200 ticks. Respetar disposición de ingredientes de JEI.",
+      "verification": "KubeJS del ZIP oficial 8.1; entrada directa, sin expandir subrecetas."
+    },
+    {
+      "id": "mysticalagradditions:creative_essence",
+      "name": "Creative Essence",
+      "outputItem": "mysticalagradditions:creative_essence",
+      "outputCount": 1,
+      "machine": "Mesa de crafteo",
+      "ingredients": [
+        {
+          "id": "mysticalagradditions:insanium_block",
+          "name": "Insanium Essence Block",
+          "quantity": 4,
+          "kind": "item"
+        },
+        {
+          "id": "mysticalagradditions:insanium_gemstone_block",
+          "name": "Insanium Gemstone Block",
+          "quantity": 4,
+          "kind": "item"
+        },
+        {
+          "id": "mysticalagriculture:master_infusion_crystal",
+          "name": "Master Infusion Crystal",
+          "quantity": 1,
+          "kind": "item"
+        }
+      ],
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/modpack/att_items.js",
+      "notes": "Patrón CAC / ABA / CAC; B = cristal, A = essence blocks, C = gemstone blocks.",
+      "verification": "KubeJS del ZIP oficial 8.1; entrada directa, sin expandir subrecetas."
+    },
+    {
+      "id": "kubejs:universal_press",
+      "name": "Universal Press",
+      "outputItem": "kubejs:universal_press",
+      "outputCount": 1,
+      "machine": "Mesa de crafteo",
+      "ingredients": [
+        {
+          "id": "#c:ingots/sky_steel",
+          "name": "Sky Steel Ingot",
+          "quantity": 4,
+          "kind": "tag"
+        },
+        {
+          "id": "ae2:silicon_press",
+          "name": "Silicon Press",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "ae2:calculation_processor_press",
+          "name": "Calculation Processor Press",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "name": "Bola de slime",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "ae2:logic_processor_press",
+          "name": "Logic Processor Press",
+          "quantity": 1,
+          "kind": "item"
+        },
+        {
+          "id": "ae2:engineering_processor_press",
+          "name": "Engineering Processor Press",
+          "quantity": 1,
+          "kind": "item"
+        }
+      ],
+      "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/mods/Applied Energistics/Recipes.js",
+      "notes": "Patrón FPF / CSL / FEF. Combina las cuatro prensas; existe duplicación en Inscriber usando Iron Block.",
+      "verification": "KubeJS del ZIP oficial 8.1; entrada directa, sin expandir subrecetas."
+    }
+  ],
+  "editorialNotes": [
+    "Las 73 tareas son objetivos seleccionados y resumidos, no una copia del libro de quests.",
+    "Los IDs de pasos son propios del tracker. requires representa el orden recomendado y requisitos descritos, no los IDs de dependencias FTB Quests.",
+    "Otras rutas incluidas en el pack (Modern Industrialization completa, Oritech, PneumaticCraft, Immersive Engineering, exploración y magia avanzada) aparecen en componentes de Star, pero no se consideran auditadas a fondo aquí."
+  ],
+  "starAltarBuild": {
+    "dimensions": [
+      15,
+      8,
+      15
+    ],
+    "controller": {
+      "item": "modern_industrialization:star_altar",
+      "count": 1
+    },
+    "fixedMaterials": [
+      {
+        "item": "forbidden_arcanus:polished_darkstone_stairs",
+        "count": 112
+      },
+      {
+        "item": "forbidden_arcanus:polished_darkstone_slab",
+        "count": 20
+      },
+      {
+        "item": "forbidden_arcanus:polished_darkstone",
+        "count": 314
+      },
+      {
+        "item": "forbidden_arcanus:gilded_chiseled_polished_darkstone",
+        "count": 17
+      },
+      {
+        "item": "forbidden_arcanus:rune_block",
+        "count": 16
+      },
+      {
+        "item": "forbidden_arcanus:darkstone_pedestal",
+        "count": 8
+      },
+      {
+        "item": "forbidden_arcanus:arcane_polished_darkstone_pillar",
+        "count": 40
+      },
+      {
+        "item": "forbidden_arcanus:arcane_crystal_block",
+        "count": 4
+      },
+      {
+        "item": "forbidden_arcanus:arcane_polished_darkstone",
+        "count": 8
+      },
+      {
+        "item": "forbidden_arcanus:chiseled_arcane_polished_darkstone",
+        "count": 4
+      },
+      {
+        "item": "forbidden_arcanus:magnetized_darkstone_pedestal",
+        "count": 1
+      },
+      {
+        "item": "forbidden_arcanus:quantum_injector",
+        "count": 1
+      },
+      {
+        "item": "forbidden_arcanus:arcane_crystal_obelisk",
+        "count": 8
+      },
+      {
+        "item": "forbidden_arcanus:essence_utrem_jar",
+        "count": 4
+      }
+    ],
+    "hatchPositions": 11,
+    "hatchRule": "Hay 11 posiciones que admiten Polished Darkstone o hatches; distribuir entradas de ítems, salida y energía según necesidad. Los 11 sitios no están incluidos en los bloques fijos.",
+    "note": "Conteo calculado de la forma registrada; seguir la guía de Wrench dentro del juego para orientación y validación del multibloque.",
+    "source": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/startup_scripts/Modern-Industrialization/multiblocks/runic_star_altar.js"
+  }
+}

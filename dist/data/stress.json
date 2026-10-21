@@ -1,0 +1,82 @@
+{
+  "scope": "Valores predeterminados del código Create 6.0.10; el ZIP no incluye create-server.toml. El administrador puede cambiarlos.",
+  "formula": "consumo total SU = suma(cantidad × impacto SU/RPM × RPM real de cada máquina)",
+  "maxRpm": 256,
+  "machines": [
+    {
+      "id": "create:mechanical_press",
+      "impact": 8
+    },
+    {
+      "id": "create:mechanical_mixer",
+      "impact": 4
+    },
+    {
+      "id": "create:millstone",
+      "impact": 4
+    },
+    {
+      "id": "create:crushing_wheel",
+      "impact": 8
+    },
+    {
+      "id": "create:deployer",
+      "impact": 4
+    },
+    {
+      "id": "create:encased_fan",
+      "impact": 2
+    },
+    {
+      "id": "create:mechanical_pump",
+      "impact": 4
+    },
+    {
+      "id": "create:mechanical_crafter",
+      "impact": 2
+    },
+    {
+      "id": "create:mechanical_arm",
+      "impact": 2
+    }
+  ],
+  "sources": [
+    {
+      "id": "create:water_wheel",
+      "rpm": 8,
+      "capacitySU": 256
+    },
+    {
+      "id": "create:large_water_wheel",
+      "rpm": 4,
+      "capacitySU": 512
+    },
+    {
+      "id": "create:windmill_bearing",
+      "formula": "RPM = clamp(floor(velas/8),1,16); capacidad=512×RPM; mínimo 8 velas",
+      "maxCapacitySU": 8192
+    },
+    {
+      "id": "create:steam_engine",
+      "activeSUPerLevel": 16384,
+      "passiveTotalSU": 2048,
+      "maxLevel": 18,
+      "maxTotalSU": 294912
+    }
+  ],
+  "steam": {
+    "tanksPerLevel": 4,
+    "waterMbPerTickPerLevel": 10,
+    "heatedBurnerLevels": 1,
+    "superheatedBurnerLevels": 2,
+    "maxLevel": 18,
+    "activeFormula": "nivel=min(18,floor(tanques/4),floor(agua_mB_t/10),calor); SU=16384×min(motores,nivel)",
+    "warning": "Modelo estacionario para agua continua y quemadores activos; no incluye arranque ni variaciones de combustible. Calor pasivo tiene fórmula separada."
+  },
+  "sourceUrls": [
+    "https://github.com/Creators-of-Create/Create/blob/ac0c444d9828da3453ae8cc65338e8de063286fb/src/main/java/com/simibubi/create/AllBlocks.java",
+    "https://github.com/Creators-of-Create/Create/blob/ac0c444d9828da3453ae8cc65338e8de063286fb/src/main/java/com/simibubi/create/content/fluids/tank/BoilerData.java",
+    "https://github.com/Creators-of-Create/Create/blob/ac0c444d9828da3453ae8cc65338e8de063286fb/src/main/java/com/simibubi/create/content/fluids/tank/BoilerHeaters.java",
+    "https://github.com/Creators-of-Create/Create/blob/ac0c444d9828da3453ae8cc65338e8de063286fb/src/main/java/com/simibubi/create/content/kinetics/steamEngine/PoweredShaftBlockEntity.java"
+  ]
+}

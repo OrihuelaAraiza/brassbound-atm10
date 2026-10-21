@@ -1,0 +1,893 @@
+{
+  "pack": {
+    "name": "All the Mods 10",
+    "version": "8.1",
+    "minecraft": "1.21.1",
+    "loader": "NeoForge 21.1.249",
+    "releaseDate": "2026-08-29",
+    "releaseUrl": "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10/files/8764211",
+    "archiveSha256": "60984ff08fb4d3bbf5fca86eaa955286f1477d316a3a9ef250a891aba2580109",
+    "githubReferenceCommit": "ab6f65e07b88423cdae1724864ba42a573ba758a",
+    "createCommit": "ac0c444d9828da3453ae8cc65338e8de063286fb"
+  },
+  "mods": [
+    {
+      "id": "ars_creo",
+      "name": "Ars Creo",
+      "version": "5.4.0",
+      "jar": "ars_creo-1.21.1-5.4.0.jar",
+      "category": "Magia y movimiento",
+      "stage": "mid",
+      "summary": "Una Starbuncle Wheel genera rotación mediante un starbuncle; permite usar torretas de hechizos y Source Jars en contraptions.",
+      "recommendation": "Combina una fábrica móvil con Ars Nouveau cuando ya controles contraptions.",
+      "sourceUrl": "https://modrinth.com/mod/ars-creo",
+      "codeUrl": "https://github.com/baileyholl/Ars-Creo",
+      "sha1": "22a6afd4fbe76354acc9c1ba076c89a94d120d94",
+      "sha1Verified": true,
+      "isAddon": true
+    },
+    {
+      "id": "bellsandwhistles",
+      "name": "Create: Bells & Whistles",
+      "version": "0.4.7-1.21.1",
+      "jar": "bellsandwhistles-0.4.7-1.21.1.jar",
+      "category": "Trenes y construcción",
+      "stage": "trains",
+      "summary": "Añade plataformas, focos, bloques Metro y adornos para locomotoras y estaciones.",
+      "recommendation": "Construye primero un tren funcional; añade plataformas y detalles después.",
+      "sourceUrl": "https://modrinth.com/mod/bellsandwhistles",
+      "codeUrl": "https://github.com/sudoLev/BellsAndWhistlesMod",
+      "sha1": "85944080f8bd47dad64a8193a70662cd9ddbb200",
+      "sha1Verified": true,
+      "isAddon": true
+    },
+    {
+      "id": "create",
+      "name": "Create",
+      "version": "6.0.10",
+      "jar": "create-1.21.1-6.0.10.jar",
+      "category": "Núcleo",
+      "stage": "early",
+      "summary": "Automatización cinética, máquinas, contraptions, trenes y logística por paquetes.",
+      "recommendation": "Comienza con agua, aleación de andesita, prensa y mezclador.",
+      "sourceUrl": "https://modrinth.com/mod/create",
+      "codeUrl": "https://github.com/Creators-of-Create/Create",
+      "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353",
+      "sha1Verified": true,
+      "isAddon": false
+    },
+    {
+      "id": "create_enchantment_industry",
+      "name": "Create: Enchantment Industry",
+      "version": "2.5.3b",
+      "jar": "create-enchantment-industry-2.5.3b.jar",
+      "category": "Experiencia y encantamientos",
+      "stage": "late",
+      "summary": "Automatiza experiencia líquida, molienda, encantamiento, forja y copiado. Incluye integración con Apotheosis.",
+      "recommendation": "Empieza almacenando XP; deja Infuser y Affix Augmentor para tu progreso de Apotheosis.",
+      "sourceUrl": "https://modrinth.com/mod/create-enchantment-industry",
+      "codeUrl": "https://github.com/DragonsPlusMinecraft/CreateEnchantmentIndustry",
+      "sha1": "f39af237b8bff853a89e8784518bdc36ba54a32e",
+      "sha1Verified": true,
+      "isAddon": true
+    },
+    {
+      "id": "create_aquatic_ambitions",
+      "name": "Create Aquatic Ambitions",
+      "version": "2.0.4",
+      "jar": "create_aquatic_ambitions-1.21.1-2.0.4.jar",
+      "category": "Recursos oceánicos",
+      "stage": "mid",
+      "summary": "Añade canalización mediante conduit y nuevas rutas renovables para prismarina, cobre, coral y materiales marinos.",
+      "recommendation": "Monta un Encased Fan con conduit activo o Conduit Cage y revisa Ponder antes de automatizar.",
+      "sourceUrl": "https://modrinth.com/mod/create-aquatic-ambitions",
+      "codeUrl": "https://github.com/davioliva16/create-aquatic-ambitions",
+      "sha1": "a02ce8ffc8395566c4fbe7907e721e82fd1b590b",
+      "sha1Verified": true,
+      "isAddon": true
+    },
+    {
+      "id": "create_hypertube",
+      "name": "Create Hypertube",
+      "version": "0.6.0",
+      "jar": "create_hypertube-0.6.0-NEOFORGE.jar",
+      "category": "Transporte de jugadores",
+      "stage": "mid",
+      "summary": "Tubos impulsados por rotación para transportar jugadores y entidades; incluye entradas, aceleradores y desvíos.",
+      "recommendation": "Prueba una conexión corta de ida y vuelta antes de extenderla por la base.",
+      "sourceUrl": "https://modrinth.com/mod/hypertube",
+      "codeUrl": "https://github.com/PedroRok/CreateHypertubes",
+      "sha1": "8004b4b3959364609906ea4d7bf409add879a222",
+      "sha1Verified": true,
+      "isAddon": true
+    },
+    {
+      "id": "createaddition",
+      "name": "Create Crafts & Additions",
+      "version": "1.7.0",
+      "jar": "createaddition-1.7.0.jar",
+      "category": "Electricidad y rotación",
+      "stage": "mid",
+      "summary": "Rolling Mill fabrica cables y varillas. Electric Motor convierte FE a rotación y Alternator hace la conversión inversa.",
+      "recommendation": "Úsalo como puente con tu red FE. Las conversiones tienen pérdidas; no forman energía infinita.",
+      "sourceUrl": "https://modrinth.com/mod/createaddition",
+      "codeUrl": "https://github.com/mrh0/createaddition",
+      "sha1": "fd73ba9809ed6656a8c2aae81c9badb382085657",
+      "sha1Verified": true,
+      "isAddon": true
+    },
+    {
+      "id": "create_dragons_plus",
+      "name": "Create: Dragons Plus",
+      "version": "1.11.7b",
+      "jar": "CreateDragonsPlus-1.11.7b.jar",
+      "category": "Procesamiento y fluidos",
+      "stage": "mid",
+      "summary": "Extiende los procesos de ventilador con congelación, coloración y energía del End; añade Fluid Hatch y soporte para otros addons.",
+      "recommendation": "Explora las recetas de fan según los recursos disponibles. Los Fragile Tanks están desactivados en este pack sin Aeronautics.",
+      "sourceUrl": "https://modrinth.com/mod/create-dragons-plus",
+      "codeUrl": "https://github.com/DragonsPlusMinecraft/CreateDragonsPlus",
+      "sha1": "36085362f1123273a2d8e8e7e8af86c32ac10251",
+      "sha1Verified": true,
+      "isAddon": true
+    },
+    {
+      "id": "rechiseledcreate",
+      "name": "Rechiseled: Create",
+      "version": "1.1.1",
+      "jar": "rechiseledcreate-1.1.1-neoforge-mc1.21.jar",
+      "category": "Decoración",
+      "stage": "early",
+      "summary": "Ofrece variantes decorativas de bloques de Create mediante Rechiseled.",
+      "recommendation": "Úsalo al ordenar paredes, casings y suelo de la fábrica; no es un bloqueo de progreso.",
+      "sourceUrl": "https://modrinth.com/mod/rechiseled-create",
+      "codeUrl": "https://github.com/SuperMartijn642/RechiseledCreate",
+      "sha1": "6f7e53f39eb477d7cee8e21af215cd3db698deda",
+      "sha1Verified": true,
+      "isAddon": true
+    },
+    {
+      "id": "sophisticatedbackpackscreateintegration",
+      "name": "Sophisticated Backpacks Create Integration",
+      "version": "0.1.8",
+      "jar": "sophisticatedbackpackscreateintegration-1.21.1-0.1.8.134.jar",
+      "category": "Almacén móvil",
+      "stage": "contraptions",
+      "summary": "Integra mochilas Sophisticated en contraptions de Create.",
+      "recommendation": "Prueba la capacidad y extracción de tu mochila en una contraption pequeña.",
+      "sourceUrl": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks-create-integration",
+      "codeUrl": null,
+      "sha1": "d574c93098fe1189bf21eccaaff97d7a58798b8a",
+      "sha1Verified": true,
+      "isAddon": true
+    },
+    {
+      "id": "sophisticatedstoragecreateintegration",
+      "name": "Sophisticated Storage Create Integration",
+      "version": "0.1.21",
+      "jar": "sophisticatedstoragecreateintegration-1.21.1-0.1.21.209.jar",
+      "category": "Almacén móvil",
+      "stage": "contraptions",
+      "summary": "Integra contenedores de Sophisticated Storage en contraptions de Create.",
+      "recommendation": "Útil para cosechadoras y excavadoras con gran inventario; valida la transferencia al detenerse.",
+      "sourceUrl": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration",
+      "codeUrl": null,
+      "sha1": "d8f72f22459750496008a7c2a39dc865152d075c",
+      "sha1Verified": true,
+      "isAddon": true
+    },
+    {
+      "id": "ars_technica",
+      "name": "Ars Technica",
+      "version": "2.7.6",
+      "jar": "ars_technica-1.21.1-2.7.6.jar",
+      "category": "Magia y fabricación",
+      "stage": "mid",
+      "summary": "Añade glifos de transmutación que ejecutan procesos de Create, equipo de tecnomante, Runic Spanner y Source Motor.",
+      "recommendation": "Explora Press, Polish y Whirl cuando avances Ars Nouveau. Source Motor usa source para generar rotación.",
+      "sourceUrl": "https://www.curseforge.com/minecraft/mc-mods/ars-technica",
+      "codeUrl": "https://github.com/zeroregard/Ars-Technica",
+      "sha1": "adb2641d538375f6eff6a22f0196bb330ab0b171",
+      "sha1Verified": true,
+      "isAddon": true
+    }
+  ],
+  "stages": [
+    {
+      "id": "orientation",
+      "number": 0,
+      "name": "Tu mesa de ingeniería",
+      "dependsOn": [],
+      "goal": "Aprender JEI y Ponder, reservar espacio y ordenar materiales.",
+      "tasks": [
+        {
+          "id": "version",
+          "label": "Confirmar que cliente y servidor usan ATM10 8.1"
+        },
+        {
+          "id": "jei",
+          "label": "Usar R para recetas y U para usos; guardar favoritos en JEI"
+        },
+        {
+          "id": "ponder",
+          "label": "Mantener W sobre máquinas de Create para ver Ponder"
+        },
+        {
+          "id": "stock",
+          "label": "Separar andesita, hierro, zinc, cobre, oro, redstone y madera"
+        },
+        {
+          "id": "storage",
+          "label": "Crear almacenamiento cercano para materiales y componentes"
+        }
+      ],
+      "why": "El grafo es una guía de fabricación. JEI muestra el registro real que carga tu servidor, incluidas modificaciones locales."
+    },
+    {
+      "id": "rotation",
+      "number": 1,
+      "name": "Primera rotación",
+      "dependsOn": [
+        "orientation"
+      ],
+      "goal": "Una pequeña red estable que mueva ejes y engranajes.",
+      "tasks": [
+        {
+          "id": "alloy",
+          "label": "Fabricar aleación de andesita",
+          "itemId": "create:andesite_alloy",
+          "count": 16
+        },
+        {
+          "id": "waterwheel",
+          "label": "Montar 2 ruedas hidráulicas grandes",
+          "itemId": "create:large_water_wheel",
+          "count": 2
+        },
+        {
+          "id": "shafts",
+          "label": "Preparar ejes",
+          "itemId": "create:shaft",
+          "count": 16
+        },
+        {
+          "id": "cogs",
+          "label": "Preparar engranajes pequeños y grandes",
+          "itemId": "create:cogwheel",
+          "count": 8
+        },
+        {
+          "id": "wrench",
+          "label": "Fabricar una llave inglesa",
+          "itemId": "create:wrench",
+          "count": 1
+        }
+      ],
+      "why": "Las ruedas grandes dan 512 SU cada una a 4 RPM con la configuración base. Los engranajes permiten aumentar RPM sin aumentar la capacidad total."
+    },
+    {
+      "id": "press",
+      "number": 2,
+      "name": "Tu primer taller",
+      "dependsOn": [
+        "rotation"
+      ],
+      "goal": "Fabricar placas y procesar materiales con máquinas básicas.",
+      "tasks": [
+        {
+          "id": "casing",
+          "label": "Crear casings aplicando aleación sobre troncos pelados",
+          "itemId": "create:andesite_casing",
+          "count": 8
+        },
+        {
+          "id": "press",
+          "label": "Fabricar una prensa mecánica",
+          "itemId": "create:mechanical_press",
+          "count": 1
+        },
+        {
+          "id": "depot",
+          "label": "Colocar un depósito bajo la prensa",
+          "itemId": "create:depot",
+          "count": 1
+        },
+        {
+          "id": "sheets",
+          "label": "Prensar hierro y oro para componentes",
+          "itemId": "create:iron_sheet",
+          "count": 16
+        },
+        {
+          "id": "goggles",
+          "label": "Fabricar gafas de ingeniero",
+          "itemId": "create:goggles",
+          "count": 1
+        },
+        {
+          "id": "millstone",
+          "label": "Montar una piedra de molino",
+          "itemId": "create:millstone",
+          "count": 1
+        }
+      ],
+      "why": "Cada prensa consume 8 SU por RPM. A 32 RPM demanda 256 SU; separa ramas lentas y rápidas."
+    },
+    {
+      "id": "mixing",
+      "number": 3,
+      "name": "Mezcla y materiales renovables",
+      "dependsOn": [
+        "press"
+      ],
+      "goal": "Reducir el coste de aleaciones y automatizar movimientos de objetos.",
+      "tasks": [
+        {
+          "id": "mixer",
+          "label": "Montar mezclador y cuenco",
+          "itemId": "create:mechanical_mixer",
+          "count": 1
+        },
+        {
+          "id": "basin",
+          "label": "Colocar un cuenco",
+          "itemId": "create:basin",
+          "count": 1
+        },
+        {
+          "id": "mixer-speed",
+          "label": "Acelerar el mezclador hasta su velocidad mínima indicada en Ponder"
+        },
+        {
+          "id": "alloy-efficient",
+          "label": "Usar la mezcla: 1 andesita + 1 pepita de hierro → 1 aleación"
+        },
+        {
+          "id": "belts",
+          "label": "Preparar cintas, embudos y cofres de salida",
+          "itemId": "create:belt_connector",
+          "count": 4
+        },
+        {
+          "id": "fan",
+          "label": "Montar una estación con ventilador",
+          "itemId": "create:encased_fan",
+          "count": 1
+        }
+      ],
+      "why": "La receta manual consume 2 andesitas y 2 pepitas por aleación; el mezclador usa la mitad. Mantén separados lavado, ahumado, cocción y embrujado."
+    },
+    {
+      "id": "brass",
+      "number": 4,
+      "name": "La edad del latón",
+      "dependsOn": [
+        "mixing"
+      ],
+      "goal": "Producir latón en un cuenco calentado.",
+      "tasks": [
+        {
+          "id": "burner-empty",
+          "label": "Fabricar un Blaze Burner vacío",
+          "itemId": "create:empty_blaze_burner",
+          "count": 1
+        },
+        {
+          "id": "blaze-capture",
+          "label": "Capturar un blaze en el Nether con el quemador vacío"
+        },
+        {
+          "id": "burner-fuel",
+          "label": "Alimentar el quemador y colocarlo debajo del cuenco"
+        },
+        {
+          "id": "brass-batch",
+          "label": "Mezclar cobre + zinc: 1 + 1 → 2 latones",
+          "itemId": "create:brass_ingot",
+          "count": 32
+        },
+        {
+          "id": "rose-quartz",
+          "label": "Preparar cuarzo rosa pulido y tubos electrónicos",
+          "itemId": "create:electron_tube",
+          "count": 8
+        },
+        {
+          "id": "brass-logistics",
+          "label": "Añadir embudos de latón y filtros",
+          "itemId": "create:brass_funnel",
+          "count": 4
+        }
+      ],
+      "why": "El latón requiere heated. Un bloque de lava o una fogata bajo el cuenco no sustituye al Blaze Burner activo para esta receta."
+    },
+    {
+      "id": "precision",
+      "number": 5,
+      "name": "Mecanismos de precisión",
+      "dependsOn": [
+        "brass"
+      ],
+      "goal": "Crear una línea repetible de ensamblaje y controlar su retorno.",
+      "tasks": [
+        {
+          "id": "deployers",
+          "label": "Construir 3 deployers",
+          "itemId": "create:deployer",
+          "count": 3
+        },
+        {
+          "id": "sequence",
+          "label": "Ordenar engranaje pequeño → grande → pepita de hierro"
+        },
+        {
+          "id": "return",
+          "label": "Hacer que cada lámina de oro repita la secuencia 5 veces"
+        },
+        {
+          "id": "output-filter",
+          "label": "Separar mecanismos terminados, incompletos y resultados secundarios"
+        },
+        {
+          "id": "mechanisms",
+          "label": "Fabricar una reserva de mecanismos",
+          "itemId": "create:precision_mechanism",
+          "count": 8
+        },
+        {
+          "id": "speed-control",
+          "label": "Construir control de velocidad de rotación",
+          "itemId": "create:rotation_speed_controller",
+          "count": 1
+        }
+      ],
+      "why": "Cada intento usa 1 placa de oro, 5 engranajes pequeños, 5 grandes y 5 pepitas. Éxito 80 %; 10 intentos producen 8 de media, sin garantía."
+    },
+    {
+      "id": "automation",
+      "number": 6,
+      "name": "Fábrica autónoma",
+      "dependsOn": [
+        "precision"
+      ],
+      "goal": "Resolver cuellos de botella antes de ampliar la fábrica.",
+      "tasks": [
+        {
+          "id": "crafters",
+          "label": "Preparar crafters mecánicos para las ruedas trituradoras",
+          "itemId": "create:mechanical_crafter",
+          "count": 21
+        },
+        {
+          "id": "crushing",
+          "label": "Fabricar y montar un par de ruedas trituradoras",
+          "itemId": "create:crushing_wheel",
+          "count": 2
+        },
+        {
+          "id": "iron",
+          "label": "Automatizar adoquín → grava → lavado → pepitas de hierro"
+        },
+        {
+          "id": "andesite-line",
+          "label": "Automatizar abastecimiento y mezcla de aleación de andesita"
+        },
+        {
+          "id": "arm",
+          "label": "Preparar un brazo mecánico para repartir combustible",
+          "itemId": "create:mechanical_arm",
+          "count": 1
+        },
+        {
+          "id": "buffers",
+          "label": "Añadir buffers y parar producción cuando se llene el almacén"
+        }
+      ],
+      "why": "La ruta de hierro por grava tiene salidas probabilísticas. Para diseñar capacidad, mide producción real por minuto; no conviertas probabilidades en garantías."
+    },
+    {
+      "id": "steam",
+      "number": 7,
+      "name": "Potencia de vapor",
+      "dependsOn": [
+        "brass"
+      ],
+      "goal": "Suministrar potencia a una fábrica mayor con agua y combustible continuos.",
+      "tasks": [
+        {
+          "id": "tanks",
+          "label": "Construir una caldera inicial de 4 tanques",
+          "itemId": "create:fluid_tank",
+          "count": 4
+        },
+        {
+          "id": "engine",
+          "label": "Instalar motor y eje de salida",
+          "itemId": "create:steam_engine",
+          "count": 1
+        },
+        {
+          "id": "water",
+          "label": "Mantener al menos 10 mB/t de agua para nivel 1",
+          "itemId": "create:mechanical_pump",
+          "count": 1
+        },
+        {
+          "id": "fuel",
+          "label": "Mantener 1 quemador activo para nivel 1"
+        },
+        {
+          "id": "startup",
+          "label": "Dar energía independiente a la bomba para evitar un bloqueo de arranque"
+        },
+        {
+          "id": "goggles-read",
+          "label": "Comprobar tamaño, agua y calor con las gafas"
+        }
+      ],
+      "why": "Con valores base: nivel 1 y un motor entregan 16 384 SU. La potencia depende del menor límite entre tanques, agua, calor y motores, no de fabricar más motores sin recursos."
+    },
+    {
+      "id": "contraptions",
+      "number": 8,
+      "name": "Máquinas que se mueven",
+      "dependsOn": [
+        "brass"
+      ],
+      "goal": "Una granja o excavadora móvil pequeña y verificable.",
+      "tasks": [
+        {
+          "id": "glue",
+          "label": "Fabricar Super Glue",
+          "itemId": "create:super_glue",
+          "count": 1
+        },
+        {
+          "id": "bearing",
+          "label": "Montar un rodamiento mecánico o una contraption de vagoneta",
+          "itemId": "create:mechanical_bearing",
+          "count": 1
+        },
+        {
+          "id": "harvester",
+          "label": "Añadir cosechadoras o sierras según el objetivo",
+          "itemId": "create:mechanical_harvester",
+          "count": 4
+        },
+        {
+          "id": "portable",
+          "label": "Colocar interfaces portátiles enfrentadas",
+          "itemId": "create:portable_storage_interface",
+          "count": 2
+        },
+        {
+          "id": "sophisticated",
+          "label": "Integrar almacenamiento Sophisticated y comprobar descarga"
+        },
+        {
+          "id": "bounds",
+          "label": "Comprobar claims y límites de contraptions del servidor"
+        }
+      ],
+      "why": "Prueba primero un módulo. No asumas que el servidor mantiene chunks cargados ni permite contraptions enormes."
+    },
+    {
+      "id": "trains",
+      "number": 9,
+      "name": "Red ferroviaria",
+      "dependsOn": [
+        "automation"
+      ],
+      "goal": "Un tren manual entre dos estaciones antes de programar horarios.",
+      "tasks": [
+        {
+          "id": "sturdy",
+          "label": "Producir placas robustas con lava y prensado",
+          "itemId": "create:sturdy_sheet",
+          "count": 8
+        },
+        {
+          "id": "track",
+          "label": "Fabricar vías por ensamblaje",
+          "itemId": "create:track",
+          "count": 128
+        },
+        {
+          "id": "station",
+          "label": "Colocar dos estaciones",
+          "itemId": "create:track_station",
+          "count": 2
+        },
+        {
+          "id": "casing-train",
+          "label": "Crear bogeys con Train Casings",
+          "itemId": "create:railway_casing",
+          "count": 2
+        },
+        {
+          "id": "controls",
+          "label": "Añadir controles, asiento y pegar la carrocería",
+          "itemId": "create:controls",
+          "count": 1
+        },
+        {
+          "id": "manual",
+          "label": "Recorrer la ruta en ambos sentidos y comprobar cambios de vía"
+        },
+        {
+          "id": "schedule",
+          "label": "Automatizar mediante Schedule, conductor y señales",
+          "itemId": "create:schedule",
+          "count": 1
+        }
+      ],
+      "why": "Los trenes forman parte de Create base. Bells & Whistles decora esta etapa. Steam n Rails no está en la selección verificada de ATM10 8.1."
+    },
+    {
+      "id": "logistics",
+      "number": 10,
+      "name": "Pedidos y almacenes",
+      "dependsOn": [
+        "precision"
+      ],
+      "goal": "Una red de paquetes que entregue materiales según demanda.",
+      "tasks": [
+        {
+          "id": "cardboard",
+          "label": "Producir cartón",
+          "itemId": "create:cardboard",
+          "count": 32
+        },
+        {
+          "id": "packager",
+          "label": "Colocar packagers sobre inventarios",
+          "itemId": "create:packager",
+          "count": 2
+        },
+        {
+          "id": "stocklinks",
+          "label": "Unir inventarios a una red mediante Stock Links",
+          "itemId": "create:stock_link",
+          "count": 2
+        },
+        {
+          "id": "ticker",
+          "label": "Consultar y pedir existencias con Stock Ticker",
+          "itemId": "create:stock_ticker",
+          "count": 1
+        },
+        {
+          "id": "addresses",
+          "label": "Asignar direcciones y comprobar entrega de un pedido"
+        },
+        {
+          "id": "switch",
+          "label": "Añadir control de existencias para evitar sobreproducción",
+          "itemId": "create:stockpile_switch",
+          "count": 1
+        }
+      ],
+      "why": "La logística de paquetes es parte de Create 6. Evita confundirla con addons ferroviarios de otras versiones."
+    },
+    {
+      "id": "addons",
+      "number": 11,
+      "name": "Expande según tu objetivo",
+      "dependsOn": [
+        "precision"
+      ],
+      "goal": "Elegir ramas que solucionen una necesidad concreta.",
+      "tasks": [
+        {
+          "id": "energy-addon",
+          "label": "Crafts & Additions: conectar rotación y FE",
+          "itemId": "createaddition:rolling_mill",
+          "count": 1
+        },
+        {
+          "id": "aquatic-addon",
+          "label": "Aquatic Ambitions: montar una línea de canalización",
+          "itemId": "create_aquatic_ambitions:mechanical_conduit",
+          "count": 1
+        },
+        {
+          "id": "xp-addon",
+          "label": "Enchantment Industry: almacenar y procesar experiencia",
+          "itemId": "create_enchantment_industry:mechanical_grindstone",
+          "count": 1
+        },
+        {
+          "id": "hypertube-addon",
+          "label": "Hypertubes: probar una ruta corta por la base",
+          "itemId": "create_hypertube:hypertube_entrance",
+          "count": 2
+        },
+        {
+          "id": "magic-addon",
+          "label": "Ars Creo: alimentar una Starbuncle Wheel",
+          "itemId": "ars_creo:starbuncle_wheel",
+          "count": 1
+        },
+        {
+          "id": "technica-addon",
+          "label": "Ars Technica: convertir source a rotación",
+          "itemId": "ars_technica:source_motor",
+          "count": 1
+        },
+        {
+          "id": "decor-addon",
+          "label": "Aplicar Rechiseled Create y Bells & Whistles al diseño"
+        }
+      ],
+      "why": "No necesitas completar cada addon para avanzar. Elige energía, recursos marinos, XP, movilidad o decoración según el cuello de botella actual."
+    }
+  ],
+  "stress": {
+    "scope": "Valores predeterminados del código Create 6.0.10; el ZIP no incluye create-server.toml. El administrador puede cambiarlos.",
+    "formula": "consumo total SU = suma(cantidad × impacto SU/RPM × RPM real de cada máquina)",
+    "maxRpm": 256,
+    "machines": [
+      {
+        "id": "create:mechanical_press",
+        "impact": 8
+      },
+      {
+        "id": "create:mechanical_mixer",
+        "impact": 4
+      },
+      {
+        "id": "create:millstone",
+        "impact": 4
+      },
+      {
+        "id": "create:crushing_wheel",
+        "impact": 8
+      },
+      {
+        "id": "create:deployer",
+        "impact": 4
+      },
+      {
+        "id": "create:encased_fan",
+        "impact": 2
+      },
+      {
+        "id": "create:mechanical_pump",
+        "impact": 4
+      },
+      {
+        "id": "create:mechanical_crafter",
+        "impact": 2
+      },
+      {
+        "id": "create:mechanical_arm",
+        "impact": 2
+      }
+    ],
+    "sources": [
+      {
+        "id": "create:water_wheel",
+        "rpm": 8,
+        "capacitySU": 256
+      },
+      {
+        "id": "create:large_water_wheel",
+        "rpm": 4,
+        "capacitySU": 512
+      },
+      {
+        "id": "create:windmill_bearing",
+        "formula": "RPM = clamp(floor(velas/8),1,16); capacidad=512×RPM; mínimo 8 velas",
+        "maxCapacitySU": 8192
+      },
+      {
+        "id": "create:steam_engine",
+        "activeSUPerLevel": 16384,
+        "passiveTotalSU": 2048,
+        "maxLevel": 18,
+        "maxTotalSU": 294912
+      }
+    ],
+    "steam": {
+      "tanksPerLevel": 4,
+      "waterMbPerTickPerLevel": 10,
+      "heatedBurnerLevels": 1,
+      "superheatedBurnerLevels": 2,
+      "maxLevel": 18,
+      "activeFormula": "nivel=min(18,floor(tanques/4),floor(agua_mB_t/10),calor); SU=16384×min(motores,nivel)",
+      "warning": "Modelo estacionario para agua continua y quemadores activos; no incluye arranque ni variaciones de combustible. Calor pasivo tiene fórmula separada."
+    },
+    "sourceUrls": [
+      "https://github.com/Creators-of-Create/Create/blob/ac0c444d9828da3453ae8cc65338e8de063286fb/src/main/java/com/simibubi/create/AllBlocks.java",
+      "https://github.com/Creators-of-Create/Create/blob/ac0c444d9828da3453ae8cc65338e8de063286fb/src/main/java/com/simibubi/create/content/fluids/tank/BoilerData.java",
+      "https://github.com/Creators-of-Create/Create/blob/ac0c444d9828da3453ae8cc65338e8de063286fb/src/main/java/com/simibubi/create/content/fluids/tank/BoilerHeaters.java",
+      "https://github.com/Creators-of-Create/Create/blob/ac0c444d9828da3453ae8cc65338e8de063286fb/src/main/java/com/simibubi/create/content/kinetics/steamEngine/PoweredShaftBlockEntity.java"
+    ]
+  },
+  "packChanges": [
+    {
+      "id": "no-schematicannon",
+      "title": "Schematicannon sin receta",
+      "detail": "ATM elimina create:crafting/schematics/schematicannon. No planificar su fabricación normal.",
+      "sourceUrl": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/mods/Create/recipes.js"
+    },
+    {
+      "id": "infuser",
+      "title": "Infuser ligado a Apotheosis",
+      "detail": "En el pack exacto existe god_fused_pearl (Apotheosis 8.7.0). Se aplica receta: placa de latón + spout + 2 nixie tubes + god_fused_pearl. La alternativa de infusión del script solo se usa si esa perla no existe.",
+      "sourceUrl": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/mods/Create%20Enchantment%20Industry/recipes.js"
+    },
+    {
+      "id": "hypertube",
+      "title": "Scanner de Hypertubes",
+      "detail": "ATM fija explícitamente 1 ciclo y usa el tag c:plates/brass en los dos pasos de latón.",
+      "sourceUrl": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/data/create_hypertube/recipe/sequenced_assembly/tube_scanner.json"
+    },
+    {
+      "id": "fragile-tanks",
+      "title": "Fragile Fluid Tanks desactivados",
+      "detail": "Sin Aeronautics el script desactiva las dos recetas de Fragile Fluid Tank de Dragons Plus.",
+      "sourceUrl": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/Tweaks/recipes_fix.js"
+    },
+    {
+      "id": "unification",
+      "title": "Metales unificados",
+      "detail": "Almost Unified prioriza Minecraft, AllTheOres y otras familias para lingotes, placas, pepitas y más. JEI puede mostrar el equivalente AllTheOres en lugar de la textura/nombre original de Create.",
+      "sourceUrl": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/almostunified/unification/materials.json"
+    },
+    {
+      "id": "xp-config",
+      "title": "Encantamiento ampliado",
+      "detail": "El config incluido fija Blaze Enchanter a 50 niveles normales y 100 en super enchanting; extensión de máximo +1 y ignoreEnchantmentCompatibility=true. No equivale a prometer cualquier encantamiento sin requisitos.",
+      "sourceUrl": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/create_enchantment_industry-server.toml"
+    },
+    {
+      "id": "zinc-worldgen",
+      "title": "Zinc original de Create desactivado",
+      "detail": "El pack desactiva el biome modifier create:neoforge/biome_modifier/zinc_ore. Para encontrar zinc seguir la generación/unificación de minerales del pack y JEI.",
+      "sourceUrl": "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/kubejs/server_scripts/Tweaks/disable_biome_modifier_ids.json"
+    }
+  ],
+  "limits": [
+    "Este catálogo se extrae de los JAR exactos y cambios identificados en el ZIP. No se ha arrancado Minecraft ni conectado al servidor del usuario.",
+    "JEI del servidor prevalece para tags finales, duplicados de Almost Unified, recetas dinámicas y scripts personalizados.",
+    "Los registros incluyen recetas vanilla y de addons, con compatibilidades para mods presentes. Algunas condiciones de configuración siguen marcadas como pendientes.",
+    "Los dos addons Sophisticated son integraciones de comportamiento y no incluyen archivos de receta JSON propios. Rechiseled incluye conversiones dinámicas que no se reducen a una receta estática por variante.",
+    "PonderJS es una herramienta para tutoriales y Flywheel/Ponder son soporte del núcleo; no confundir bibliotecas con ramas de progresión.",
+    "Las texturas de Create son All Rights Reserved. Mantener atribución; el catálogo de recetas no concede una licencia general para redistribuir arte."
+  ],
+  "notIncludedIn81": [
+    "Create: Steam n Rails",
+    "Create: New Age",
+    "Create: Big Cannons",
+    "Create: Copycats+"
+  ],
+  "technicalIntegrations": [
+    {
+      "id": "colorwheel_patcher",
+      "version": "1.0.5+mc1.21.1",
+      "name": "Colorwheel Patcher",
+      "summary": "Aplica parches a shaders compatibles con Colorwheel; no añade recetas.",
+      "sourceUrl": "https://modrinth.com/mod/colorwheel-patcher"
+    },
+    {
+      "id": "colorwheel",
+      "version": "1.2.9+mc1.21.1",
+      "name": "Colorwheel",
+      "summary": "Compatibilidad de renderizado entre Flywheel e Iris; no añade una ruta de fabricación.",
+      "sourceUrl": "https://modrinth.com/mod/colorwheel"
+    },
+    {
+      "id": "ponderjs",
+      "version": "1.21.1-2.4.0",
+      "name": "PonderJS",
+      "summary": "Herramienta para tutoriales personalizados de Ponder; no es una rama de maquinaria."
+    }
+  ],
+  "sourceUrls": [
+    "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10/files/8764211",
+    "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/crash_assistant/modlist.json",
+    "https://github.com/Creators-of-Create/Create/blob/ac0c444d9828da3453ae8cc65338e8de063286fb/src/generated/resources/data/create/recipe/sequenced_assembly/precision_mechanism.json",
+    "https://github.com/Creators-of-Create/Create/blob/ac0c444d9828da3453ae8cc65338e8de063286fb/src/main/java/com/simibubi/create/content/processing/sequenced/SequencedAssemblyRecipeSerializer.java"
+  ]
+}

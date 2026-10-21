@@ -1,0 +1,530 @@
+[
+  {
+    "id": "orientation",
+    "number": 0,
+    "name": "Tu mesa de ingeniería",
+    "dependsOn": [],
+    "goal": "Aprender JEI y Ponder, reservar espacio y ordenar materiales.",
+    "tasks": [
+      {
+        "id": "version",
+        "label": "Confirmar que cliente y servidor usan ATM10 8.1"
+      },
+      {
+        "id": "jei",
+        "label": "Usar R para recetas y U para usos; guardar favoritos en JEI"
+      },
+      {
+        "id": "ponder",
+        "label": "Mantener W sobre máquinas de Create para ver Ponder"
+      },
+      {
+        "id": "stock",
+        "label": "Separar andesita, hierro, zinc, cobre, oro, redstone y madera"
+      },
+      {
+        "id": "storage",
+        "label": "Crear almacenamiento cercano para materiales y componentes"
+      }
+    ],
+    "why": "El grafo es una guía de fabricación. JEI muestra el registro real que carga tu servidor, incluidas modificaciones locales."
+  },
+  {
+    "id": "rotation",
+    "number": 1,
+    "name": "Primera rotación",
+    "dependsOn": [
+      "orientation"
+    ],
+    "goal": "Una pequeña red estable que mueva ejes y engranajes.",
+    "tasks": [
+      {
+        "id": "alloy",
+        "label": "Fabricar aleación de andesita",
+        "itemId": "create:andesite_alloy",
+        "count": 16
+      },
+      {
+        "id": "waterwheel",
+        "label": "Montar 2 ruedas hidráulicas grandes",
+        "itemId": "create:large_water_wheel",
+        "count": 2
+      },
+      {
+        "id": "shafts",
+        "label": "Preparar ejes",
+        "itemId": "create:shaft",
+        "count": 16
+      },
+      {
+        "id": "cogs",
+        "label": "Preparar engranajes pequeños y grandes",
+        "itemId": "create:cogwheel",
+        "count": 8
+      },
+      {
+        "id": "wrench",
+        "label": "Fabricar una llave inglesa",
+        "itemId": "create:wrench",
+        "count": 1
+      }
+    ],
+    "why": "Las ruedas grandes dan 512 SU cada una a 4 RPM con la configuración base. Los engranajes permiten aumentar RPM sin aumentar la capacidad total."
+  },
+  {
+    "id": "press",
+    "number": 2,
+    "name": "Tu primer taller",
+    "dependsOn": [
+      "rotation"
+    ],
+    "goal": "Fabricar placas y procesar materiales con máquinas básicas.",
+    "tasks": [
+      {
+        "id": "casing",
+        "label": "Crear casings aplicando aleación sobre troncos pelados",
+        "itemId": "create:andesite_casing",
+        "count": 8
+      },
+      {
+        "id": "press",
+        "label": "Fabricar una prensa mecánica",
+        "itemId": "create:mechanical_press",
+        "count": 1
+      },
+      {
+        "id": "depot",
+        "label": "Colocar un depósito bajo la prensa",
+        "itemId": "create:depot",
+        "count": 1
+      },
+      {
+        "id": "sheets",
+        "label": "Prensar hierro y oro para componentes",
+        "itemId": "create:iron_sheet",
+        "count": 16
+      },
+      {
+        "id": "goggles",
+        "label": "Fabricar gafas de ingeniero",
+        "itemId": "create:goggles",
+        "count": 1
+      },
+      {
+        "id": "millstone",
+        "label": "Montar una piedra de molino",
+        "itemId": "create:millstone",
+        "count": 1
+      }
+    ],
+    "why": "Cada prensa consume 8 SU por RPM. A 32 RPM demanda 256 SU; separa ramas lentas y rápidas."
+  },
+  {
+    "id": "mixing",
+    "number": 3,
+    "name": "Mezcla y materiales renovables",
+    "dependsOn": [
+      "press"
+    ],
+    "goal": "Reducir el coste de aleaciones y automatizar movimientos de objetos.",
+    "tasks": [
+      {
+        "id": "mixer",
+        "label": "Montar mezclador y cuenco",
+        "itemId": "create:mechanical_mixer",
+        "count": 1
+      },
+      {
+        "id": "basin",
+        "label": "Colocar un cuenco",
+        "itemId": "create:basin",
+        "count": 1
+      },
+      {
+        "id": "mixer-speed",
+        "label": "Acelerar el mezclador hasta su velocidad mínima indicada en Ponder"
+      },
+      {
+        "id": "alloy-efficient",
+        "label": "Usar la mezcla: 1 andesita + 1 pepita de hierro → 1 aleación"
+      },
+      {
+        "id": "belts",
+        "label": "Preparar cintas, embudos y cofres de salida",
+        "itemId": "create:belt_connector",
+        "count": 4
+      },
+      {
+        "id": "fan",
+        "label": "Montar una estación con ventilador",
+        "itemId": "create:encased_fan",
+        "count": 1
+      }
+    ],
+    "why": "La receta manual consume 2 andesitas y 2 pepitas por aleación; el mezclador usa la mitad. Mantén separados lavado, ahumado, cocción y embrujado."
+  },
+  {
+    "id": "brass",
+    "number": 4,
+    "name": "La edad del latón",
+    "dependsOn": [
+      "mixing"
+    ],
+    "goal": "Producir latón en un cuenco calentado.",
+    "tasks": [
+      {
+        "id": "burner-empty",
+        "label": "Fabricar un Blaze Burner vacío",
+        "itemId": "create:empty_blaze_burner",
+        "count": 1
+      },
+      {
+        "id": "blaze-capture",
+        "label": "Capturar un blaze en el Nether con el quemador vacío"
+      },
+      {
+        "id": "burner-fuel",
+        "label": "Alimentar el quemador y colocarlo debajo del cuenco"
+      },
+      {
+        "id": "brass-batch",
+        "label": "Mezclar cobre + zinc: 1 + 1 → 2 latones",
+        "itemId": "create:brass_ingot",
+        "count": 32
+      },
+      {
+        "id": "rose-quartz",
+        "label": "Preparar cuarzo rosa pulido y tubos electrónicos",
+        "itemId": "create:electron_tube",
+        "count": 8
+      },
+      {
+        "id": "brass-logistics",
+        "label": "Añadir embudos de latón y filtros",
+        "itemId": "create:brass_funnel",
+        "count": 4
+      }
+    ],
+    "why": "El latón requiere heated. Un bloque de lava o una fogata bajo el cuenco no sustituye al Blaze Burner activo para esta receta."
+  },
+  {
+    "id": "precision",
+    "number": 5,
+    "name": "Mecanismos de precisión",
+    "dependsOn": [
+      "brass"
+    ],
+    "goal": "Crear una línea repetible de ensamblaje y controlar su retorno.",
+    "tasks": [
+      {
+        "id": "deployers",
+        "label": "Construir 3 deployers",
+        "itemId": "create:deployer",
+        "count": 3
+      },
+      {
+        "id": "sequence",
+        "label": "Ordenar engranaje pequeño → grande → pepita de hierro"
+      },
+      {
+        "id": "return",
+        "label": "Hacer que cada lámina de oro repita la secuencia 5 veces"
+      },
+      {
+        "id": "output-filter",
+        "label": "Separar mecanismos terminados, incompletos y resultados secundarios"
+      },
+      {
+        "id": "mechanisms",
+        "label": "Fabricar una reserva de mecanismos",
+        "itemId": "create:precision_mechanism",
+        "count": 8
+      },
+      {
+        "id": "speed-control",
+        "label": "Construir control de velocidad de rotación",
+        "itemId": "create:rotation_speed_controller",
+        "count": 1
+      }
+    ],
+    "why": "Cada intento usa 1 placa de oro, 5 engranajes pequeños, 5 grandes y 5 pepitas. Éxito 80 %; 10 intentos producen 8 de media, sin garantía."
+  },
+  {
+    "id": "automation",
+    "number": 6,
+    "name": "Fábrica autónoma",
+    "dependsOn": [
+      "precision"
+    ],
+    "goal": "Resolver cuellos de botella antes de ampliar la fábrica.",
+    "tasks": [
+      {
+        "id": "crafters",
+        "label": "Preparar crafters mecánicos para las ruedas trituradoras",
+        "itemId": "create:mechanical_crafter",
+        "count": 21
+      },
+      {
+        "id": "crushing",
+        "label": "Fabricar y montar un par de ruedas trituradoras",
+        "itemId": "create:crushing_wheel",
+        "count": 2
+      },
+      {
+        "id": "iron",
+        "label": "Automatizar adoquín → grava → lavado → pepitas de hierro"
+      },
+      {
+        "id": "andesite-line",
+        "label": "Automatizar abastecimiento y mezcla de aleación de andesita"
+      },
+      {
+        "id": "arm",
+        "label": "Preparar un brazo mecánico para repartir combustible",
+        "itemId": "create:mechanical_arm",
+        "count": 1
+      },
+      {
+        "id": "buffers",
+        "label": "Añadir buffers y parar producción cuando se llene el almacén"
+      }
+    ],
+    "why": "La ruta de hierro por grava tiene salidas probabilísticas. Para diseñar capacidad, mide producción real por minuto; no conviertas probabilidades en garantías."
+  },
+  {
+    "id": "steam",
+    "number": 7,
+    "name": "Potencia de vapor",
+    "dependsOn": [
+      "brass"
+    ],
+    "goal": "Suministrar potencia a una fábrica mayor con agua y combustible continuos.",
+    "tasks": [
+      {
+        "id": "tanks",
+        "label": "Construir una caldera inicial de 4 tanques",
+        "itemId": "create:fluid_tank",
+        "count": 4
+      },
+      {
+        "id": "engine",
+        "label": "Instalar motor y eje de salida",
+        "itemId": "create:steam_engine",
+        "count": 1
+      },
+      {
+        "id": "water",
+        "label": "Mantener al menos 10 mB/t de agua para nivel 1",
+        "itemId": "create:mechanical_pump",
+        "count": 1
+      },
+      {
+        "id": "fuel",
+        "label": "Mantener 1 quemador activo para nivel 1"
+      },
+      {
+        "id": "startup",
+        "label": "Dar energía independiente a la bomba para evitar un bloqueo de arranque"
+      },
+      {
+        "id": "goggles-read",
+        "label": "Comprobar tamaño, agua y calor con las gafas"
+      }
+    ],
+    "why": "Con valores base: nivel 1 y un motor entregan 16 384 SU. La potencia depende del menor límite entre tanques, agua, calor y motores, no de fabricar más motores sin recursos."
+  },
+  {
+    "id": "contraptions",
+    "number": 8,
+    "name": "Máquinas que se mueven",
+    "dependsOn": [
+      "brass"
+    ],
+    "goal": "Una granja o excavadora móvil pequeña y verificable.",
+    "tasks": [
+      {
+        "id": "glue",
+        "label": "Fabricar Super Glue",
+        "itemId": "create:super_glue",
+        "count": 1
+      },
+      {
+        "id": "bearing",
+        "label": "Montar un rodamiento mecánico o una contraption de vagoneta",
+        "itemId": "create:mechanical_bearing",
+        "count": 1
+      },
+      {
+        "id": "harvester",
+        "label": "Añadir cosechadoras o sierras según el objetivo",
+        "itemId": "create:mechanical_harvester",
+        "count": 4
+      },
+      {
+        "id": "portable",
+        "label": "Colocar interfaces portátiles enfrentadas",
+        "itemId": "create:portable_storage_interface",
+        "count": 2
+      },
+      {
+        "id": "sophisticated",
+        "label": "Integrar almacenamiento Sophisticated y comprobar descarga"
+      },
+      {
+        "id": "bounds",
+        "label": "Comprobar claims y límites de contraptions del servidor"
+      }
+    ],
+    "why": "Prueba primero un módulo. No asumas que el servidor mantiene chunks cargados ni permite contraptions enormes."
+  },
+  {
+    "id": "trains",
+    "number": 9,
+    "name": "Red ferroviaria",
+    "dependsOn": [
+      "automation"
+    ],
+    "goal": "Un tren manual entre dos estaciones antes de programar horarios.",
+    "tasks": [
+      {
+        "id": "sturdy",
+        "label": "Producir placas robustas con lava y prensado",
+        "itemId": "create:sturdy_sheet",
+        "count": 8
+      },
+      {
+        "id": "track",
+        "label": "Fabricar vías por ensamblaje",
+        "itemId": "create:track",
+        "count": 128
+      },
+      {
+        "id": "station",
+        "label": "Colocar dos estaciones",
+        "itemId": "create:track_station",
+        "count": 2
+      },
+      {
+        "id": "casing-train",
+        "label": "Crear bogeys con Train Casings",
+        "itemId": "create:railway_casing",
+        "count": 2
+      },
+      {
+        "id": "controls",
+        "label": "Añadir controles, asiento y pegar la carrocería",
+        "itemId": "create:controls",
+        "count": 1
+      },
+      {
+        "id": "manual",
+        "label": "Recorrer la ruta en ambos sentidos y comprobar cambios de vía"
+      },
+      {
+        "id": "schedule",
+        "label": "Automatizar mediante Schedule, conductor y señales",
+        "itemId": "create:schedule",
+        "count": 1
+      }
+    ],
+    "why": "Los trenes forman parte de Create base. Bells & Whistles decora esta etapa. Steam n Rails no está en la selección verificada de ATM10 8.1."
+  },
+  {
+    "id": "logistics",
+    "number": 10,
+    "name": "Pedidos y almacenes",
+    "dependsOn": [
+      "precision"
+    ],
+    "goal": "Una red de paquetes que entregue materiales según demanda.",
+    "tasks": [
+      {
+        "id": "cardboard",
+        "label": "Producir cartón",
+        "itemId": "create:cardboard",
+        "count": 32
+      },
+      {
+        "id": "packager",
+        "label": "Colocar packagers sobre inventarios",
+        "itemId": "create:packager",
+        "count": 2
+      },
+      {
+        "id": "stocklinks",
+        "label": "Unir inventarios a una red mediante Stock Links",
+        "itemId": "create:stock_link",
+        "count": 2
+      },
+      {
+        "id": "ticker",
+        "label": "Consultar y pedir existencias con Stock Ticker",
+        "itemId": "create:stock_ticker",
+        "count": 1
+      },
+      {
+        "id": "addresses",
+        "label": "Asignar direcciones y comprobar entrega de un pedido"
+      },
+      {
+        "id": "switch",
+        "label": "Añadir control de existencias para evitar sobreproducción",
+        "itemId": "create:stockpile_switch",
+        "count": 1
+      }
+    ],
+    "why": "La logística de paquetes es parte de Create 6. Evita confundirla con addons ferroviarios de otras versiones."
+  },
+  {
+    "id": "addons",
+    "number": 11,
+    "name": "Expande según tu objetivo",
+    "dependsOn": [
+      "precision"
+    ],
+    "goal": "Elegir ramas que solucionen una necesidad concreta.",
+    "tasks": [
+      {
+        "id": "energy-addon",
+        "label": "Crafts & Additions: conectar rotación y FE",
+        "itemId": "createaddition:rolling_mill",
+        "count": 1
+      },
+      {
+        "id": "aquatic-addon",
+        "label": "Aquatic Ambitions: montar una línea de canalización",
+        "itemId": "create_aquatic_ambitions:mechanical_conduit",
+        "count": 1
+      },
+      {
+        "id": "xp-addon",
+        "label": "Enchantment Industry: almacenar y procesar experiencia",
+        "itemId": "create_enchantment_industry:mechanical_grindstone",
+        "count": 1
+      },
+      {
+        "id": "hypertube-addon",
+        "label": "Hypertubes: probar una ruta corta por la base",
+        "itemId": "create_hypertube:hypertube_entrance",
+        "count": 2
+      },
+      {
+        "id": "magic-addon",
+        "label": "Ars Creo: alimentar una Starbuncle Wheel",
+        "itemId": "ars_creo:starbuncle_wheel",
+        "count": 1
+      },
+      {
+        "id": "technica-addon",
+        "label": "Ars Technica: convertir source a rotación",
+        "itemId": "ars_technica:source_motor",
+        "count": 1
+      },
+      {
+        "id": "decor-addon",
+        "label": "Aplicar Rechiseled Create y Bells & Whistles al diseño"
+      }
+    ],
+    "why": "No necesitas completar cada addon para avanzar. Elige energía, recursos marinos, XP, movilidad o decoración según el cuello de botella actual."
+  }
+]
