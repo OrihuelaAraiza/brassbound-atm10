@@ -43,7 +43,7 @@ function currentPhase(){return phases.find(p=>completed(p)<p.tasks.length)||phas
 function percent(){return Math.round(totalDone()/totalTasks()*100);}
 function pageTitle(eyebrow,title,description,action=''){return `<div class="page-title compact-title"><div><h1>${title}</h1>${description?`<p>${description}</p>`:''}</div>${action}</div>`;}
 
-function nav(){ $('#main-nav').innerHTML=views.map(([id,icon,label])=>`<button class="nav-button ${view===id||(id==='mods'&&view==='guide')||(id==='recipes'&&view==='item')||(id==='projects'&&view==='project')?'active':''}" data-view="${id}" ${view===id?'aria-current="page"':''}><span aria-hidden="true">${icon}</span>${label}${id==='notes'&&state.plans.length?`<span class="count">${state.plans.length}</span>`:''}</button>`).join('');$('#breadcrumb-current').textContent=views.find(v=>v[0]===view)?.[2]||(view==='guide'?'Guía del mod':'Fuentes y versión');}
+function nav(){ $('#main-nav').innerHTML=views.map(([id,icon,label])=>`<button class="nav-button ${view===id||(id==='mods'&&view==='guide')||(id==='recipes'&&view==='item')||(id==='projects'&&view==='project')?'active':''}" data-view="${id}" ${view===id?'aria-current="page"':''}><span aria-hidden="true">${icon}</span>${label}${id==='notes'&&state.plans.length?`<span class="count">${state.plans.length}</span>`:''}</button>`).join('');$('#breadcrumb-current').textContent=views.find(v=>v[0]===view)?.[2]||(view==='guide'?'Guía del mod':view==='project'?'Proyecto y plano':view==='item'?'Atlas de objetos':'Fuentes y versión');}
 function render(){workshop?.dispose();disposeScene();disposeScene=()=>{};nav();$('#content').innerHTML=({home:homeView,animations:animationsView,guide:modGuideView,routes:routesView,recipes:recipesView,item:recipesView,projects:()=>workshop.view('projects'),project:()=>workshop.view('project'),map:()=>workshop.view('map'),production:()=>workshop.view('production'),diagnostics:()=>workshop.view('diagnostics'),play:()=>workshop.view('play'),media:()=>workshop.view('media'),planner:plannerView,inventory:inventoryView,mods:modsView,notes:notesView,sources:sourcesView}[view]||homeView)();workshop?.mount(view);if(view==='animations'&&selectedLesson){const lesson=lessons.find(l=>l.id===selectedLesson);if(lesson)disposeScene=mountScenePlayer($('#lesson-player'),lesson);}}
 function navigate(next){
  clearTimeout(searchTimer);
@@ -51,7 +51,7 @@ function navigate(next){
  if(['project','item'].includes(target)&&id){view=target;workshop.route(target,decodeURIComponent(id));}
  else
  if(target==='guide'&&id){selectedGuide=decodeURIComponent(id);view='guide';}
- else {view=views.some(v=>v[0]===target)||target==='sources'?target:'home';if(target==='animations'&&id)selectedLesson=decodeURIComponent(id);}
+ else {view=views.some(v=>v[0]===target)||target==='sources'?target:'home';if(target==='animations'&&id)selectedLesson=decodeURIComponent(id);if(target==='routes'&&id==='star')routeScope='star';}
  history.replaceState(null,'','#'+(['project','item'].includes(view)?view+'/'+id:view==='guide'?'guide/'+encodeURIComponent(selectedGuide):view==='animations'&&selectedLesson?'animations/'+encodeURIComponent(selectedLesson):view));
  $('.sidebar').classList.remove('open');render();window.scrollTo({top:0});
 }

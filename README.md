@@ -53,3 +53,14 @@ Ponder original se ejecuta dentro de Minecraft con estructuras NBT, storyboards 
 El vídeo oficial de Create de 2022 se incrusta en el reproductor del autor al solicitarlo; queda identificado como showcase histórico, no como tutorial de ATM10 8.1. No se descargan ni distribuyen copias del vídeo.
 
 Los objetivos de fichas y lecciones reutilizan el almacenamiento local y el respaldo existente. No hay cambios de acceso al sitio ni sincronización con Minecraft.
+
+
+## Taller visual v4
+
+Atlas de objetos en dos columnas, recetas y usos (incluido procesamiento por máquina); tres proyectos con coordenadas y visor WebGL por capas, rotación, selección, controles de reproducción, checklist y notas. Modelos/UV originales exportados del cliente fijado; movimiento web ilustrativo, no ejecución de Minecraft. Cofre auxiliar explícitamente representado por marcador. Three.js 0.170.0 y OrbitControls se sirven localmente; licencia en dist/vendor/THREE-LICENSE.txt.
+
+35 guías detalladas de los 491 mods indexados; 30 demostraciones esquemáticas existentes. Mapa editorial de 12 hitos; 12 diagnósticos guiados; modo juego con proyecto, receta fijada, existencias y progreso local. Respaldos schema 1 migran y conservan workspace. Tres vídeos de autores y capítulos verificados donde están disponibles; grabaciones locales con marcadores, sin subir archivos.
+
+Producción: cinco fórmulas verificadas de Create 6.0.10 (press, dos mixing continuos, dos milling). Trituración usa tiempo medido, porque no se implementó el intérprete float32 por fases; Powah tiene coste FE exacto y tiempo medido. Se considera TPS, disponibilidad, SU, lotes y rendimiento medio; no se promete rendimiento real del servidor ni transporte. Fuentes y validación de investigación en dist/licenses/workshop.
+
+Verificación: 35 pruebas automatizadas, incluyendo todos los detalles de recetas y nuevas vistas, migración, fórmulas, existencias, materiales y modelos. La vista real se revisa tras publicación HTTPS; el entorno local de preview no estaba permitido. No se ejecutó Minecraft.
