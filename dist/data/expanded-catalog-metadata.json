@@ -1,0 +1,57 @@
+{
+  "packVersion": "8.1",
+  "minecraftVersion": "1.21.1",
+  "modCount": 12,
+  "rawCount": 8348,
+  "normalizedCount": 6593,
+  "calculatorEligibleCount": 3451,
+  "excludedCount": 2119,
+  "overrideOperations": 655,
+  "overrideRecipeCount": 422,
+  "licenses": {
+    "Powah-6.2.10.jar": "licenses/Powah-6.2.10/LICENSE_Powah"
+  },
+  "scope": "Exact 12 JAR resources + reviewed declarative ATM10 8.1 scripts. No game registry execution. Unknown serializers retained in raw-recipes.json and excluded from calculation.",
+  "unmodeled": [
+    "Almost Unified runtime item selection",
+    "Mekanism/Compatibility.js registry-generated recipes",
+    "MA Crops.js registry-generated cloche/seed chance",
+    "Java/runtime/custom serializer-dependent recipes",
+    "Server-side private changes"
+  ],
+  "scriptFiles": [
+    "../Tweaks/recipes.js",
+    "../Unification/gears.js",
+    "Applied Energistics/Recipes.js",
+    "Functional Storage/compacting_recipe.js",
+    "Indusrial Foregoing/Dissolution Chamber.js",
+    "Indusrial Foregoing/Laser Drill.js",
+    "Mekanism/Rebalance/Gear.js",
+    "Mekanism/Rebalance/Items.js",
+    "Mekanism/Rebalance/Units.js",
+    "Mekanism/Recipes.js",
+    "Mekanism/ore_processing.js",
+    "MysticalAgriculture/AwakenedEssenceCrafting.js",
+    "MysticalAgriculture/Compatibility.js",
+    "MysticalAgriculture/FusionCrafting.js",
+    "MysticalAgriculture/Recipes.js",
+    "Powah/Energizing.js",
+    "Productive Bees/Recipes.js"
+  ],
+  "mutationOperations": 247,
+  "nestedModules": [
+    {
+      "id": "productivelib",
+      "version": "1.21.1-0.2.0",
+      "parent": "productivebees-1.21.1-13.13.5.jar",
+      "jar": "META-INF/jarjar/productivelib-1.21.1-0.2.0.jar"
+    }
+  ],
+  "validation": {
+    "uniqueRecipeIds": true,
+    "positiveCounts": true,
+    "allRawSourcesRetained": true,
+    "unknownCropComponentRecipesExcluded": 182,
+    "liveGameRegistryStarted": false
+  }
+}

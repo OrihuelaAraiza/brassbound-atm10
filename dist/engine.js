@@ -25,6 +25,7 @@ export function createEngine(recipes, tags={}) {
  }
  function score(r){
   let s=0;
+  if(r.certainty==='atm-override')s+=1000;
   if(r.type.startsWith('minecraft:crafting'))s+=50;
   if(r.type==='create:item_application')s+=60;
   if(r.type==='minecraft:smelting')s+=35;
@@ -40,7 +41,7 @@ export function createEngine(recipes, tags={}) {
   return s;
  }
  function candidates(item){return [...(byOutput.get(item)||[])].sort((a,b)=>score(b)-score(a)||a.id.localeCompare(b.id));}
- function choose(item,prefs={}){const chosen=byId.get(prefs[item]);return chosen?.output.id===item?chosen:candidates(item)[0];}
+ function choose(item,prefs={}){const chosen=byId.get(prefs[item]);return chosen?.output.id===item&&chosen.calculatorEligible!==false?chosen:candidates(item).find(r=>r.calculatorEligible!==false);}
  const naturalResources=new Set(['minecraft:andesite','minecraft:diorite','minecraft:granite','minecraft:cobblestone','minecraft:cobbled_deepslate','minecraft:dirt','minecraft:gravel','minecraft:sand','minecraft:red_sand','minecraft:netherrack','minecraft:obsidian','minecraft:quartz','minecraft:diamond','minecraft:emerald','minecraft:redstone','minecraft:lapis_lazuli','minecraft:coal','minecraft:raw_iron','minecraft:raw_gold','minecraft:raw_copper','create:raw_zinc','minecraft:clay_ball','minecraft:slime_ball','minecraft:leather','minecraft:string','minecraft:feather','minecraft:blaze_rod','minecraft:ender_pearl']);
  function plan(item,amount,{inventory={},preferences={},selections={},rootRecipe=null,maxDepth=12,expand=true}={}){
   const stock={...inventory},surplus={},leaves={},used={},machines=new Set(),warnings=new Set(),assumptions={},processes=[];let nodeCount=0;
@@ -51,7 +52,8 @@ export function createEngine(recipes, tags={}) {
    const spare=Math.min(surplus[key]||0,count);if(spare){surplus[key]-=spare;count-=spare;node.surplusUsed=spare;}
    if(count<=0){node.available=true;return node;}
    const recipe=forced||choose(id,preferences);
-   const stop=(kind==='fluid'&&depth>0)||(depth>0&&naturalResources.has(id)&&!preferences[id])||id.startsWith('#')||!recipe||chain.includes(id)||depth>=maxDepth||nodeCount>500||(!expand&&depth>0);
+   if(recipe?.calculatorEligible===false)warnings.add('Una receta tiene condiciones especiales no calculables; se deja como insumo.');
+   const stop=recipe?.calculatorEligible===false||(kind==='fluid'&&depth>0)||(depth>0&&naturalResources.has(id)&&!preferences[id])||id.startsWith('#')||!recipe||chain.includes(id)||depth>=maxDepth||nodeCount>500||(!expand&&depth>0);
    if(stop){node.raw=true;node.remaining=count;addLeaf(id,count,kind,chain.includes(id)?'Ciclo: se deja como insumo':!recipe?'Sin subreceta en catálogo':'Insumo de esta etapa');if(chain.includes(id))warnings.add('Se detuvo una conversión circular. Ese material queda como insumo que debes conseguir.');if(depth>=maxDepth||nodeCount>500)warnings.add('Desglose limitado para mantener el plano legible; los nodos restantes se listan como insumos.');return node;}
    const chance=Math.max(.00001,Math.min(1,recipe.output.chance??1));const batches=Math.ceil(count/(recipe.output.count*chance));node.recipe=recipe.id;node.batches=batches;node.chance=chance;node.output=recipe.output.count;node.type=recipe.type;
    if(chance<1){warnings.add('Hay resultados aleatorios. Las tandas se calculan por rendimiento medio; no garantizan el objetivo.');node.estimated=true;}
