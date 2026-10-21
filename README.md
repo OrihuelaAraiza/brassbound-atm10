@@ -4,11 +4,33 @@ Mesa de trabajo y atlas de fabricación en español para All the Mods 10 8.1, co
 
 ## Uso local
 
+Requiere Git y Node.js 22.13 o superior (la versión 22 está indicada en `.nvmrc`).
+
 ```sh
+git clone https://github.com/OrihuelaAraiza/brassbound-atm10.git
+cd brassbound-atm10
+npm ci
+npm run build
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --config dist/server/wrangler.json --local --persist-to .wrangler/state --file drizzle/0000_lonely_winter_soldier.sql
 npm run dev
 ```
 
-Abrir la URL que imprime Vinext (puerto 5173 por defecto). `public/` conserva los módulos y assets originales; `web/index.html` es la página; `app/api/crew/` y `server/crew-api.mjs` gestionan los perfiles. `dist/` es salida generada. Aplicar primero las migraciones D1 locales según las instrucciones de Sites.
+Abrir la URL que imprime Vinext (puerto 5173 por defecto). El comando D1 prepara una base de datos local para probar los perfiles; no necesita credenciales de Cloudflare ni modifica producción. La autenticación de desarrollo es simulada y solo funciona en loopback. La cuenta y los datos reales del sitio publicado dependen de Sites y ChatGPT.
+
+`public/` conserva los módulos y assets originales; `web/index.html` es la página; `app/api/crew/` y `server/crew-api.mjs` gestionan los perfiles. `dist/` es salida generada. Las carpetas de investigación externas y los JAR del modpack no son necesarios para instalar, ejecutar o modificar la web.
+
+## Colaborar y agregar mods
+
+Haz un **fork**, crea una rama y envía un **pull request** a este repositorio. No necesitas acceso de escritura para proponer cambios. La [guía de contribución](CONTRIBUTING.md) explica dónde editar fichas, recetas, iconos, rutas y tutoriales, y cómo comprobarlos.
+
+Este repositorio contiene la web de Brassbound. Agregar una ficha o una receta aquí amplía la guía; instalar un mod en Minecraft o en el servidor se hace por separado. Un push a GitHub tampoco publica automáticamente el sitio en Sites.
+
+```sh
+npm test
+npm run build
+```
+
+GitHub Actions ejecuta estas comprobaciones en pushes a `main` y pull requests.
 
 ## Funciones
 
