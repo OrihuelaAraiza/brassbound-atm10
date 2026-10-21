@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "scope": "Mahou Tsukai 1.21.1-v1.36.27 / ATM10 8.1",
+  "tests": {
+    "total": 48,
+    "pass": 48,
+    "fail": 0
+  },
+  "data": {
+    "chapters": 10,
+    "spellsVerified": 53,
+    "recipesVerified": 32,
+    "configKeysVerified": 458,
+    "packConfigDifferences": 61,
+    "roadmapObjectives": 37
+  },
+  "browserLocal": {
+    "origin": "http://localhost:4174",
+    "checked": [
+      "spell search drain: 1 of 53",
+      "Drain Life detail and catalyst display",
+      "Morgan 30 to 60: 300 upgrades / 120000 Mahou",
+      "catalyst materials rounding and cloth yield",
+      "config search MORGAN: four changed keys",
+      "roadmap objective persists after reload",
+      "test objective restored to unchecked",
+      "desktop screenshot and contrast review"
+    ]
+  },
+  "limits": [
+    "Minecraft not executed",
+    "Private server settings not read",
+    "Current wiki mechanics marked as reference when not confirmed for pinned JAR",
+    "Direct HEAD checks to official wiki returned HTTP 403; two representative pages verified with web reader"
+  ]
+}

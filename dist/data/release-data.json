@@ -1,1 +1,16 @@
-{"version":"8.1","normalizedRecipes":9980,"additionalMods":12,"iconMappings":5756,"referencedRenderedIcons":4492}
+{
+  "version": "8.1",
+  "normalizedRecipes": 10012,
+  "additionalMods": 13,
+  "iconMappings": 5838,
+  "referencedRenderedIcons": 4492,
+  "mahou": {
+    "version": "1.21.1-v1.36.27",
+    "recipes": 32,
+    "spells": 53,
+    "chapters": 10,
+    "objectives": 37,
+    "configKeys": 458,
+    "changedKeys": 61
+  }
+}

@@ -1,0 +1,593 @@
+{
+  "author": "stepsword / stepcros",
+  "license": "All Rights Reserved",
+  "source": "https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai/files/8212674",
+  "sha256": "1752d7dd6e56348cc4ba4253bb4cb9f8d25054da79b0e6c7389751588b73c5b9",
+  "method": "Sprites layer0 originales, sin renderizador del juego. No representan los efectos de armas especiales.",
+  "entries": [
+    {
+      "itemId": "mahoutsukai:attuned_diamond",
+      "path": "item-icons/attuned_diamond.png",
+      "model": "assets/mahoutsukai/models/item/attuned_diamond.json",
+      "texture": "assets/mahoutsukai/textures/item/attuned_diamond.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:attuned_emerald",
+      "path": "item-icons/attuned_emerald.png",
+      "model": "assets/mahoutsukai/models/item/attuned_emerald.json",
+      "texture": "assets/mahoutsukai/textures/item/attuned_emerald.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:attuner",
+      "path": "item-icons/attuner.png",
+      "model": "assets/mahoutsukai/models/item/attuner.json",
+      "texture": "assets/mahoutsukai/textures/item/attuner.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:black_fire",
+      "path": "item-icons/black_fire.png",
+      "model": "assets/mahoutsukai/models/item/black_fire.json",
+      "texture": "assets/mahoutsukai/textures/block/black_fire_layer_0.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:dagger",
+      "path": "item-icons/dagger.png",
+      "model": "assets/mahoutsukai/models/item/dagger.json",
+      "texture": "assets/mahoutsukai/textures/item/dagger.png",
+      "parent": "item/handheld",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:faecake",
+      "path": "item-icons/faecake.png",
+      "model": "assets/mahoutsukai/models/item/faecake.json",
+      "texture": "assets/mahoutsukai/textures/item/faecake.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:fae_essence",
+      "path": "item-icons/fae_essence.png",
+      "model": "assets/mahoutsukai/models/item/fae_essence.json",
+      "texture": "assets/mahoutsukai/textures/item/fae_essence.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:funbook",
+      "path": "item-icons/funbook.png",
+      "model": "assets/mahoutsukai/models/item/funbook.json",
+      "texture": "assets/mahoutsukai/textures/item/funbook.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:guidebook",
+      "path": "item-icons/guidebook.png",
+      "model": "assets/mahoutsukai/models/item/guidebook.json",
+      "texture": "assets/mahoutsukai/textures/item/mtguidebook.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:hammer",
+      "path": "item-icons/hammer.png",
+      "model": "assets/mahoutsukai/models/item/hammer.json",
+      "texture": "assets/mahoutsukai/textures/item/hammer.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:kodoku",
+      "path": "item-icons/kodoku.png",
+      "model": "assets/mahoutsukai/models/item/kodoku.json",
+      "texture": "assets/mahoutsukai/textures/item/kodoku.png",
+      "parent": "item/handheld",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:mortar",
+      "path": "item-icons/mortar.png",
+      "model": "assets/mahoutsukai/models/item/mortar.json",
+      "texture": "assets/mahoutsukai/textures/item/mortar.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:mortar_and_pestle",
+      "path": "item-icons/mortar_and_pestle.png",
+      "model": "assets/mahoutsukai/models/item/mortar_and_pestle.json",
+      "texture": "assets/mahoutsukai/textures/item/mortar_and_pestle.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:pestle",
+      "path": "item-icons/pestle.png",
+      "model": "assets/mahoutsukai/models/item/pestle.json",
+      "texture": "assets/mahoutsukai/textures/item/pestle.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:powdered_diamond",
+      "path": "item-icons/powdered_diamond.png",
+      "model": "assets/mahoutsukai/models/item/powdered_diamond.json",
+      "texture": "assets/mahoutsukai/textures/item/powdered_diamond.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:powdered_emerald",
+      "path": "item-icons/powdered_emerald.png",
+      "model": "assets/mahoutsukai/models/item/powdered_emerald.json",
+      "texture": "assets/mahoutsukai/textures/item/powdered_emerald.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:powdered_ender",
+      "path": "item-icons/powdered_ender.png",
+      "model": "assets/mahoutsukai/models/item/powdered_ender.json",
+      "texture": "assets/mahoutsukai/textures/item/powdered_ender.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:powdered_eye",
+      "path": "item-icons/powdered_eye.png",
+      "model": "assets/mahoutsukai/models/item/powdered_eye.json",
+      "texture": "assets/mahoutsukai/textures/item/powdered_eye.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:powdered_gold",
+      "path": "item-icons/powdered_gold.png",
+      "model": "assets/mahoutsukai/models/item/powdered_gold.json",
+      "texture": "assets/mahoutsukai/textures/item/powdered_gold.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:powdered_iron",
+      "path": "item-icons/powdered_iron.png",
+      "model": "assets/mahoutsukai/models/item/powdered_iron.json",
+      "texture": "assets/mahoutsukai/textures/item/powdered_iron.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:powdered_quartz",
+      "path": "item-icons/powdered_quartz.png",
+      "model": "assets/mahoutsukai/models/item/powdered_quartz.json",
+      "texture": "assets/mahoutsukai/textures/item/powdered_quartz.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:proximity_projection_key",
+      "path": "item-icons/proximity_projection_key.png",
+      "model": "assets/mahoutsukai/models/item/proximity_projection_key.json",
+      "texture": "assets/mahoutsukai/textures/item/red_key_64.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:proximity_projection_key2",
+      "path": "item-icons/proximity_projection_key2.png",
+      "model": "assets/mahoutsukai/models/item/proximity_projection_key2.json",
+      "texture": "assets/mahoutsukai/textures/item/red_key_64.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:proximity_projection_key3",
+      "path": "item-icons/proximity_projection_key3.png",
+      "model": "assets/mahoutsukai/models/item/proximity_projection_key3.json",
+      "texture": "assets/mahoutsukai/textures/item/red_key_64.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_ascension",
+      "path": "item-icons/scroll_ascension.png",
+      "model": "assets/mahoutsukai/models/item/scroll_ascension.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_black_flame",
+      "path": "item-icons/scroll_black_flame.png",
+      "model": "assets/mahoutsukai/models/item/scroll_black_flame.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_borrowed_authority",
+      "path": "item-icons/scroll_borrowed_authority.png",
+      "model": "assets/mahoutsukai/models/item/scroll_borrowed_authority.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_boundary_alarm",
+      "path": "item-icons/scroll_boundary_alarm.png",
+      "model": "assets/mahoutsukai/models/item/scroll_boundary_alarm.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_boundary_displacement",
+      "path": "item-icons/scroll_boundary_displacement.png",
+      "model": "assets/mahoutsukai/models/item/scroll_boundary_displacement.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_boundary_drain_life",
+      "path": "item-icons/scroll_boundary_drain_life.png",
+      "model": "assets/mahoutsukai/models/item/scroll_boundary_drain_life.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_boundary_gravity",
+      "path": "item-icons/scroll_boundary_gravity.png",
+      "model": "assets/mahoutsukai/models/item/scroll_boundary_gravity.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_boundary_raise_enclosure",
+      "path": "item-icons/scroll_boundary_raise_enclosure.png",
+      "model": "assets/mahoutsukai/models/item/scroll_boundary_raise_enclosure.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_boundary_tangible",
+      "path": "item-icons/scroll_boundary_tangible.png",
+      "model": "assets/mahoutsukai/models/item/scroll_boundary_tangible.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_butterfly_effect",
+      "path": "item-icons/scroll_butterfly_effect.png",
+      "model": "assets/mahoutsukai/models/item/scroll_butterfly_effect.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_cup_of_heaven",
+      "path": "item-icons/scroll_cup_of_heaven.png",
+      "model": "assets/mahoutsukai/models/item/scroll_cup_of_heaven.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_damage_exchange",
+      "path": "item-icons/scroll_damage_exchange.png",
+      "model": "assets/mahoutsukai/models/item/scroll_damage_exchange.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_damage_replication",
+      "path": "item-icons/scroll_damage_replication.png",
+      "model": "assets/mahoutsukai/models/item/scroll_damage_replication.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_death_collection",
+      "path": "item-icons/scroll_death_collection.png",
+      "model": "assets/mahoutsukai/models/item/scroll_death_collection.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_fallen_down",
+      "path": "item-icons/scroll_fallen_down.png",
+      "model": "assets/mahoutsukai/models/item/scroll_fallen_down.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_familiars_garden",
+      "path": "item-icons/scroll_familiars_garden.png",
+      "model": "assets/mahoutsukai/models/item/scroll_familiars_garden.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_fay_sight",
+      "path": "item-icons/scroll_fay_sight.png",
+      "model": "assets/mahoutsukai/models/item/scroll_fay_sight.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_gandr",
+      "path": "item-icons/scroll_gandr.png",
+      "model": "assets/mahoutsukai/models/item/scroll_gandr.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_geas",
+      "path": "item-icons/scroll_geas.png",
+      "model": "assets/mahoutsukai/models/item/scroll_geas.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_immunity_exchange",
+      "path": "item-icons/scroll_immunity_exchange.png",
+      "model": "assets/mahoutsukai/models/item/scroll_immunity_exchange.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_insight",
+      "path": "item-icons/scroll_insight.png",
+      "model": "assets/mahoutsukai/models/item/scroll_insight.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_mental_displacement",
+      "path": "item-icons/scroll_mental_displacement.png",
+      "model": "assets/mahoutsukai/models/item/scroll_mental_displacement.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_mystic_eyes",
+      "path": "item-icons/scroll_mystic_eyes.png",
+      "model": "assets/mahoutsukai/models/item/scroll_mystic_eyes.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_mystic_staff",
+      "path": "item-icons/scroll_mystic_staff.png",
+      "model": "assets/mahoutsukai/models/item/scroll_mystic_staff.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_possess_entity",
+      "path": "item-icons/scroll_possess_entity.png",
+      "model": "assets/mahoutsukai/models/item/scroll_possess_entity.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_prediction",
+      "path": "item-icons/scroll_prediction.png",
+      "model": "assets/mahoutsukai/models/item/scroll_prediction.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_presence_concealment",
+      "path": "item-icons/scroll_presence_concealment.png",
+      "model": "assets/mahoutsukai/models/item/scroll_presence_concealment.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_probability_alter",
+      "path": "item-icons/scroll_probability_alter.png",
+      "model": "assets/mahoutsukai/models/item/scroll_probability_alter.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_projectile_displacement",
+      "path": "item-icons/scroll_projectile_displacement.png",
+      "model": "assets/mahoutsukai/models/item/scroll_projectile_displacement.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_projection",
+      "path": "item-icons/scroll_projection.png",
+      "model": "assets/mahoutsukai/models/item/scroll_projection.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_protective_displacement",
+      "path": "item-icons/scroll_protective_displacement.png",
+      "model": "assets/mahoutsukai/models/item/scroll_protective_displacement.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_proximity_projection",
+      "path": "item-icons/scroll_proximity_projection.png",
+      "model": "assets/mahoutsukai/models/item/scroll_proximity_projection.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_reality_marble",
+      "path": "item-icons/scroll_reality_marble.png",
+      "model": "assets/mahoutsukai/models/item/scroll_reality_marble.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_recall_familiar",
+      "path": "item-icons/scroll_recall_familiar.png",
+      "model": "assets/mahoutsukai/models/item/scroll_recall_familiar.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_retribution",
+      "path": "item-icons/scroll_retribution.png",
+      "model": "assets/mahoutsukai/models/item/scroll_retribution.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_reversion_eyes",
+      "path": "item-icons/scroll_reversion_eyes.png",
+      "model": "assets/mahoutsukai/models/item/scroll_reversion_eyes.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_rho_aias",
+      "path": "item-icons/scroll_rho_aias.png",
+      "model": "assets/mahoutsukai/models/item/scroll_rho_aias.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_selective_displacement",
+      "path": "item-icons/scroll_selective_displacement.png",
+      "model": "assets/mahoutsukai/models/item/scroll_selective_displacement.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_spatial_disorientation",
+      "path": "item-icons/scroll_spatial_disorientation.png",
+      "model": "assets/mahoutsukai/models/item/scroll_spatial_disorientation.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_strengthening",
+      "path": "item-icons/scroll_strengthening.png",
+      "model": "assets/mahoutsukai/models/item/scroll_strengthening.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_summon_familiar",
+      "path": "item-icons/scroll_summon_familiar.png",
+      "model": "assets/mahoutsukai/models/item/scroll_summon_familiar.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_swap_familiar",
+      "path": "item-icons/scroll_swap_familiar.png",
+      "model": "assets/mahoutsukai/models/item/scroll_swap_familiar.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_treasury_projection",
+      "path": "item-icons/scroll_treasury_projection.png",
+      "model": "assets/mahoutsukai/models/item/scroll_treasury_projection.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:scroll_weapon_shooter",
+      "path": "item-icons/scroll_weapon_shooter.png",
+      "model": "assets/mahoutsukai/models/item/scroll_weapon_shooter.json",
+      "texture": "assets/mahoutsukai/textures/item/spell_scroll.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:theripper",
+      "path": "item-icons/theripper.png",
+      "model": "assets/mahoutsukai/models/item/theripper.json",
+      "texture": "assets/mahoutsukai/textures/item/theripper.png",
+      "parent": "item/handheld",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:weapon_projectile_bow_pulling_0",
+      "path": "item-icons/weapon_projectile_bow_pulling_0.png",
+      "model": "assets/mahoutsukai/models/item/weapon_projectile_bow_pulling_0.json",
+      "texture": "assets/mahoutsukai/textures/item/weapon_projectile_bow_pulling_0.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:weapon_projectile_bow_pulling_1",
+      "path": "item-icons/weapon_projectile_bow_pulling_1.png",
+      "model": "assets/mahoutsukai/models/item/weapon_projectile_bow_pulling_1.json",
+      "texture": "assets/mahoutsukai/textures/item/weapon_projectile_bow_pulling_1.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:weapon_projectile_bow_pulling_2",
+      "path": "item-icons/weapon_projectile_bow_pulling_2.png",
+      "model": "assets/mahoutsukai/models/item/weapon_projectile_bow_pulling_2.json",
+      "texture": "assets/mahoutsukai/textures/item/weapon_projectile_bow_pulling_2.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    },
+    {
+      "itemId": "mahoutsukai:weapon_projectile_bow_standby",
+      "path": "item-icons/weapon_projectile_bow_standby.png",
+      "model": "assets/mahoutsukai/models/item/weapon_projectile_bow_standby.json",
+      "texture": "assets/mahoutsukai/textures/item/weapon_projectile_bow_standby.png",
+      "parent": "item/generated",
+      "notInGameRender": true
+    }
+  ]
+}

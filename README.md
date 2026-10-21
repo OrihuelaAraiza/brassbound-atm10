@@ -64,3 +64,11 @@ Atlas de objetos en dos columnas, recetas y usos (incluido procesamiento por má
 Producción: cinco fórmulas verificadas de Create 6.0.10 (press, dos mixing continuos, dos milling). Trituración usa tiempo medido, porque no se implementó el intérprete float32 por fases; Powah tiene coste FE exacto y tiempo medido. Se considera TPS, disponibilidad, SU, lotes y rendimiento medio; no se promete rendimiento real del servidor ni transporte. Fuentes y validación de investigación en dist/licenses/workshop.
 
 Verificación: 35 pruebas automatizadas, incluyendo todos los detalles de recetas y nuevas vistas, migración, fórmulas, existencias, materiales y modelos. La vista real se revisa tras publicación HTTPS; el entorno local de preview no estaba permitido. No se ejecutó Minecraft.
+
+## Mahou Tsukai · edición ATM10 8.1
+
+Módulo completo conectado al inicio, navegación principal, biblioteca, atlas y rutas. Incluye 10 capítulos en español, 53 hechizos con catalizadores y diagnóstico, 32 crafteos estándar, 37 objetivos compartidos entre roadmap y guías, presupuestos de materiales y Morgan, y consulta de 458 claves con las 61 diferencias del pack.
+
+Fijado a Mahou Tsukai 1.21.1-v1.36.27 (CurseForge 8212674). Las combinaciones, recetas y configuración se cotejaron con el JAR exacto y el ZIP oficial de ATM10 8.1. Las explicaciones de la wiki actual se distinguen de la evidencia de esta versión. No se ejecutó Minecraft ni se inspeccionó la configuración particular de un servidor. La receta dinámica de William se explica sin incorporarla al cálculo recursivo.
+
+Verificación de esta edición: 48 pruebas automatizadas aprobadas; navegador local con navegación, detalle de hechizos, búsqueda, ambas calculadoras, filtros de configuración y persistencia de un objetivo tras recargar. El objetivo de prueba se restauró al estado inicial. Evidencia en `evidence/verification-mahou.json`.

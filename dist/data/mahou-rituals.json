@@ -1,0 +1,638 @@
+[
+  {
+    "powders": [
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_quartz"
+    ],
+    "blockField": "alarmBoundaryMahoujin",
+    "circleId": "mahoutsukai:mahoujin_alarm_barrier",
+    "cloth": "optional",
+    "name": "Alarm Boundary",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_emerald"
+    ],
+    "blockField": "drainLifeBoundaryMahoujin",
+    "circleId": "mahoutsukai:mahoujin_drain_life_barrier",
+    "cloth": "optional",
+    "name": "Boundary of Drain Life",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_diamond"
+    ],
+    "blockField": "tangibleBoundaryMahoujin",
+    "circleId": "mahoutsukai:mahoujin_tangible_barrier",
+    "cloth": "optional",
+    "name": "Tangible Boundary",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_gold"
+    ],
+    "blockField": "gravityBoundaryMahoujin",
+    "circleId": "mahoutsukai:mahoujin_gravity_barrier",
+    "cloth": "optional",
+    "name": "Gravity Boundary",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_ender"
+    ],
+    "blockField": "displacementBoundaryMahoujin",
+    "circleId": "mahoutsukai:mahoujin_displacement_barrier",
+    "cloth": "optional",
+    "name": "Displacement Boundary",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_iron"
+    ],
+    "blockField": "raiseEnclosureBoundaryMahoujin",
+    "circleId": "mahoutsukai:mahoujin_raise_enclosure",
+    "cloth": "optional",
+    "name": "Enclosure Boundary",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_quartz"
+    ],
+    "blockField": "projectionMahoujin",
+    "circleId": "mahoutsukai:mahoujin_projection",
+    "cloth": "required",
+    "name": "Projection",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_gold"
+    ],
+    "blockField": "weaponShooterMahoujin",
+    "circleId": "mahoutsukai:mahoujin_weapon_shooter",
+    "cloth": "required",
+    "name": "Weapon Projectiles",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_iron"
+    ],
+    "blockField": "strengtheningMahoujin",
+    "circleId": "mahoutsukai:mahoujin_strengthening",
+    "cloth": "required",
+    "name": "Strengthening",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_ender"
+    ],
+    "blockField": "proximityProjectionMahoujin",
+    "circleId": "mahoutsukai:mahoujin_proximity_projection",
+    "cloth": "required",
+    "name": "Proximity Projection",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_diamond"
+    ],
+    "blockField": "realityMarbleMahoujin",
+    "circleId": "mahoutsukai:mahoujin_reality_marble",
+    "cloth": "required",
+    "name": "Reality Marble",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_emerald"
+    ],
+    "blockField": "powerConsolidationMahoujin",
+    "circleId": "mahoutsukai:mahoujin_power_consolidation",
+    "cloth": "ground-only",
+    "name": "Power Consolidation",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_eye"
+    ],
+    "blockField": "treasuryProjectionMahoujin",
+    "circleId": "mahoutsukai:mahoujin_treasury_projection",
+    "cloth": "required",
+    "name": "Treasury Projection",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_diamond"
+    ],
+    "blockField": "projectileDisplacementMahoujin",
+    "circleId": "mahoutsukai:mahoujin_projectile_displacement",
+    "cloth": "required",
+    "name": "Projectile Displacement",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_gold"
+    ],
+    "blockField": "ascensionMahoujin",
+    "circleId": "mahoutsukai:mahoujin_ascension",
+    "cloth": "optional",
+    "name": "Ascension",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_ender"
+    ],
+    "blockField": "orderedDisplacementMahoujin",
+    "circleId": "mahoutsukai:mahoujin_ordered_displacement",
+    "cloth": "ground-only",
+    "name": "Ordered Displacement",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_emerald"
+    ],
+    "blockField": "equivalentDisplacementMahoujin",
+    "circleId": "mahoutsukai:mahoujin_equivalent_displacement",
+    "cloth": "ground-only",
+    "name": "Equivalent Displacement",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_quartz"
+    ],
+    "blockField": "mentalDisplacementMahoujin",
+    "circleId": "mahoutsukai:mahoujin_mental_displacement",
+    "cloth": "required",
+    "name": "Mental Displacement",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_iron"
+    ],
+    "blockField": "protectiveDisplacementMahoujin",
+    "circleId": "mahoutsukai:mahoujin_protective_displacement",
+    "cloth": "required",
+    "name": "Protective Displacement",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_eye"
+    ],
+    "blockField": "scryingMahoujin",
+    "circleId": "mahoutsukai:mahoujin_scrying",
+    "cloth": "ground-only",
+    "name": "Scrying",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_emerald"
+    ],
+    "blockField": "catalystExchangeMahoujin",
+    "circleId": "mahoutsukai:mahoujin_catalyst_exchange",
+    "cloth": "ground-only",
+    "name": "Catalyst Exchange",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_diamond"
+    ],
+    "blockField": "durabilityExchangeMahoujin",
+    "circleId": "mahoutsukai:mahoujin_durability_exchange",
+    "cloth": "ground-only",
+    "name": "Durability Exchange",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_iron"
+    ],
+    "blockField": "damageExchangeMahoujin",
+    "circleId": "mahoutsukai:mahoujin_damage_exchange",
+    "cloth": "required",
+    "name": "Damage Exchange",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_quartz"
+    ],
+    "blockField": "chronalExchangeMahoujin",
+    "circleId": "mahoutsukai:mahoujin_chronal_exchange",
+    "cloth": "ground-only",
+    "name": "Chronal Exchange",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_gold"
+    ],
+    "blockField": "alchemicalExchangeMahoujin",
+    "circleId": "mahoutsukai:mahoujin_alchemical_exchange",
+    "cloth": "ground-only",
+    "name": "Alchemical Exchange",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_ender"
+    ],
+    "blockField": "contractMahoujin",
+    "circleId": "mahoutsukai:mahoujin_contract",
+    "cloth": "ground-only",
+    "name": "Contract",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_eye"
+    ],
+    "blockField": "immunityExchangeMahoujin",
+    "circleId": "mahoutsukai:mahoujin_immunity_exchange",
+    "cloth": "required",
+    "name": "Immunity Exchange",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_diamond"
+    ],
+    "blockField": "mysticStaffMahoujin",
+    "circleId": "mahoutsukai:mahoujin_mystic_staff",
+    "cloth": "required",
+    "name": "Mystic Staff of Explosive Mana Condensation",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_gold"
+    ],
+    "blockField": "borrowedAuthorityMahoujin",
+    "circleId": "mahoutsukai:mahoujin_borrowed_authority",
+    "cloth": "required",
+    "name": "Borrowed Authority",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_iron"
+    ],
+    "blockField": "rhoAiasMahoujin",
+    "circleId": "mahoutsukai:mahoujin_rho_aias",
+    "cloth": "required",
+    "name": "Rho Aias",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_emerald"
+    ],
+    "blockField": "damageReplicationMahoujin",
+    "circleId": "mahoutsukai:mahoujin_damage_replication",
+    "cloth": "required",
+    "name": "Shared Pain",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_ender"
+    ],
+    "blockField": "spatialDisorientationMahoujin",
+    "circleId": "mahoutsukai:mahoujin_spatial_disorientation",
+    "cloth": "required",
+    "name": "Spatial Disorientation",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_quartz"
+    ],
+    "blockField": "cupOfHeavenMahoujin",
+    "circleId": "mahoutsukai:mahoujin_cup_of_heaven",
+    "cloth": "optional",
+    "name": "Cup Of Heaven",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_quartz"
+    ],
+    "blockField": "summonFamiliarMahoujin",
+    "circleId": "mahoutsukai:mahoujin_summon_familiar",
+    "cloth": "required",
+    "name": "Summon Familiar",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_ender"
+    ],
+    "blockField": "recallFamiliarMahoujin",
+    "circleId": "mahoutsukai:mahoujin_recall_familiar",
+    "cloth": "required",
+    "name": "Recall Familiar",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_gold"
+    ],
+    "blockField": "possessEntityMahoujin",
+    "circleId": "mahoutsukai:mahoujin_possess_entity",
+    "cloth": "required",
+    "name": "Shared Vision",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_emerald"
+    ],
+    "blockField": "swapFamiliarMahoujin",
+    "circleId": "mahoutsukai:mahoujin_swap_familiar",
+    "cloth": "required",
+    "name": "Familiar Exchange",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_iron"
+    ],
+    "blockField": "familiarsGardenMahoujin",
+    "circleId": "mahoutsukai:mahoujin_familiars_garden",
+    "cloth": "required",
+    "name": "Familiars Garden",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_quartz",
+      "mahoutsukai:powdered_diamond"
+    ],
+    "blockField": "butterflyEffectMahoujin",
+    "circleId": "mahoutsukai:mahoujin_butterfly_effect",
+    "cloth": "required",
+    "name": "Butterfly Effect",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_quartz"
+    ],
+    "blockField": "predictionMahoujin",
+    "circleId": "mahoutsukai:mahoujin_prediction",
+    "cloth": "required",
+    "name": "Mystic Eyes of Clairvoyance",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_gold"
+    ],
+    "blockField": "mysticEyesMahoujin",
+    "circleId": "mahoutsukai:mahoujin_mystic_eyes",
+    "cloth": "required",
+    "name": "Mystic Eyes of Binding",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_emerald"
+    ],
+    "blockField": "reversionEyesMahoujin",
+    "circleId": "mahoutsukai:mahoujin_reversion_eyes",
+    "cloth": "required",
+    "name": "Mystic Eyes of Reversion",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_iron"
+    ],
+    "blockField": "deathCollectionMahoujin",
+    "circleId": "mahoutsukai:mahoujin_death_collection",
+    "cloth": "required",
+    "name": "Death Collection",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_diamond"
+    ],
+    "blockField": "blackFlameMahoujin",
+    "circleId": "mahoutsukai:mahoujin_black_flame",
+    "cloth": "required",
+    "name": "Mystic Eyes of the Black Flame",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_eye"
+    ],
+    "blockField": "faySightMahoujin",
+    "circleId": "mahoutsukai:mahoujin_fay_sight",
+    "cloth": "required",
+    "name": "Fay Sight",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_ender"
+    ],
+    "blockField": "insightEyesMahoujin",
+    "circleId": "mahoutsukai:mahoujin_insight",
+    "cloth": "required",
+    "name": "Insight",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_diamond"
+    ],
+    "blockField": "retributionMahoujin",
+    "circleId": "mahoutsukai:mahoujin_retribution",
+    "cloth": "required",
+    "name": "Retribution",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_iron",
+      "mahoutsukai:powdered_diamond"
+    ],
+    "blockField": "presenceConcealmentMahoujin",
+    "circleId": "mahoutsukai:mahoujin_presence_concealment",
+    "cloth": "required",
+    "name": "Presence Concealment",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_diamond"
+    ],
+    "blockField": "gandrMahoujin",
+    "circleId": "mahoutsukai:mahoujin_gandr",
+    "cloth": "required",
+    "name": "Gandr",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_emerald",
+      "mahoutsukai:powdered_iron"
+    ],
+    "blockField": "geasMahoujin",
+    "circleId": "mahoutsukai:mahoujin_geas",
+    "cloth": "required",
+    "name": "Geas",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_iron"
+    ],
+    "blockField": "fallenDownMahoujin",
+    "circleId": "mahoutsukai:mahoujin_fallen_down",
+    "cloth": "required",
+    "name": "Fallen Down",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_gold",
+      "mahoutsukai:powdered_diamond",
+      "mahoutsukai:powdered_quartz"
+    ],
+    "blockField": "probabilityAlterMahoujin",
+    "circleId": "mahoutsukai:mahoujin_probability_alter",
+    "cloth": "optional",
+    "name": "Probability Alter",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  },
+  {
+    "powders": [
+      "mahoutsukai:powdered_eye",
+      "mahoutsukai:powdered_ender",
+      "mahoutsukai:powdered_emerald"
+    ],
+    "blockField": "selectiveDisplacementMahoujin",
+    "circleId": "mahoutsukai:mahoujin_selective_displacement",
+    "cloth": "required",
+    "name": "Selective Displacement",
+    "source": "stepsword.mahoutsukai.block.spells.MahoujinRecipeRegistrar.init()"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "commit": "7830e744ad0e6f0767d0a6a7a76ab157848a0452",
+  "version": 9,
+  "deployment": "appgdep_6ad90c3b2b68819184fd390fdb9fc2eb",
+  "url": "https://brassbound-atm10-jp.jp-orihuela.chatgpt.site",
+  "status": "succeeded",
+  "tutorials": 83,
+  "usageItems": 102,
+  "steps": 272,
+  "animatedRecipeItems": 3902,
+  "tests": {
+    "passed": 42,
+    "failed": 0
+  },
+  "browser": {
+    "widths": [
+      1280,
+      629
+    ],
+    "horizontalOverflow": false,
+    "brokenImages": 0,
+    "consoleErrors": 0,
+    "checked": [
+      "Brewing Stand six chapters",
+      "102-object usage filter",
+      "Play/pause and 2x speed",
+      "Chapter selection and 3D rotation",
+      "Exact 3x2 Brewing Stand recipe",
+      "Multiple press lessons",
+      "83-card library and deep links",
+      "Single-column crafting grid correction"
+    ]
+  },
+  "limitations": [
+    "Illustrative web scenes, not Minecraft Ponder runtime",
+    "Some block-entity models/icons and runtime tints remain unavailable",
+    "Recipes marked incomplete excluded from automatic fabrication tutorials"
+  ],
+  "screenshot": "evidence/tutorial-potions-v5.png"
+}

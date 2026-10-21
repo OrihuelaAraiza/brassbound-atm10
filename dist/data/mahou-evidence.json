@@ -1,0 +1,104 @@
+{
+  "checkedOn": "2026-10-21",
+  "scope": "Static exact-file evidence, not live game/server registry or in-game QA.",
+  "mod": {
+    "id": "mahoutsukai",
+    "author": "stepcros / stepsword",
+    "version": "1.21.1-v1.36.27",
+    "projectId": 342543,
+    "fileId": 8212674,
+    "filePage": "https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai/files/8212674",
+    "officialWiki": "https://mahoutsukai.stepsword.com/",
+    "downloadUrl": "https://mediafilez.forgecdn.net/files/8212/674/mahoutsukai-1.21.1-v1.36.27.jar",
+    "jarSha256": "1752d7dd6e56348cc4ba4253bb4cb9f8d25054da79b0e6c7389751588b73c5b9",
+    "license": "All Rights Reserved; research copy only, do not redistribute JAR."
+  },
+  "counts": {
+    "craftingRecipes": 33,
+    "standardCraftingRecipes": 32,
+    "dynamicCustomRecipes": 1,
+    "ritualRecipes": 53,
+    "namedItems": 82,
+    "simpleItemSprites": 80,
+    "quests": 35,
+    "packConfigKeys": 458,
+    "configChangesComparedToJarDefaults": 61
+  },
+  "facts": [
+    {
+      "id": "mana",
+      "facts": [
+        "Personal maximum 20000 in ATM10 8.1.",
+        "Configured capacity growth +1 per 200 mana spent; ratio=0, penalty=0.",
+        "Sleeping recovers 40% of max before other effects; hunger affects natural regeneration.",
+        "Attuned Emerald 1000; Attuned Diamond 2000; either Mana Circuit 20000; usable range 10.",
+        "ONE_LIFE=false: personal progression is not configured to reset on death."
+      ],
+      "source": [
+        "pack-config.json:mana",
+        "pack-config.json:mana storage",
+        "private/PlayerManaManager-javap.txt:updateManaCounter"
+      ]
+    },
+    {
+      "id": "life_drain",
+      "facts": [
+        "Recipe: 2 powdered iron + 1 powdered emerald; cloth optional.",
+        "Radius10, 2 damage per drain, DRAIN_LIFE_BARRIER_CYCLE=20, DRAIN_LIFE_BARRIER_MANA_COST=5, DRAIN_LIFE_BARRIER_MANA_CYCLE=1.",
+        "giveLife prioritizes healing then hunger then mana; mana gain when eligible is 1, not 10.",
+        "10 active life-drain circles per caster (this is also the JAR default).",
+        "Target dummy dummmmmmy:target_dummy excluded by pack."
+      ],
+      "source": [
+        "ritual-recipes.json",
+        "pack-config.json:boundary.drain life",
+        "private/DrainLifeBoundaryMahoujinTileEntity-javap.txt"
+      ]
+    },
+    {
+      "id": "caliburn",
+      "facts": [
+        "Ground ritual: 2 powdered diamond + 1 powdered emerald creates murky lake; do outside buildings.",
+        "Lake creation costs 30 per growth cycle, radius max12, cycle20, transformation threshold150.",
+        "Enchanted sword dropped by a player into qualifying murky lake; transformation costs5000 from accessible mana. Diamond sword with Smite is the quest recommended path, not the only code-accepted sword.",
+        "Initial cap30 with no offering. Counts nearby Nether Stars (10-block axis-aligned region around sword); [0,1,2,3,4,5,6+] stars map to [30,35,40,45,50,55,60]. Stars are consumed.",
+        "For an existing Caliburn, code retains max(previousCap,newCap). Tiers can thus be raised again in this version; stars from separate operations do not accumulate.",
+        "Enchanted Caliburn can be returned for more damage. Mending is excluded from consolidation enchantments.",
+        "Global attack cap60. CALIBURN_FUN_REQUIRED=false. Projection-made copies cannot make new Caliburn/Morgan."
+      ],
+      "source": [
+        "pack-config.json:projection.power consolidation",
+        "private/PowerConsolidationSpellEffect-javap.txt:powerConsolidationWorldTick/getLimitBreakInArea",
+        "quests-exact.json"
+      ]
+    },
+    {
+      "id": "morgan",
+      "facts": [
+        "With a real Caliburn in main hand, kill a Minecraft wolf tamed by that same player. Whitelist is minecraft:wolf and ownerUUID must match.",
+        "Transformation retains previous sword damage bounded by cap and innateCap bounded by global60.",
+        "Morgan transformation branch has no additional mana debit; 5000 belongs to lake sword transformation, 400 to each paid villager upgrade.",
+        "Victim must be AbstractVillager; upgrade drains400 mana, adds0.1 damage adult or0.5 baby up to innate cap, repairs30 durability.",
+        "Special ability mana300; shared cooldown600 ticks; rage120 ticks.",
+        "Set intended cap before becoming Morgan: Morgan is excluded from lake transformation."
+      ],
+      "source": [
+        "pack-config.json:projection.morgan and caliburn",
+        "private/MorganEffect-javap.txt:morganLivingDeath/canTransform"
+      ]
+    },
+    {
+      "id": "recipe_mismatch",
+      "facts": [
+        "Weapon Projectiles uses 2 powdered diamond +1 powdered gold in registrar. Quest 3FF97A4B5029C0E7 instead lists 2 powdered gold +1 powdered diamond, which belongs to Explosive Mana Condensation.",
+        "Use exact ritual registrar over quest ingredient display."
+      ],
+      "source": [
+        "ritual-recipes.json",
+        "quests-exact.json"
+      ]
+    }
+  ],
+  "packConfigSha256": "6346ffe84788a5d7f39f4684673752af3dec431e5bd47fb947850b7b26d615d0",
+  "iconSource": "mahou-icons.json"
+}

@@ -843,6 +843,247 @@
         "modern_industrialization": "2.5.6",
         "create": "6.0.10"
       }
+    },
+    {
+      "id": "mahou-tsukai",
+      "name": "Mahou Tsukai · del círculo al arsenal",
+      "order": 13,
+      "mods": [
+        "mahoutsukai"
+      ],
+      "purpose": "Fundamentos, suministro, Fae y ramas opcionales de armas y especialización.",
+      "steps": [
+        {
+          "id": "mahou-inicio-0",
+          "title": "Abrí el compendio y revisé las teclas",
+          "detail": "Tu primer círculo y pergamino · De la daga al primer hechizo: materiales, controles y comprobación de cada paso.",
+          "requires": []
+        },
+        {
+          "id": "mahou-inicio-1",
+          "title": "Dibujé un círculo y veo Mahou",
+          "detail": "Tu primer círculo y pergamino · De la daga al primer hechizo: materiales, controles y comprobación de cada paso.",
+          "requires": []
+        },
+        {
+          "id": "mahou-inicio-2",
+          "title": "Preparé los siete tipos de polvo",
+          "detail": "Tu primer círculo y pergamino · De la daga al primer hechizo: materiales, controles y comprobación de cada paso.",
+          "requires": []
+        },
+        {
+          "id": "mahou-inicio-3",
+          "title": "Creé y probé un pergamino",
+          "detail": "Tu primer círculo y pergamino · De la daga al primer hechizo: materiales, controles y comprobación de cada paso.",
+          "requires": []
+        },
+        {
+          "id": "mahou-mana-0",
+          "title": "Distingo capacidad personal de reserva",
+          "detail": "Maná: reserva, recuperación y crecimiento · Aprende a leer el recurso antes de mantener varios hechizos activos.",
+          "requires": []
+        },
+        {
+          "id": "mahou-mana-1",
+          "title": "Medí consumo y recuperación de un hechizo",
+          "detail": "Maná: reserva, recuperación y crecimiento · Aprende a leer el recurso antes de mantener varios hechizos activos.",
+          "requires": []
+        },
+        {
+          "id": "mahou-mana-2",
+          "title": "Cargué una gema y la probé fuera de la base",
+          "detail": "Maná: reserva, recuperación y crecimiento · Aprende a leer el recurso antes de mantener varios hechizos activos.",
+          "requires": []
+        },
+        {
+          "id": "mahou-suministro-0",
+          "title": "Probé una conversión de durabilidad",
+          "detail": "Mantener una fuente de maná · Compara Durability Exchange, Chronal Exchange, Drain Life y Geas con pruebas pequeñas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-suministro-1",
+          "title": "Comparé una segunda fuente de maná",
+          "detail": "Mantener una fuente de maná · Compara Durability Exchange, Chronal Exchange, Drain Life y Geas con pruebas pequeñas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-suministro-2",
+          "title": "Verifiqué el balance con mis círculos activos",
+          "detail": "Mantener una fuente de maná · Compara Durability Exchange, Chronal Exchange, Drain Life y Geas con pruebas pequeñas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-suministro-3",
+          "title": "Preparé un modo de detener el suministro",
+          "detail": "Mantener una fuente de maná · Compara Durability Exchange, Chronal Exchange, Drain Life y Geas con pruebas pequeñas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-fae-0",
+          "title": "Encontré un leypoint con Fay Sight",
+          "detail": "Líneas ley y Fae · Localiza un punto mágico y reúne la esencia que conecta varias ramas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-fae-1",
+          "title": "Conseguí Fae Essence",
+          "detail": "Líneas ley y Fae · Localiza un punto mágico y reúne la esencia que conecta varias ramas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-fae-2",
+          "title": "Probé un círculo Fae y comprobé quién paga",
+          "detail": "Líneas ley y Fae · Localiza un punto mágico y reúne la esencia que conecta varias ramas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-circuitos-0",
+          "title": "Reclamé y cargué un circuito",
+          "detail": "Circuitos, Kodoku y William · Almacena cerca del taller y explora formas de abastecimiento avanzadas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-circuitos-1",
+          "title": "Probé su control con redstone",
+          "detail": "Circuitos, Kodoku y William · Almacena cerca del taller y explora formas de abastecimiento avanzadas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-circuitos-2",
+          "title": "Comprobé alcance y acceso compartido",
+          "detail": "Circuitos, Kodoku y William · Almacena cerca del taller y explora formas de abastecimiento avanzadas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-circuitos-3",
+          "title": "Ensayé Kodoku o William",
+          "detail": "Circuitos, Kodoku y William · Almacena cerca del taller y explora formas de abastecimiento avanzadas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-caliburn-0",
+          "title": "Completé el lago y reuní el maná",
+          "detail": "Caliburn: del lago al límite innato · Una ruta de fabricación con los valores del pack y una comprobación antes de cada mejora.",
+          "requires": []
+        },
+        {
+          "id": "mahou-caliburn-1",
+          "title": "Creé Caliburn y leí su límite innato",
+          "detail": "Caliburn: del lago al límite innato · Una ruta de fabricación con los valores del pack y una comprobación antes de cada mejora.",
+          "requires": []
+        },
+        {
+          "id": "mahou-caliburn-2",
+          "title": "Elegí y comprobé el escalón de mejora",
+          "detail": "Caliburn: del lago al límite innato · Una ruta de fabricación con los valores del pack y una comprobación antes de cada mejora.",
+          "requires": []
+        },
+        {
+          "id": "mahou-caliburn-3",
+          "title": "Probé la habilidad y la reparación",
+          "detail": "Caliburn: del lago al límite innato · Una ruta de fabricación con los valores del pack y una comprobación antes de cada mejora.",
+          "requires": []
+        },
+        {
+          "id": "mahou-morgan-0",
+          "title": "Preparé Caliburn con el límite deseado",
+          "detail": "Morgan: transformación, crecimiento y reparación · Continúa desde Caliburn sin confundir daño, límite y coste por mejora.",
+          "requires": []
+        },
+        {
+          "id": "mahou-morgan-1",
+          "title": "Transformé Caliburn y comprobé los datos",
+          "detail": "Morgan: transformación, crecimiento y reparación · Continúa desde Caliburn sin confundir daño, límite y coste por mejora.",
+          "requires": []
+        },
+        {
+          "id": "mahou-morgan-2",
+          "title": "Probé una mejora y su coste de maná",
+          "detail": "Morgan: transformación, crecimiento y reparación · Continúa desde Caliburn sin confundir daño, límite y coste por mejora.",
+          "requires": []
+        },
+        {
+          "id": "mahou-morgan-3",
+          "title": "Sé cómo usar y reparar Morgan",
+          "detail": "Morgan: transformación, crecimiento y reparación · Continúa desde Caliburn sin confundir daño, límite y coste por mejora.",
+          "requires": []
+        },
+        {
+          "id": "mahou-equipo-0",
+          "title": "Preparé un Mystic Code funcional",
+          "detail": "Mystic Code y arsenal alternativo · Escoge equipo por función y conoce cómo se obtiene cada pieza especial.",
+          "requires": []
+        },
+        {
+          "id": "mahou-equipo-1",
+          "title": "Comprobé límites de First Sorcery",
+          "detail": "Mystic Code y arsenal alternativo · Escoge equipo por función y conoce cómo se obtiene cada pieza especial.",
+          "requires": []
+        },
+        {
+          "id": "mahou-equipo-2",
+          "title": "Obtuve un arma alternativa",
+          "detail": "Mystic Code y arsenal alternativo · Escoge equipo por función y conoce cómo se obtiene cada pieza especial.",
+          "requires": []
+        },
+        {
+          "id": "mahou-equipo-3",
+          "title": "Ensayé los controles fuera de mi base",
+          "detail": "Mystic Code y arsenal alternativo · Escoge equipo por función y conoce cómo se obtiene cada pieza especial.",
+          "requires": []
+        },
+        {
+          "id": "mahou-especialidades-0",
+          "title": "Probé una utilidad de desplazamiento",
+          "detail": "Familiares, transporte, proyección y secretos · Ramifica tu partida con un objetivo concreto en lugar de fabricar todos los hechizos a ciegas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-especialidades-1",
+          "title": "Invoqué y recuperé un familiar",
+          "detail": "Familiares, transporte, proyección y secretos · Ramifica tu partida con un objetivo concreto en lugar de fabricar todos los hechizos a ciegas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-especialidades-2",
+          "title": "Probé una defensa con condiciones conocidas",
+          "detail": "Familiares, transporte, proyección y secretos · Ramifica tu partida con un objetivo concreto en lugar de fabricar todos los hechizos a ciegas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-especialidades-3",
+          "title": "Documenté mi especialidad y sus costes",
+          "detail": "Familiares, transporte, proyección y secretos · Ramifica tu partida con un objetivo concreto en lugar de fabricar todos los hechizos a ciegas.",
+          "requires": []
+        },
+        {
+          "id": "mahou-decoracion-0",
+          "title": "Configuré un proyector",
+          "detail": "Proyectores y ajustes visuales · Decora tu taller y mantén los círculos legibles durante la partida.",
+          "requires": []
+        },
+        {
+          "id": "mahou-decoracion-1",
+          "title": "Probé redstone y copiado de ajustes",
+          "detail": "Proyectores y ajustes visuales · Decora tu taller y mantén los círculos legibles durante la partida.",
+          "requires": []
+        },
+        {
+          "id": "mahou-decoracion-2",
+          "title": "Revisé legibilidad y rendimiento en mi equipo",
+          "detail": "Proyectores y ajustes visuales · Decora tu taller y mantén los círculos legibles durante la partida.",
+          "requires": []
+        }
+      ],
+      "sources": [
+        "https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai/files/8212674",
+        "https://github.com/AllTheMods/ATM-10/blob/ab6f65e07b88423cdae1724864ba42a573ba758a/config/mahoutsukai-server.toml"
+      ],
+      "ordering": "Roadmap editorial. Las ramas avanzadas son opcionales; comparte objetivos con el grimorio de Mahou Tsukai.",
+      "modVersions": {
+        "mahoutsukai": "1.21.1-v1.36.27"
+      }
     }
   ],
   "integrations": [
