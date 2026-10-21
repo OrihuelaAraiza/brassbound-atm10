@@ -1,3 +1,4 @@
+import {cleanWorkspace} from './workshop-model.js';
 // Calculations operate on the pinned static catalogue, never the server inventory.
 export const clampCount = n => Math.min(1000000, Math.max(0, Math.floor(Number(n) || 0)));
 export function createEngine(recipes, tags={}) {
@@ -74,5 +75,5 @@ export function cleanState(s){
  if(!s||typeof s!=='object'||Array.isArray(s))throw new Error('Formato de respaldo inválido.');
  if(s.schema!==1)throw new Error('Este archivo no es un respaldo de Brassbound compatible.');
  const safeObject=(v,fn)=>Object.fromEntries(Object.entries(v&&typeof v==='object'&&!Array.isArray(v)?v:{}).filter(([k])=>!['__proto__','constructor','prototype'].includes(k)).map(([k,val])=>[k,fn(val)]));
- return {schema:1,tasks:safeObject(s.tasks,v=>v===true),inventory:safeObject(s.inventory,clampCount),mods:safeObject(s.mods,v=>v===true),notes:typeof s.notes==='string'?s.notes.slice(0,100000):'',plans:Array.isArray(s.plans)?s.plans.filter(p=>p&&typeof p.item==='string'&&typeof p.name==='string').slice(0,200).map(p=>({item:p.item,name:p.name.slice(0,120),quantity:Math.max(1,clampCount(p.quantity)),recipe:typeof p.recipe==='string'?p.recipe:undefined})):[],preferences:safeObject(s.preferences,v=>typeof v==='string'?v:''),selections:safeObject(s.selections,v=>typeof v==='string'?v:'')};
+ return {schema:1,workspace:cleanWorkspace(s.workspace),tasks:safeObject(s.tasks,v=>v===true),inventory:safeObject(s.inventory,clampCount),mods:safeObject(s.mods,v=>v===true),notes:typeof s.notes==='string'?s.notes.slice(0,100000):'',plans:Array.isArray(s.plans)?s.plans.filter(p=>p&&typeof p.item==='string'&&typeof p.name==='string').slice(0,200).map(p=>({item:p.item,name:p.name.slice(0,120),quantity:Math.max(1,clampCount(p.quantity)),recipe:typeof p.recipe==='string'?p.recipe:undefined})):[],preferences:safeObject(s.preferences,v=>typeof v==='string'?v:''),selections:safeObject(s.selections,v=>typeof v==='string'?v:'')};
 }

@@ -1,0 +1,41 @@
+{
+  "formulaChecks": [
+    {
+      "id": "press-iron",
+      "integerRpmCases": 256,
+      "passed": true
+    },
+    {
+      "id": "mix-andesite",
+      "integerRpmCases": 227,
+      "passed": true
+    },
+    {
+      "id": "mix-brass",
+      "integerRpmCases": 227,
+      "passed": true
+    },
+    {
+      "id": "mill-cobblestone",
+      "integerRpmCases": 256,
+      "passed": true
+    },
+    {
+      "id": "mill-wheat",
+      "integerRpmCases": 256,
+      "passed": true
+    }
+  ],
+  "blueprintCoordinatesAndMaterialCountsPassed": true,
+  "blueprintCount": 3,
+  "diagnosticCount": 12,
+  "inGameTested": false,
+  "noSiteCodeModified": true,
+  "sourcePathsValidated": true,
+  "sourceErrors": [],
+  "sha256": {
+    "production-processes.json": "9a7892c39587bb7263430d88da69d83ec08a5e92da85bd13ddd6ff630b38fd5e",
+    "blueprints.json": "b85e06d1bd490df445988639e657ca38ef02e4c018404f27d08958a27e7850ec",
+    "diagnostics.json": "5c8c59b87143c4ba9bd01888f1c4dfa15ef47db686ffa7983ff6c480fc767d7f"
+  }
+}

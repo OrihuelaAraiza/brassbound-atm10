@@ -1,0 +1,52 @@
+{
+  "release": "companion-v3",
+  "commit": "e81e29d10bc5ce558253bae8247e8a3c56331458",
+  "deployment": "appgdep_6ad8f9e684bc81918c35de653683f566",
+  "deploymentStatus": "succeeded",
+  "url": "https://brassbound-atm10-jp.jp-orihuela.chatgpt.site",
+  "automated": {
+    "fullSuite": {
+      "passed": 25,
+      "failed": 0
+    },
+    "afterFinalTextAndCategoryFix": {
+      "catalogIntegrationPassed": 7,
+      "syntax": "passed",
+      "diffCheck": "passed"
+    }
+  },
+  "browser": {
+    "surface": "production HTTPS in-app browser",
+    "viewportWidth": 629,
+    "home": true,
+    "decorativeNoteRemoved": true,
+    "playPause": true,
+    "nextStep": true,
+    "directStep": true,
+    "restart": true,
+    "speed": true,
+    "linkedRecipe": true,
+    "atlasSearchAdAstra": true,
+    "adAstraGuide": true,
+    "spanishVanillaMaterials": true,
+    "powahCategoryTech": true,
+    "horizontalOverflow": false,
+    "consoleErrors": [],
+    "originalVideoEmbedLoaded": true,
+    "originalVideoPlayback": "not verified: browser refused fractional iframe coordinate input; no workaround attempted"
+  },
+  "coverage": {
+    "atlas": 491,
+    "detailedGuides": 29,
+    "referenceEntries": 315,
+    "supportEntries": 147,
+    "guideSteps": 159,
+    "webDemonstrations": 30,
+    "demonstrationMods": 13,
+    "nativePonderCues": 19
+  },
+  "screenshots": [
+    "companion-v3.png",
+    "animation-v3.png"
+  ]
+}

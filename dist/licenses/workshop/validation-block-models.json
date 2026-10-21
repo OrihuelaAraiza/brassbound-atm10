@@ -1,0 +1,16 @@
+{
+  "models": 45,
+  "available": 44,
+  "unavailable": {
+    "minecraft:chest": "Minecraft builtin/entity renderer; no JSON cuboids"
+  },
+  "cuboids": 158,
+  "objFaces": 202,
+  "textures": 51,
+  "copyRequired": 51,
+  "copyBytes": 28362,
+  "resolvedFacesAndUvs": "passed",
+  "componentReferences": "passed",
+  "textureSha256": "passed",
+  "liveMinecraftValidation": false
+}
