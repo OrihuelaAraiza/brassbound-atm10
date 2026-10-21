@@ -3714,5 +3714,725 @@
   "project:storage-network:grow-storage": {
     "title": "Añadir almacenamiento mixto",
     "group": "Montajes"
+  },
+  "tutorial:ponder:create/analog_lever": {
+    "title": "Tutorial 3D · Controlar señales mediante la palanca analógica",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/basin": {
+    "title": "Tutorial 3D · Procesar objetos en la cuenca",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/belt/connect": {
+    "title": "Tutorial 3D · El uso de las cintas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/belt/directions": {
+    "title": "Tutorial 3D · Orientaciones válidas para las cintas mecánicas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/belt/encasing": {
+    "title": "Tutorial 3D · Correas revestidas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/belt/transport": {
+    "title": "Tutorial 3D · El uso de las cintas mecánicas para la logística",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/blaze_burner": {
+    "title": "Tutorial 3D · Alimentar quemadores de blaze",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/cart_assembler/anchor": {
+    "title": "Tutorial 3D · Mover estructuras usando ensambladores de vagonetas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/cart_assembler/dual": {
+    "title": "Tutorial 3D · Montando artefactos móviles de vagoneta",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/cart_assembler/modes": {
+    "title": "Tutorial 3D · Configurar la Orientación de los Artilugios de Vagoneta",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/cart_assembler/rails": {
+    "title": "Tutorial 3D · Otros tipos de vagonetas y raíles",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/chain_drive/gearshift": {
+    "title": "Tutorial 3D · Controlar la velocidad de rotación con la cadena de transmisión ajustable",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/chain_drive/relay": {
+    "title": "Tutorial 3D · Transmitir fuerza rotacional con las cadenas de transmisión",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/chassis/linear_attachment": {
+    "title": "Tutorial 3D · Fijar bloques mediante el chasis lineal",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/chassis/linear_group": {
+    "title": "Tutorial 3D · Mover chasis lineales en grupos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/chassis/radial": {
+    "title": "Tutorial 3D · Fijar bloques mediante chasis radiales",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/chute/downward": {
+    "title": "Tutorial 3D · Transportar objetos hacia abajo a través de ductos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/chute/smart": {
+    "title": "Tutorial 3D · Filtrar objetos mediante ductos inteligentes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/chute/upward": {
+    "title": "Tutorial 3D · Transportar objetos hacia arriba mediante ductos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/clockwork_bearing": {
+    "title": "Tutorial 3D · Mueve una estructura con rodamientos de reloj",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/clutch": {
+    "title": "Tutorial 3D · Controlar la fuerza rotacional mediante un embrague",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/cog/encasing": {
+    "title": "Tutorial 3D · Revestir engranajes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/cog/large": {
+    "title": "Tutorial 3D · Transmitir fuerza rotacional mediante engranajes grandes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/cog/small": {
+    "title": "Tutorial 3D · Transmitir fuerza rotacional mediante engranajes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/cog/speedup": {
+    "title": "Tutorial 3D · Cambiar de marchas con engranajes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/contraption_controls": {
+    "title": "Tutorial 3D · Usando Controles de Artilugio",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/creative_motor": {
+    "title": "Tutorial 3D · Generar fuerza rotacional con motores creativos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/creative_motor_mojang": {
+    "title": "Tutorial 3D · El enigma de Mojang",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/crushing_wheel": {
+    "title": "Tutorial 3D · Procesar objetos con las ruedas trituradoras",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/deployer/contraption": {
+    "title": "Tutorial 3D · Usar desplegadores en artefactos animados",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/deployer/filter": {
+    "title": "Tutorial 3D · Usar el desplegador",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/deployer/modes": {
+    "title": "Tutorial 3D · Modos del desplegador",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/deployer/processing": {
+    "title": "Tutorial 3D · Procesar objetos mediante desplegadores",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/deployer/redstone": {
+    "title": "Tutorial 3D · Controlar desplegadores con redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/depot": {
+    "title": "Tutorial 3D · Usar depósitos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/display_board": {
+    "title": "Tutorial 3D · Usar pantallas de visualización",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/display_link": {
+    "title": "Tutorial 3D · Configurar Enlaces de Visualización",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/display_link_redstone": {
+    "title": "Tutorial 3D · Control de redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/elevator_pulley/elevator": {
+    "title": "Tutorial 3D · Utilizando la Polea del Ascensor",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/elevator_pulley/multi_rope": {
+    "title": "Tutorial 3D · Movimiento de Polea Sincronizado",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/empty_blaze_burner": {
+    "title": "Tutorial 3D · Usar quemadores de blaze vacíos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/fan/direction": {
+    "title": "Tutorial 3D · El flujo de aire de los ventiladores revestidos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/fan/processing": {
+    "title": "Tutorial 3D · Procesar objetos mediante ventiladores revestidos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/fluid_pipe/encasing": {
+    "title": "Tutorial 3D · Revestir tuberías de fluidos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/fluid_pipe/flow": {
+    "title": "Tutorial 3D · Transportar fluidos mediante tuberías de cobre",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/fluid_pipe/interaction": {
+    "title": "Tutorial 3D · Drenaje y llenado de contenedores de fluidos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/fluid_tank/sizes": {
+    "title": "Tutorial 3D · Dimensiones de un depósito de fluidos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/fluid_tank/sizes_creative": {
+    "title": "Tutorial 3D · Dimensiones de un depósito de fluidos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/fluid_tank/storage": {
+    "title": "Tutorial 3D · Almacenar fluidos en depósitos de fluidos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/fluid_tank/storage_creative": {
+    "title": "Tutorial 3D · Depósito de fluidos creativo",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/fluid_valve": {
+    "title": "Tutorial 3D · Controlar el flujo de fluidos mediante válvulas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/funnels/brass": {
+    "title": "Tutorial 3D · El embudo de latón",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/funnels/compat": {
+    "title": "Tutorial 3D · Compatibilidades con el embudo",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/funnels/direction": {
+    "title": "Tutorial 3D · Dirección de la transferencia",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/funnels/intro": {
+    "title": "Tutorial 3D · Usar embudos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/funnels/redstone": {
+    "title": "Tutorial 3D · Embudos alimentados con redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/funnels/transposer": {
+    "title": "Tutorial 3D · Transferencia directa",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/gantry/direction": {
+    "title": "Tutorial 3D · Dirección del movimiento de la grúa",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/gantry/intro": {
+    "title": "Tutorial 3D · Usar ejes de grúa",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/gantry/redstone": {
+    "title": "Tutorial 3D · Propagación de la potencia de la grúa",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/gantry/subgantry": {
+    "title": "Tutorial 3D · Grúas en cascada",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/gauges": {
+    "title": "Tutorial 3D · Controlar la información cinética mediante el velocímetro",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/gearbox": {
+    "title": "Tutorial 3D · Transmitir fuerza rotacional mediante cajas de transmisión",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/gearshift": {
+    "title": "Tutorial 3D · Controlar la dirección rotacional mediante una caja de cambios",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/hand_crank": {
+    "title": "Tutorial 3D · Generar fuerza rotacional mediante manivelas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/harvester": {
+    "title": "Tutorial 3D · Utilizar cosechadoras mecánicas en artefactos animados",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/chain_conveyor": {
+    "title": "Tutorial 3D · Transmitiendo fuerza rotacional usando Poleas de Transporte",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/factory_gauge_crafting": {
+    "title": "Tutorial 3D · Fabricación Automática con Medidores Industriales",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/factory_gauge_links": {
+    "title": "Tutorial 3D · Conectando Medidores a otros Bloques",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/factory_gauge_recipe": {
+    "title": "Tutorial 3D · Fabricación Automatizada con Medidores Industriales",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/factory_gauge_restocker": {
+    "title": "Tutorial 3D · Reabasteciendo con medidores industriales",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/package_frogport": {
+    "title": "Tutorial 3D · Transportando paquetes entre ranapuertos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/package_postbox": {
+    "title": "Tutorial 3D · Transportando paquetes entre Buzones",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/packager": {
+    "title": "Tutorial 3D · Creando y desenvolviendo paquetes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/packager_address": {
+    "title": "Tutorial 3D · Enrutando paquetes con una dirección",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/redstone_requester": {
+    "title": "Tutorial 3D · Pedidos automatizados con Solicitadores de Redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/repackager": {
+    "title": "Tutorial 3D · Combinando paquetes de una solicitud",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/stock_link": {
+    "title": "Tutorial 3D · Redes logísticas y el enlace de inventario",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/stock_ticker": {
+    "title": "Tutorial 3D · Pedidos con telégrafos de inventario",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/stock_ticker_address": {
+    "title": "Tutorial 3D · Atendiendo el pedido de un telégrafo de existencias",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/high_logistics/table_cloth": {
+    "title": "Tutorial 3D · Venta de artículos mediante manteles",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/hose_pulley/infinite": {
+    "title": "Tutorial 3D · Llenado y drenaje pasivo de grandes masas de fluido",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/hose_pulley/intro": {
+    "title": "Tutorial 3D · Llenado y vaciado de fuentes mediante poleas de manguera",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/hose_pulley/level": {
+    "title": "Tutorial 3D · Nivel de llenado y vaciado de las poleas de las mangueras",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/item_drain": {
+    "title": "Tutorial 3D · Vaciar contenedores de fluidos mediante escurridores",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/item_vault/sizes": {
+    "title": "Tutorial 3D · Bóveda de objetos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/item_vault/storage": {
+    "title": "Tutorial 3D · Almacenar objetos en las bóvedas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/large_water_wheel": {
+    "title": "Tutorial 3D · Generando Fuerza Rotacional usando Ruedas de Agua Grandes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_arm/filter": {
+    "title": "Tutorial 3D · Filtrar salidas del brazo mecánico",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_arm/modes": {
+    "title": "Tutorial 3D · Modos de distribución del brazo mecánico",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_arm/redstone": {
+    "title": "Tutorial 3D · Controlar brazos mecánicos con redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_arm/setup": {
+    "title": "Tutorial 3D · Configurar los brazos mecánicos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_bearing/anchor": {
+    "title": "Tutorial 3D · Mover Estructuras usando el Rodamiento mecánico",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_bearing/modes": {
+    "title": "Tutorial 3D · Modos de movimiento del rodamiento mecánico",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_bearing/stabilized": {
+    "title": "Tutorial 3D · Estabilizar artefactos estacionarios",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_crafter/connect": {
+    "title": "Tutorial 3D · Conectar inventarios a los ensambladores mecánicos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_crafter/covers": {
+    "title": "Tutorial 3D · Cubrir las ranuras de los ensambladores mecánicos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_crafter/setup": {
+    "title": "Tutorial 3D · Configurar ensambladores mecánicos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_drill/breaker": {
+    "title": "Tutorial 3D · Romper bloques con el taladro mecánico",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_drill/contraption": {
+    "title": "Tutorial 3D · Usar taladros mecánicos en aparatos animados",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_mixer/mixing": {
+    "title": "Tutorial 3D · Procesar objetos con la mezcladora mecánica",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_piston/anchor": {
+    "title": "Tutorial 3D · Mover estructuras mediante pistones mecánicos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_piston/modes": {
+    "title": "Tutorial 3D · Modos de movimiento del pistón mecánico",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_piston/piston_pole": {
+    "title": "Tutorial 3D · Pértigas de extensión de pistones",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_press/compacting": {
+    "title": "Tutorial 3D · Compactar objetos con la prensa mecánica",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_press/pressing": {
+    "title": "Tutorial 3D · Procesar objetos con la prensa mecánica",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_pump/flow": {
+    "title": "Tutorial 3D · Transportar fluidos mediante bombas mecánicas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_pump/speed": {
+    "title": "Tutorial 3D · Rendimiento de las bombas mecánicas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_roller/clear_and_pave": {
+    "title": "Tutorial 3D · Limpieza y pavimentación con el Roller",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_roller/fill": {
+    "title": "Tutorial 3D · Llenando terreno con el Rodillo",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_saw/breaker": {
+    "title": "Tutorial 3D · Cortar árboles con la sierra mecánica",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_saw/contraption": {
+    "title": "Tutorial 3D · Utilizar sierras mecánicas en artefactos animados",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/mechanical_saw/processing": {
+    "title": "Tutorial 3D · Procesar objetos en la sierra mecánica",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/millstone": {
+    "title": "Tutorial 3D · Procesar objetos en la muela",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/nixie_tube": {
+    "title": "Tutorial 3D · Usando tubos Nixie",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/plough": {
+    "title": "Tutorial 3D · Utilizando azadas mecánicas en los aparatos móviles",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/portable_interface/redstone": {
+    "title": "Tutorial 3D · Interfaz de almacenamiento portátil controlada por redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/portable_interface/redstone_fluid": {
+    "title": "Tutorial 3D · Interfaz de almacenamiento portátil controlada por redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/portable_interface/transfer": {
+    "title": "Tutorial 3D · Interfaz de almacenamiento portátil",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/portable_interface/transfer_fluid": {
+    "title": "Tutorial 3D · Interfaz de fluidos portátil",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/powered_latch": {
+    "title": "Tutorial 3D · Controlar señales mediante la palanca motorizada",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/powered_toggle_latch": {
+    "title": "Tutorial 3D · Controlar señales mediante la palanca de cierre motorizada",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/pulse_extender": {
+    "title": "Tutorial 3D · Controlar señales usando extensores de pulso",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/pulse_repeater": {
+    "title": "Tutorial 3D · Controlar señales mediante repetidores de pulsos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/pulse_timer": {
+    "title": "Tutorial 3D · Salida de redstone del temporizador de pulso",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/redstone_contact": {
+    "title": "Tutorial 3D · Contactos de redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/redstone_link": {
+    "title": "Tutorial 3D · Usar los enlaces de redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/rope_pulley/anchor": {
+    "title": "Tutorial 3D · Mover estructuras con Poleas de cuerda",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/rope_pulley/attachment": {
+    "title": "Tutorial 3D · Mover Poleas como parte de un artefacto",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/rope_pulley/modes": {
+    "title": "Tutorial 3D · Modos de movimiento de la polea de cuerda",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/rope_pulley/multi_rope": {
+    "title": "Tutorial 3D · Movimiento sincronizado de poleas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/rose_quartz_lamp": {
+    "title": "Tutorial 3D · Lámparas de cuarzo rosado",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/sail": {
+    "title": "Tutorial 3D · Montar molinos de viento usando velas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/sequenced_gearshift": {
+    "title": "Tutorial 3D · Controlar la velocidad de rotación mediante la caja de cambios secuenciales",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/shaft/encasing": {
+    "title": "Tutorial 3D · Ejes revestidos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/shaft/relay": {
+    "title": "Tutorial 3D · Transmitir fuerza rotacional mediante ejes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/smart_observer": {
+    "title": "Tutorial 3D · Detección avanzada con Observadores Inteligentes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/smart_pipe": {
+    "title": "Tutorial 3D · Controlar el flujo de fluidos mediante tuberías inteligentes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/speed_controller": {
+    "title": "Tutorial 3D · Usar el controlador de velocidad rotacional",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/spout": {
+    "title": "Tutorial 3D · Llenar objetos con un surtidor",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/steam_engine": {
+    "title": "Tutorial 3D · Instalación de motores de vapor",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/steam_whistle": {
+    "title": "Tutorial 3D · Instalar silbatos de vapor",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/sticker": {
+    "title": "Tutorial 3D · Fijar bloques con Pegadores",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/super_glue": {
+    "title": "Tutorial 3D · Fijar bloques con pegamento",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/threshold_switch": {
+    "title": "Tutorial 3D · Monitoreo con el Interruptor de Umbral",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/train_controls": {
+    "title": "Tutorial 3D · Controlar trenes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/train_observer": {
+    "title": "Tutorial 3D · Detectar trenes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/train_schedule": {
+    "title": "Tutorial 3D · Usar Horarios de Tren",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/train_signal/placement": {
+    "title": "Tutorial 3D · Colocando Señales de Tren",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/train_signal/redstone": {
+    "title": "Tutorial 3D · Señales y Redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/train_station/assembly": {
+    "title": "Tutorial 3D · Ensamblar trenes",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/train_station/schedule": {
+    "title": "Tutorial 3D · Estaciones y Horarios",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/train_track/chunks": {
+    "title": "Tutorial 3D · Atravesando chunks descargados",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/train_track/placement": {
+    "title": "Tutorial 3D · Colocar vías de tren",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/train_track/portal": {
+    "title": "Tutorial 3D · Vías y el Nether",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/tunnels/andesite": {
+    "title": "Tutorial 3D · Usar túneles de andesita",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/tunnels/brass": {
+    "title": "Tutorial 3D · Usar túneles de latón",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/tunnels/brass_modes": {
+    "title": "Tutorial 3D · Modos de distribución del túnel de latón",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/valve_handle": {
+    "title": "Tutorial 3D · Rotación precisa usando Manejos de Válvulas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/water_wheel": {
+    "title": "Tutorial 3D · Generar fuerza rotacional mediante ruedas hidráulicas",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/weighted_ejector/eject": {
+    "title": "Tutorial 3D · Usar eyectores de peso",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/weighted_ejector/redstone": {
+    "title": "Tutorial 3D · Controlar los eyectores de peso con redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/weighted_ejector/split": {
+    "title": "Tutorial 3D · Dividir pilas de objetos mediante eyectores de peso",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/windmill_bearing/source": {
+    "title": "Tutorial 3D · Generar fuerza rotacional mediante rodamientos de molino de viento",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:create/windmill_bearing/structure": {
+    "title": "Tutorial 3D · Artefactos estacionarios de molinos de viento",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/anvil": {
+    "title": "Tutorial 3D · Yunque: reparar y renombrar",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/barrel": {
+    "title": "Tutorial 3D · Barril: almacenamiento compacto",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/bed": {
+    "title": "Tutorial 3D · Cama: dormir y reaparecer",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/blast_furnace": {
+    "title": "Tutorial 3D · Alto horno: fundir más rápido",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/brewing_stand": {
+    "title": "Tutorial 3D · Soporte para pociones: preparar y automatizar",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/chest": {
+    "title": "Tutorial 3D · Cofre: guardar y automatizar",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/crafting_table": {
+    "title": "Tutorial 3D · Mesa de trabajo y crafteador",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/door": {
+    "title": "Tutorial 3D · Puertas: abrir con clic o redstone",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/enchanting_table": {
+    "title": "Tutorial 3D · Mesa de encantamientos y librerías",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/furnace": {
+    "title": "Tutorial 3D · Horno: fundir y automatizar",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/hopper": {
+    "title": "Tutorial 3D · Tolva: mover objetos",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/smoker": {
+    "title": "Tutorial 3D · Ahumador: cocinar comida",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/switches": {
+    "title": "Tutorial 3D · Palancas, botones y placas de presión",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/torch": {
+    "title": "Tutorial 3D · Antorchas: iluminar",
+    "group": "Tutoriales 3D"
+  },
+  "tutorial:ponder:cretania/vanilla/trapdoor": {
+    "title": "Tutorial 3D · Trampillas: colocar y abrir",
+    "group": "Tutoriales 3D"
   }
 }
