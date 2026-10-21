@@ -13,6 +13,8 @@ assert len({s['id'] for s in scenes})==len(scenes)
 (dest/'animation-evidence.json').write_text((src/'animation-evidence.json').read_text())
 atlas=json.loads((src/'mod-atlas.json').read_text())
 assert len(atlas)==491
+for mod in atlas:
+    if mod['id'] in ['powah','industrialforegoing']: mod['category']='tech'
 # Prioritize beginner-friendly and detailed entries; the full inventory remains searchable.
 priority=['create','jei','jade','ftbquests','functionalstorage','sophisticatedbackpacks','sophisticatedstorage','ae2','mekanism','powah','ars_nouveau','mysticalagriculture','productivebees']
 atlas.sort(key=lambda m:(priority.index(m['id']) if m['id'] in priority else len(priority),m['detailLevel']!='guide',m['name'].lower()))
