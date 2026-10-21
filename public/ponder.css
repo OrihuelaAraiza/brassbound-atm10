@@ -1,0 +1,46 @@
+/* Ponder 3D scenes (ponder-player.js) */
+.ws-tutorial-dot.ponder{color:#f0cf74;font-size:11px;right:3px;bottom:1px;text-shadow:1px 1px #2a1d05}
+.pd-tabs{display:flex;flex-wrap:wrap;gap:6px;padding:10px 16px;background:#1f2c1c;border-bottom:1px solid #4f653a}
+.pd-tabs button{display:flex;align-items:center;gap:8px;max-width:100%;text-align:left;background:#2c3b25;border:1px solid #586e43;border-radius:1px;color:#c3d6aa;font:11px/1.4 var(--pixel);padding:8px 10px;cursor:pointer}
+.pd-tabs button b{color:#90aa72;font-weight:400}
+.pd-tabs button i{font-style:normal;color:#c7ee95}
+.pd-tabs button.active{background:#a9c67e;border-color:#d0e8a7;color:#192612;box-shadow:inset 0 -3px #5e7c3e}
+.pd-tabs button.active b{color:#3d5a26}
+.pd-stage{position:relative;height:480px;overflow:hidden;isolation:isolate;outline-offset:-3px;background:radial-gradient(ellipse at 50% 55%,#33493a,#121b16 72%)}
+.pd-stage canvas{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+.pd-stage canvas:active{cursor:grabbing}
+.pd-heading{position:absolute;left:14px;top:14px;z-index:3;max-width:min(60%,420px);padding:8px 12px;background:#0d150fd9;border:1px solid #5f7a4b;box-shadow:2px 3px 0 #0005;pointer-events:none}
+.pd-heading span{display:block;font:9px var(--pixel);letter-spacing:1px;color:#97b77b}
+.pd-heading strong{display:block;margin-top:4px;font:14px/1.35 var(--pixel);color:#f0f4df}
+.pd-view{position:absolute;right:12px;top:12px;z-index:3;width:34px;height:34px;border:1px solid #788b5c;background:#425536;color:#dfeec8;border-radius:1px;cursor:pointer;font-size:16px}
+.pd-credit{position:absolute;left:12px;bottom:10px;z-index:3;font:9px var(--pixel);color:#c2dba0;background:#0d150fbf;padding:5px 8px;text-decoration:none;border:1px solid #4b6139}
+.pd-credit:hover{color:#f0f4df}
+.pd-status{position:absolute;inset:0;z-index:4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:24px;text-align:center;font:12px/1.6 var(--pixel);color:#d4e7b5;background:#121b16cc}
+.pd-status[hidden]{display:none}
+.pd-status button{font:11px var(--pixel);background:#b3cf8a;color:#203215;border:1px solid #def0b7;padding:8px 14px;cursor:pointer}
+.pd-overlay{position:absolute;inset:0;z-index:2;pointer-events:none}
+.pd-lines{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.pd-note{position:absolute;left:56%;right:14px;padding:9px 12px;background:#0d150fe6;border:1px solid var(--pd-accent,#eee);border-left-width:3px;color:#eef3e0;font:13px/1.55 var(--font);box-shadow:2px 3px 0 #0005;transition:top .12s linear}
+.pd-input{position:absolute;display:flex;align-items:center;gap:6px;transform:translate(-50%,-130%);padding:5px 8px;background:#0d150fe6;border:1px solid #cfd8bd;color:#eef3e0;font:10px var(--pixel);white-space:nowrap;box-shadow:2px 3px 0 #0005}
+.pd-input .item-icon,.pd-recipe .item-icon{width:26px;height:26px;image-rendering:pixelated}
+.pd-mouse{color:#f0cf74}
+.pd-key{border:1px solid #9fb38a;padding:2px 5px;background:#26341f}
+.pd-recipe{position:absolute;right:58px;top:12px}
+.pd-recipe>button,.pd-recipe>span{display:flex;align-items:center;gap:8px;padding:6px 10px;background:#bac0ad;border:2px solid;border-color:#e0e6d6 #68735d #68735d #e0e6d6;color:#293523;font:11px var(--pixel);box-shadow:2px 3px #0004;pointer-events:auto;cursor:pointer}
+.pd-recipe>span{cursor:default}
+.pd-controls button[data-pd-action=play]{background:#b3cf8a;color:#203215;border-color:#def0b7;width:46px}
+.pd-timeline{position:relative;flex:1;min-width:60px;display:flex;align-items:center}
+.pd-timeline input{width:100%;margin:0 6px}
+.pd-marks{position:absolute;left:6px;right:6px;top:50%;height:14px;transform:translateY(-50%);pointer-events:none}
+.pd-marks span{position:absolute;top:0;width:2px;height:100%;margin-left:-1px;background:#f0cf74;opacity:.85}
+.pd-panel:fullscreen{overflow:auto;width:100%;height:100%;padding:18px;background:#142119}
+.pd-panel:fullscreen .pd-stage{height:calc(100vh - 230px);max-width:1400px;margin:auto}
+@media (max-width:640px){
+ .pd-stage{height:380px}
+ /* Narrow stages show text like subtitles so it never hides the machine. */
+ .pd-note{top:auto!important;bottom:44px;left:10px;right:10px;font-size:12px;transition:none}
+ .pd-lines{display:none}
+ .pd-heading{max-width:68%}
+ .pd-heading strong{font-size:12px}
+ .pd-recipe{top:auto;bottom:40px;right:12px}
+}

@@ -7,4 +7,5 @@ for(const m of read('mod-atlas'))if(m.id!=='mahoutsukai')for(const [i,s] of m.fi
 for(const s of read('animation-scenes'))c['lesson:'+s.id]={title:s.title,group:'Guías completadas'};
 for(const t of read('workshop').tutorials)c['tutorial:'+t.id]={title:t.title,group:'Tutoriales de uso'};
 for(const p of read('workshop').projects)for(const s of p.steps)c['project:'+p.id+':'+s.id]={title:s.title,group:'Montajes'};
+for(const [path,s] of Object.entries(read('ponder-index').scenes))c['tutorial:ponder:'+path]={title:'Tutorial 3D · '+s.title,group:'Tutoriales 3D'};
 fs.writeFileSync('public/data/progress-catalog.json',JSON.stringify(c,null,2)+'\n');

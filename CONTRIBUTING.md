@@ -24,6 +24,7 @@ Describe el mod y su versión, las fuentes consultadas, qué comprobaste y cualq
 | Rutas entre mods y objetivos de Create | `public/data/pack-guide.json`, `public/guide.js` |
 | Demostraciones esquemáticas | `public/data/animation-scenes.json`, `animation-evidence.json` |
 | Montajes y tutoriales de objetos | `public/data/workshop.json`, `public/tutorial-engine.js`, `public/tutorial-player.js` |
+| Tutoriales 3D (Ponder) leídos de la API de Cretania | `public/data/ponder-index.json` (generado), `public/ponder-player.js`, `public/ponder-format.js`, `public/ponder.css` |
 | Catálogo de objetivos reconocido por el servidor | `public/data/progress-catalog.json` |
 | Interfaz y navegación | `web/index.html`, `public/app.js`, módulos y estilos en `public/` |
 | Perfiles, progreso compartido y esquema de datos | `server/crew-api.mjs`, `public/crew-model.js`, `app/api/crew/`, `db/`, `drizzle/` |
